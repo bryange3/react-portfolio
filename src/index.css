@@ -18,6 +18,9 @@
   footer ul li {
     padding-right: 1em !important;
   }
+  [class*="project-description"] {
+    font-size: 20px !important;
+  }
 }
 
 .end-to-end {
@@ -292,7 +295,7 @@ footer {
 }
 
 .header-logo {
-  width: 10%;
+  width: 30px;
 }
 
 .icon:hover {
