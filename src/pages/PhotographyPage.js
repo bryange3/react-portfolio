@@ -10,14 +10,14 @@ import Container from 'react-bootstrap/Container';
 import FadeIn from 'react-fade-in';
 
 import bench from '../assets/photography/Bench.jpg';
-import blb from '../assets/photography/BLB.jpeg';
+import blb from '../assets/photography/BLB.jpg';
 import bluewall from '../assets/photography/BlueWall.jpg';
 import bored from '../assets/photography/Bored.jpg';
 import canada from '../assets/photography/Canada.jpg';
 import city from '../assets/photography/City.jpg';
 import coffee from '../assets/photography/Coffee.jpg';
 import cone from '../assets/photography/Cone.jpg';
-import cvad from '../assets/photography/CVAD.jpeg';
+import cvad from '../assets/photography/CVAD.jpg';
 import dessert from '../assets/photography/Dessert.jpg';
 import distance from '../assets/photography/Distance.jpg';
 import dragonfly from '../assets/photography/Dragonfly.jpg';
@@ -26,7 +26,7 @@ import fork from '../assets/photography/ForkPerspective.jpg';
 import gold from '../assets/photography/Gold.jpg';
 import joy from '../assets/photography/Joy.jpg';
 import lake from '../assets/photography/Lake.jpg';
-import lookhere from '../assets/photography/LookHere.jpeg';
+import lookhere from '../assets/photography/LookHere.jpg';
 import night from '../assets/photography/Night.jpg';
 import pair from '../assets/photography/Pair.jpg';
 import peek from '../assets/photography/Peek.jpg';
@@ -36,8 +36,6 @@ import smile from '../assets/photography/Smile.jpg';
 import sunblock from '../assets/photography/SunBlock.jpg';
 import sunset from '../assets/photography/Sunset.jpg';
 import washington from '../assets/photography/Washington.jpg';
-
-
 
 function PhotographyPage(props) {
     const width = 9;
