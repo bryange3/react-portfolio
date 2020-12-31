@@ -27,12 +27,12 @@ class App extends React.Component {
     this.state = {
       title: "Bryan Ge | Portfolio",
       home: {
-        title: '👋 Hi! I\'m Bryan Ge.',
+        title: '👋🏻 Hi! I\'m Bryan Ge.',
         subTitle: 'I am a programmer, designer, and photographer.',
         description: 'Currently @ UIUC studying CS + Statistics.'
       },
       about: {
-        title: '🧑‍💻 About Me'
+        title: '🧑🏻‍💻 About Me'
       },
       resume: {
         title: '📎 Resume'
@@ -78,7 +78,7 @@ class App extends React.Component {
         {
             id: 3,
             name: 'Mining for Bias',
-            description: 'Website that gives users bias information on news articles.',
+            description: 'Program that gives users bias information on news articles.',
             roles: 'Software Developer',
             imgSrc: mfb,
             path: '/mining-for-bias',
