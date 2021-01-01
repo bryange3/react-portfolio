@@ -3,8 +3,6 @@ import React from 'react';
 import Hero from '../components/Hero.js'
 import Content from '../components/Content.js';
 
-import mfbdemo from '../assets/project/mfbdemo.mov';
-
 function MiningForBiasPage(props) {
     window.scrollTo(0, 0);
     const width = 8;
@@ -43,10 +41,7 @@ function MiningForBiasPage(props) {
                         We created a webpage where users provide a link to a news article and are given an evaluation of the bias in the article. This is done through the use of <b>Python</b> and <b>sentiment analysis</b>.
                     </p>
 
-                    <video className="projectImg center" controls>
-                        <source src={mfbdemo} type="video/mp4" />
-                            Your browser does not support the video tag.
-                    </video>
+                    <iframe title="Mining for Bias Demo" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/Y_1Dw3HevWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
