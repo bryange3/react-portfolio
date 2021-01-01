@@ -136,6 +136,16 @@ function ResumePage(props) {
                         </span>
                         <br />Introduction to User Experience Design (Coursera - Georgia Tech)
                     </p>
+
+                    <p className="paragraph">
+                        <span className="font-weight-bold">
+                            UIUC Relevant Courses
+                        </span>
+                        <br />CS 126 Software Design Studio
+                        <br />CS 196 Freshman Honors (Semester Project Course)
+                        <br />STAT 107 Data Science Discovery
+                        <br />MATH 415 Linear Algebra with Computational Applications
+                    </p>
                 </p>
             </Content>
         </FadeIn>
