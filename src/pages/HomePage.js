@@ -10,7 +10,7 @@ function HomePage(props) {
     window.scrollTo(0, 0);
     return(
         <FadeIn delay={400}>
-            <Hero title={props.title} subTitle={props.subTitle} small={props.description} width={width}/>
+            <Hero animated={props.animated} title={props.title} subTitle={props.subTitle} small={props.description} width={width}/>
             <Grid projects={props.projects}/>
         </FadeIn>
     );

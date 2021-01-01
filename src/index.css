@@ -82,8 +82,13 @@ code {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.my-navbar {
-  background-color: rgba(200,200,200,0.5);
+.nav-link {
+  padding-left: 20px !important;
+}
+
+.hero {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .sticky {
@@ -258,7 +263,7 @@ blockquote {
   width: 100%;
   height: 60px;
   z-index: 9999;/* set this to something high*/
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .sticky-footer {
@@ -314,4 +319,32 @@ footer {
 
 .small-description {
   font-size: 25px;
+}
+
+.scrollTop {
+  position: fixed; 
+  height: 40px;
+  width: 40px;
+  bottom: 40px;
+  right: 40px;
+  align-items: right;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: scrollFadeIn 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes scrollFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }

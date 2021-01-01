@@ -10,7 +10,7 @@ function Footer() {
                 <li><a href="https://instagram.com/bryangephoto" target="_blank" rel="noreferrer" className="default" alt="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
             Developed with ❤️ and 🍿 using React.
-            <br />© Bryan Ge 2020
+            <br />© Bryan Ge 2021
         </footer>
     )
 }
