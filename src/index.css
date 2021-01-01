@@ -124,7 +124,7 @@ code {
 }
 
 .project-card-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   max-width: 640px;
   margin: 0px;
@@ -133,16 +133,24 @@ code {
 
 .project-card-subtitle {
   max-width: 640px;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0px;
   margin-bottom: 2px;
+  color: #666;
 }
 
 .project-card-role {
-  margin-top: 5px;
+  margin-top: 7px;
   max-width: 640px;
   font-size: 16px;
-  color: #666666;
+  font-weight: bold;
+  color: #437e99;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-description {
+  font-size: 24px;
 }
 
 ul.social-media-list {
