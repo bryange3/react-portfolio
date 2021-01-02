@@ -391,13 +391,14 @@ footer {
 }
 
 .link-underline {
+  color: #666666;
   font-weight: 500;
   transition-duration: 0.5s;
 }
 
 .link-underline:hover {
   text-decoration: none;
-  color: #000;
+  color: #257CA3;
   transition-duration: 0.5s;
 }
 
