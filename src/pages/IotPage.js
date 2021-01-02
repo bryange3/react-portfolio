@@ -1,16 +1,16 @@
 import React from 'react';
 
-import Hero from '../components/Hero.js'
 import Content from '../components/Content.js';
+import ProjectTitle from '../components/ProjectTitle.js';
+
 
 function IotPage(props) {
     window.scrollTo(0, 0);
     const width = 8;
     return (
         <div>
-            <Hero projectName={props.info.name} description={props.info.description} width={width}/>
+            <ProjectTitle info={props.info}/>
             <Content width={width}>
-                <img src={props.info.imgSrc} alt={props.info.name} className="coverImg center" />
                 <body>
                     <p>
                         <b>Role</b>: {props.info.roles}
