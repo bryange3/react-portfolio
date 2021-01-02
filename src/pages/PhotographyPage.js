@@ -17,6 +17,7 @@ import canada from '../assets/photography/Canada.jpg';
 import city from '../assets/photography/City.jpg';
 import coffee from '../assets/photography/Coffee.jpg';
 import cone from '../assets/photography/Cone.jpg';
+import lake from '../assets/photography/Lake.jpg';
 import cvad from '../assets/photography/CVAD.jpg';
 import dessert from '../assets/photography/Dessert.jpg';
 import distance from '../assets/photography/Distance.jpg';
@@ -60,6 +61,7 @@ function PhotographyPage(props) {
                             <img src={bored} className="photo" alt="bored" />
                             <img src={canada} className="photo" alt="canada" />
                             <img src={city} className="photo" alt="city" />
+                            <img src={lake} className="photo" alt="lake" />
                             <img src={dragonfly} className="photo" alt="dragonfly" />
                             <img src={lookhere} className="photo" alt="look here" />
                             <img src={night} className="photo" alt="red night" />
