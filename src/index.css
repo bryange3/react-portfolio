@@ -19,13 +19,17 @@
     font-size: 14px !important;
   }
   [class*="small-description"] {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
   footer ul li {
     padding-right: 1em !important;
   }
   [class*="project-description"] {
     font-size: 20px !important;
+  }
+  [class*="about-text"] {
+    font-size: 18px !important;
+    margin: 0px !important;
   }
 }
 
@@ -326,7 +330,8 @@ footer {
 }
 
 .small-description {
-  font-size: 25px;
+  font-size: 22px;
+  color: #666666;
 }
 
 .scrollTop {
@@ -355,4 +360,8 @@ footer {
   100% {
     opacity: 0.5;
   }
+}
+
+.home-parallax {
+  height: 80%;
 }

@@ -8,10 +8,10 @@ import FadeIn from 'react-fade-in';
 function HomePage(props) {
     const width = 10;
     window.scrollTo(0, 0);
-    return(
+    return (
         <FadeIn delay={400}>
-            <Hero animated={props.animated} title={props.title} subTitle={props.subTitle} small={props.description} width={width}/>
-            <Grid projects={props.projects}/>
+            <Hero animated={props.animated} title={props.title} subTitle={props.subTitle} small={props.description} width={width} />
+            <Grid projects={props.projects} />
         </FadeIn>
     );
 }

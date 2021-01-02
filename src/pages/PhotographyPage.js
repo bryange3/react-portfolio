@@ -25,7 +25,6 @@ import fireysunset from '../assets/photography/FireySunset.jpg';
 import fork from '../assets/photography/ForkPerspective.jpg';
 import gold from '../assets/photography/Gold.jpg';
 import joy from '../assets/photography/Joy.jpg';
-import lake from '../assets/photography/Lake.jpg';
 import lookhere from '../assets/photography/LookHere.jpg';
 import night from '../assets/photography/Night.jpg';
 import pair from '../assets/photography/Pair.jpg';
@@ -62,7 +61,6 @@ function PhotographyPage(props) {
                             <img src={canada} className="photo" alt="canada" />
                             <img src={city} className="photo" alt="city" />
                             <img src={dragonfly} className="photo" alt="dragonfly" />
-                            <img src={lake} className="photo" alt="lake" />
                             <img src={lookhere} className="photo" alt="look here" />
                             <img src={night} className="photo" alt="red night" />
                             <img src={sunset} className="photo" alt="sunset" />

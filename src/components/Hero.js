@@ -26,7 +26,7 @@ function Hero(props) {
                         {props.subTitle && <h2 className="display-4 font-weight-normal">{props.subTitle}</h2>}
                         {props.projectName && <h2 className="display-4 font-weight-bolder">{props.projectName}</h2>}
                         {props.description && <h3 className="display-5 font-weight-normal project-description">{props.description}</h3>}
-                        {props.small && <h3 className="font-weight-normal text-muted mt-4 small-description">{props.small}</h3>}
+                        {props.small && <h3 className="font-weight-normal mt-4 small-description">{props.small}</h3>}
                     </Col>
                 </Row>
             </Container>
