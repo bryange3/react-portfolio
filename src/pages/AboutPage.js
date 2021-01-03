@@ -25,7 +25,7 @@ function AboutPage(props) {
                     </div>
                     <div class="right about-text">
                         <p>
-                            Hi there! I'm Bryan and I am currently based in Dallas, TX and Champaign, IL. I am a freshman at the <a className="uiuc-orange link-underline" href="illinois.edu" target="_blank" rel="noreferrer">University of Illinois at Urbana-Champaign</a>, majoring in <span className="my-blue">Statistics and Computer Science</span> and minoring in Business.
+                            Hi there! I'm Bryan and I am currently based in Dallas, TX and Champaign, IL. I am a freshman at the University of Illinois at Urbana-Champaign, majoring in Statistics and Computer Science and minoring in Business.
                         </p>
 
                         <p>
