@@ -42,32 +42,32 @@ function IotPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Problem
-                        </h1>
-                        The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms.
+                        </h2>
+                        The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms. Our job is to improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page.
                     </p>
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Solution
-                        </h1>
+                        </h2>
                         IDEofThings is a refreshing improvement to the original design, as it is more informational, understandable, and modern. The new interface is more appealing to students and easier to navigate. The main features include class integration, project dashboard filtering, improved coding experience, and community sharing.
                     </p>
 
                     <iframe title="Internet of Things Playground Demo" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/fvJg08nuAVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    <h1 className="font-weight-bold paragraph">
+                    <h2 className="font-weight-bold paragraph">
                         Design Process
-                    </h1>
+                    </h2>
                     <img src={designprocess} alt="Design Process" className="project-img center" />
 
                     <hr class="rounded" />
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Research
-                        </h1>
+                        </h2>
                         We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform. Here are the existing designs of the landing page, project dashboard, and coding interface:
                     </p>
 
@@ -75,9 +75,9 @@ function IotPage(props) {
 
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             User Interviews
-                        </h3>
+                        </h2>
                         Through our 10 interviews with other college students we discovered the following:
                         <br />
                         <br /><b>Landing Page</b>
@@ -98,9 +98,9 @@ function IotPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Competitive Analysis
-                        </h3>
+                        </h2>
                         We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
                         <ul>
                             <li>Connected to GitHub, way to commit and push.</li>
@@ -117,18 +117,18 @@ function IotPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Synthesis
-                        </h1>
+                        </h2>
                         After gathering all our research, we identified the problems with the existing design through "How Might We" statements and insight statements.
                     </p>
 
                     <img src={hmwinsight} alt="How Might We & Insight Statements" className="project-img-medium center" />
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Ideation
-                        </h1>
+                        </h2>
                         Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. We came together and used colored circles to mark individual features we liked and wanted to include in our design.
                     </p>
 
@@ -158,9 +158,9 @@ function IotPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h1 className="font-weight-bold">
+                        <h2 className="font-weight-bold">
                             Wireframe
-                        </h1>
+                        </h2>
                         We focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, we came up with solutions to improve the experience for students.
                         <img src={classintegration} alt="Class Integration" className="project-img-medium center" />
                         <p className="image-caption med">
