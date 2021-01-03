@@ -112,15 +112,15 @@ function ResumePage(props) {
                     </h2>
 
                     <span className="font-weight-bold">
-                        Programming Languages
+                        Programming
                         </span>
-                    <br />Java, C/C++, Python, HTML, CSS, JavaScript
+                    <br />Java, C/C++, Python, HTML, CSS, JavaScript, React
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
-                            Design Tools
+                            Design
                         </span>
-                        <br />Figma, Adobe XD, Adobe Lightroom
+                        <br />Figma, Adobe XD, Adobe Lightroom, Keynote
                     </p>
 
                     <p className="paragraph">
