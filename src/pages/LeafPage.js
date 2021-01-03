@@ -7,10 +7,10 @@ import leafzoom from '../assets/project/leafzoom.png';
 
 function LeafPage(props) {
     window.scrollTo(0, 0);
-    const width = 8;
+    const width = 7;
     return (
         <div>
-            <ProjectTitle info={props.info}/>
+            <ProjectTitle info={props.info} width={width}/>
             <Content width={width}>
                 <body>
                     <p>
@@ -76,7 +76,7 @@ function LeafPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <i>Special thanks to Zicheng Zhen for being so helpful during office hours!</i>
+                        <i>Special thanks to Zicheng Zhen and Kate Liang for being so helpful during office hours!</i>
                     </p>
 
                 </body>

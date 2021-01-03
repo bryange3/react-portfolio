@@ -5,10 +5,10 @@ import ProjectTitle from '../components/ProjectTitle.js';
 
 function MiningForBiasPage(props) {
     window.scrollTo(0, 0);
-    const width = 8;
+    const width = 7;
     return (
         <div>
-            <ProjectTitle info={props.info}/>
+            <ProjectTitle info={props.info} width={width}/>
             <Content width={width}>
                 <body>
                     <p>

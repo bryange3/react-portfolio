@@ -184,18 +184,25 @@ hr.rounded {
   margin-bottom: 4%;
 }
 
-.projectImg {
+.project-img {
   display: block;
   width: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .project-img-medium {
   display: block;
   width: 80%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.project-img-small {
+  display: block;
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .captionedImg {
@@ -204,8 +211,18 @@ hr.rounded {
   margin-top: 5%;
 }
 
+.smol {
+  width: 60%
+}
+
+.med {
+  width: 80%
+}
+
 .image-caption {
   margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 14px;
   color: #828282;
 }
