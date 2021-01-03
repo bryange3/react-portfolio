@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 import Hero from '../components/Hero.js';
 
-import down from '../assets/down.png';
+// import down from '../assets/down.png';
 
 function ProjectTitle(props) {
     return (
