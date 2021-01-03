@@ -20,7 +20,7 @@ function Hero(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid hero">
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col md={props.width} sm={12}>
+                    <Col md={props.width} sm={12} className="hero">
                         {props.animated && <h1 className="display-1"><Animation>{props.animated}</Animation></h1>}
                         {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
                         {props.subTitle && <h2 className="display-4 font-weight-normal">{props.subTitle}</h2>}

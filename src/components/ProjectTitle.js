@@ -9,9 +9,9 @@ import down from '../assets/down.png';
 function ProjectTitle(props) {
     return (
         <Container fluid={true} className="end-to-end">
+            <Hero className="hero" projectName={props.info.name} description={props.info.description} width={8} />
             <img src={props.info.cover} alt={props.info.name} className="cover-image center" />
-            <img src={down} alt="down arrow" className="arrow"/>
-            <Hero projectName={props.info.name} description={props.info.description} width={8} />
+            {/* <img src={down} alt="down arrow" className="arrow"/> */}
         </Container>
     );
 }

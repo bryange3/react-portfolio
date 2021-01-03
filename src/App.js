@@ -8,7 +8,7 @@ import './App.css';
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
 import iot from './assets/iot.png';
-import iotproject from './assets/project/iotproject.png';
+import iotproject from './assets/project/iot/iotproject.png';
 import das from './assets/dascover.png';
 import dasproject from './assets/project/dasproject.png';
 import mfb from './assets/miningforbias.png';
