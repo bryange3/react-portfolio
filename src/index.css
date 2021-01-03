@@ -428,3 +428,18 @@ footer {
 .di-color {
   color: #669CFF;
 }
+
+.stripe {
+  background-color:#CCFFFF;
+  height: 100px;
+  position: relative;
+}
+.stripe:before {
+  content:"";
+  background-color:#CCFFFF;
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1;
+}

@@ -75,9 +75,9 @@ function IotPage(props) {
 
 
                     <p className="paragraph">
-                        <h2 className="font-weight-bold">
+                        <h3 className="font-weight-bold">
                             User Interviews
-                        </h2>
+                        </h3>
                         Through our 10 interviews with other college students we discovered the following:
                         <br />
                         <br /><b>Landing Page</b>
@@ -98,9 +98,9 @@ function IotPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h2 className="font-weight-bold">
+                        <h3 className="font-weight-bold">
                             Competitive Analysis
-                        </h2>
+                        </h3>
                         We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
                         <ul>
                             <li>Connected to GitHub, way to commit and push.</li>
@@ -127,7 +127,7 @@ function IotPage(props) {
 
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
-                            Ideation
+                            Low-fidelity
                         </h2>
                         Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. We came together and used colored circles to mark individual features we liked and wanted to include in our design.
                     </p>
@@ -159,7 +159,7 @@ function IotPage(props) {
 
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
-                            Wireframe
+                            Prototype
                         </h2>
                         We focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, we came up with solutions to improve the experience for students.
                         <img src={classintegration} alt="Class Integration" className="project-img-medium center" />
