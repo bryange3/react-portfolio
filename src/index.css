@@ -34,6 +34,18 @@
   [class*="cover-image"] {
     margin-bottom: 5% !important;
   }
+  [class*="project-img-medium"] {
+    width: 100% !important;
+  }
+  [class*="project-img-small"] {
+    width: 100% !important;
+  }
+  [class*="med"] {
+    width: 100% !important;
+  }
+  [class*="smol"] {
+    width: 100% !important;
+  }
 }
 
 .hero {
@@ -246,6 +258,7 @@ hr.rounded {
 
 .paragraph {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .impact-statement {
@@ -303,8 +316,6 @@ blockquote {
   width: 100%;
   height: 60px;
   z-index: 9999;
-  /* set this to something high*/
-  /* background-color: #fff; */
 }
 
 .sticky-footer {
@@ -336,8 +347,7 @@ footer {
   padding-bottom: 125px;
   width: 100%;
   text-align: center;
-  margin-top: 50px;
-  /* space between content and footer */
+  margin-top: 50px; /* space between content and footer */
 }
 
 .photo {
