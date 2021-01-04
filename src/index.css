@@ -250,6 +250,7 @@ hr.rounded {
 
 .impact-statement {
   background: #f5f5f5;
+  border-radius: 10px;
   padding: 2%;
 }
 
@@ -427,4 +428,49 @@ footer {
 
 .di-color {
   color: #669CFF;
+}
+
+.toggle {
+  background-color: #F5F5F5;
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 1%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.toggle-text {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.Collapsible__trigger {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 10px;
+}
+
+.Collapsible__trigger:after {
+  color: #808080;
+  font-size: 30px;
+  font-family: 'FontAwesome';
+  content: '\f107';
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: block;
+  transition: transform 300ms;
+}
+
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
+}
+
+.Collapsible__trigger.is-disabled {
+  opacity: 0.5;
+  background-color: grey;
 }

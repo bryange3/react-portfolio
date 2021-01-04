@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Collapsible from 'react-collapsible';
+
 import Content from '../components/Content.js';
 import ProjectTitle from '../components/ProjectTitle.js';
 
@@ -75,47 +77,46 @@ function IotPage(props) {
 
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
-                            User Interviews
-                        </h3>
-                        Through our 10 interviews with other college students we discovered the following:
-                        <br />
-                        <br /><b>Landing Page</b>
-                        <ul>
-                            <li>The sign-in screen is not informative and users don't know what the website is for.</li>
-                        </ul>
-                        <br /><b>Project Dashboard</b>
-                        <ul>
-                            <li>Easy to understand, however not much functionality; unsure how to remove projects.</li>
-                        </ul>
-                        <br /><b>Landing Page</b>
-                        <ul>
-                            <li>Users do not know what the "+" button at the top left is for.</li>
-                            <li>The right pane is confusing; users do not understand what "x" and "y" is or what the trash icon is meant to be used for.</li>
-                            <li>The Arduino does not need to be visible at all times, sometimes the user may want to focus on coding.</li>
-                            <li>The component pane is not very organized; unsure where to get wires.</li>
-                        </ul>
-                    </p>
+                        <Collapsible trigger="User Interviews" className="toggle Collpasible__trigger" openedClassName="toggle">
+                            <p className="toggle-text">
+                                Through our 10 interviews with other college students we discovered the following:
+                            <br /><b>Landing Page</b>
+                                <ul>
+                                    <li>The sign-in screen is not informative and users don't know what the website is for.</li>
+                                </ul>
+                                <br /><b>Project Dashboard</b>
+                                <ul>
+                                    <li>Easy to understand, however not much functionality; unsure how to remove projects.</li>
+                                </ul>
+                                <br /><b>Landing Page</b>
+                                <ul>
+                                    <li>Users do not know what the "+" button at the top left is for.</li>
+                                    <li>The right pane is confusing; users do not understand what "x" and "y" is or what the trash icon is meant to be used for.</li>
+                                    <li>The Arduino does not need to be visible at all times, sometimes the user may want to focus on coding.</li>
+                                    <li>The component pane is not very organized; unsure where to get wires.</li>
+                                </ul>
+                            </p>
+                        </Collapsible>
 
-                    <p className="paragraph">
-                        <h3 className="font-weight-bold">
-                            Competitive Analysis
-                        </h3>
-                        We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
+                        <Collapsible trigger="Competitive Analysis" className="toggle Collpasible__trigger" openedClassName="toggle">
+                            <p className="toggle-text">
+                                We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
                         <ul>
-                            <li>Connected to GitHub, way to commit and push.</li>
-                            <li>Shortcut for changing the direction of electrical components.</li>
-                            <li>Debugging tool.</li>
-                            <li>Welcome page/explanation of product.</li>
-                            <li>Color coding helps users understand different properties.</li>
-                            <li>Information section for tutorials on how to use product.</li>
-                            <li>Organized, easy to find things.</li>
-                            <li>Able to share projects to an online community so others can view your projects.</li>
-                            <li>Export and save to implement project on real Arduino (or IoT device).</li>
-                            <li>Panes that can be opened and closed.</li>
-                        </ul>
+                                    <li>Connected to GitHub, way to commit and push.</li>
+                                    <li>Shortcut for changing the direction of electrical components.</li>
+                                    <li>Debugging tool.</li>
+                                    <li>Welcome page/explanation of product.</li>
+                                    <li>Color coding helps users understand different properties.</li>
+                                    <li>Information section for tutorials on how to use product.</li>
+                                    <li>Organized, easy to find things.</li>
+                                    <li>Able to share projects to an online community so others can view your projects.</li>
+                                    <li>Export and save to implement project on real Arduino (or IoT device).</li>
+                                    <li>Panes that can be opened and closed.</li>
+                                </ul>
+                            </p>
+                        </Collapsible>
                     </p>
-
+                    
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
                             Synthesis
