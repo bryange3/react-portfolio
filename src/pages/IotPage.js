@@ -162,7 +162,7 @@ function IotPage(props) {
                         <h2 className="font-weight-bold">
                             Prototype
                         </h2>
-                        We focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, we came up with solutions to improve the experience for students.
+                        I focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, I came up with solutions to improve the experience for students.
                         <img src={classintegration} alt="Class Integration" className="project-img-medium center" />
                         <p className="image-caption med">
                             Students are able to view which projects have been submitted for classwork and which ones have not. They can also view assignments that are due soon and whether or not they have submitted them yet. The color-coded "Submitted" and "Incomplete" markers make it easy for students to see what assignments they need to complete.
