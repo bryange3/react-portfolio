@@ -17,7 +17,7 @@ class Grid extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card className="nav-link" to={item.path} item={item} key={item.id} />
+            return <Card className="nav-link" to={item.path} item={item} key={item.id}/>
         })
     }
 

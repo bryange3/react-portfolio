@@ -1,5 +1,7 @@
 import React from 'react';
 
+import AOS from 'aos';
+
 import aboutpic from '../assets/aboutprofpic.jpg';
 
 import Hero from '../components/Hero';
@@ -9,6 +11,7 @@ import Container from 'react-bootstrap/Container';
 import FadeIn from 'react-fade-in';
 
 function AboutPage(props) {
+    AOS.init();
     const width = 8;
     window.scrollTo(0, 0);
     return (
@@ -16,7 +19,7 @@ function AboutPage(props) {
             <Hero title={props.title} width={width} />
             <Container fluid={true}>
                 <div class="content">
-                    <div class="left">
+                    <div class="left" data-aos="fade-right">
                         <img
                             class="profile-image"
                             alt="Profile"

@@ -116,7 +116,7 @@ function IotPage(props) {
                             </p>
                         </Collapsible>
                     </p>
-                    
+
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
                             Synthesis

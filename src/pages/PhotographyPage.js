@@ -47,8 +47,8 @@ function PhotographyPage(props) {
                 <Container fluid={true}>
                     <Row className="justify-content-center">
                         <Col sm={4}>
-                            <img src={fireysunset} className="photo" alt="firey sunset" />
-                            <img src={bench} className="photo" alt="bench" />
+                            <img src={fireysunset} className="photo" alt="firey sunset"/>
+                            <img src={bench} className="photo" alt="bench"/>
                             <img src={coffee} className="photo" alt="coffee" />
                             <img src={bluewall} className="photo" alt="blue wall" />
                             <img src={distance} className="photo" alt="distance" />
