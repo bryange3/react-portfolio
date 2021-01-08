@@ -36,7 +36,7 @@ function ResumePage(props) {
 
                 <p className="paragraph">
                     <h2 className="font-weight-bold" data-aos="fade-up">
-                        Experience
+                        Projects
                     </h2>
 
                     <p className="paragraph" data-aos="fade-up">
