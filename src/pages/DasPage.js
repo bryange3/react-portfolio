@@ -44,6 +44,13 @@ function DasPage(props) {
                     </p>
 
                     <p className="paragraph">
+                        <h2 className="font-weight-bold">
+                            My Work
+                        </h2>
+                        I wrote articles on topics including self-care, productivity, and current events and published them using <b>HTML</b>. I also utilized <b>CSS</b> for aspects of the user interface including the article view, spacing between elements, and responsivity for mobile and desktop screens. Through weekly posts and social media promotion, dailyawarenesssociety.com has accumulated <b>656 users, 10,748 page views, and 1421 sessions over the course of 5 months</b>.
+                    </p>
+
+                    <p className="paragraph">
                         Check out our website at <a href="https://dailyawarenesssociety.com/" target="_blank" rel="noreferrer" className="default">dailyawarenesssociety.com</a>!
                     </p>
 

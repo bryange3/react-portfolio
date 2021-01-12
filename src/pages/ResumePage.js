@@ -52,7 +52,7 @@ function ResumePage(props) {
                             Web Developer & Content Creator<span className="my-gray">, Daily Awareness Society</span>
                         </span>
                         <br />Sept. 2020 - Present
-                        <br />Completed development of dailyawarenesssociety.com website using HTML, CSS, and JavaScript, resulting in 4000+ page hits and 341 website users since August 2020.
+                        <br />Completed development of dailyawarenesssociety.com website using HTML, CSS, and JavaScript, resulting in 10,000+ page views and 600+ website users in the span of 5 months.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">

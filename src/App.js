@@ -86,7 +86,7 @@ class App extends React.Component {
           id: 2,
           name: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
-          roles: 'Web Developer, Content Creator',
+          roles: 'UI Designer, Web Developer, Content Creator',
           imgSrc: das,
           cover: dasproject,
           path: '/daily-awareness-society',
