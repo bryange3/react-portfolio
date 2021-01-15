@@ -18,7 +18,7 @@ import hmwinsight from '../assets/project/iot/hmwinsight.png';
 
 function IotPage(props) {
     window.scrollTo(0, 0);
-    const width = 7;
+    const width = 8;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
@@ -59,12 +59,7 @@ function IotPage(props) {
 
                     <iframe title="Internet of Things Playground Demo" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/fvJg08nuAVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    <h2 className="font-weight-bold paragraph">
-                        Design Process
-                    </h2>
-                    <img src={designprocess} alt="Design Process" className="project-img center" />
-
-                    <hr class="rounded" />
+                    <br />
 
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
@@ -73,7 +68,7 @@ function IotPage(props) {
                         We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform. Here are the existing designs of the landing page, project dashboard, and coding interface:
                     </p>
 
-                    <img src={olddesign} alt="Old Designs" className="project-img center" />
+                    <img src={olddesign} alt="Old Designs" className="project-img-medium center" />
 
 
                     <p className="paragraph">
@@ -84,6 +79,7 @@ function IotPage(props) {
                                 <ul>
                                     <li>The sign-in screen is not informative and users don't know what the website is for.</li>
                                 </ul>
+                                <br />
                                 <br /><b>Project Dashboard</b>
                                 <ul>
                                     <li>Easy to understand, however not much functionality; unsure how to remove projects.</li>
@@ -121,7 +117,7 @@ function IotPage(props) {
                         <h2 className="font-weight-bold">
                             Synthesis
                         </h2>
-                        After gathering all our research, we identified the problems with the existing design through "How Might We" statements and insight statements.
+                        After gathering all our research, we identified the problems with the existing design through <b>"How Might We" statements</b> and <b>insight statements</b>.
                     </p>
 
                     <img src={hmwinsight} alt="How Might We & Insight Statements" className="project-img-medium center" />
@@ -152,8 +148,8 @@ function IotPage(props) {
                             The coding pane on the middle-bottom of the interface can be dragged up and down to adjust its height.
                         </p>
                         <br />3) Right-side component information pane should provide more usable information
-                        <img src={componentinfo} alt="Component Information Pane" className="project-img-medium center" />
-                        <p className="image-caption med">
+                        <img src={componentinfo} alt="Component Information Pane" className="project-img center" />
+                        <p className="image-caption">
                             The component information pane enables users to change the name of each component used in their project, as well as the ability to flip connections. Users are also provided tips about the component they have selected.
                         </p>
                     </p>
@@ -163,23 +159,23 @@ function IotPage(props) {
                             Prototype
                         </h2>
                         I focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, I came up with solutions to improve the experience for students.
-                        <img src={classintegration} alt="Class Integration" className="project-img-medium center" />
-                        <p className="image-caption med">
+                        <img src={classintegration} alt="Class Integration" className="project-img center" />
+                        <p className="image-caption">
                             Students are able to view which projects have been submitted for classwork and which ones have not. They can also view assignments that are due soon and whether or not they have submitted them yet. The color-coded "Submitted" and "Incomplete" markers make it easy for students to see what assignments they need to complete.
                         </p>
                     </p>
 
                     <p className="paragraph">
                         The community page is designed so that students will see shared projects from their classes at the top.
-                        <img src={community} alt="Community Page" className="project-img-medium center" />
-                        <p className="image-caption med">
+                        <img src={community} alt="Community Page" className="project-img center" />
+                        <p className="image-caption">
                             Users have the ability to view projects from other classmates as well as the contributors by the profile pictures displayed in the bottom right of each project card.
                         </p>
                     </p>
 
                     <p className="paragraph">
                         The coding interface enables users to quickly search for components, view important information about selected components, share their project to the IDEofThings community or Github, and submit their project for classwork.
-                        <img src={coding} alt="Coding Interface" className="project-img-medium center" />
+                        <img src={coding} alt="Coding Interface" className="project-img center" />
                     </p>
 
                     <p className="paragraph">
