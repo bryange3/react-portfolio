@@ -114,18 +114,15 @@ code {
 }
 
 .project-card {
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   color: #000;
   text-decoration: none;
 }
 
 .project-card-image {
   margin-bottom: 20px;
-  width: 576px;
-  height: 324px;
+  width: 640px;
+  height: 360px;
   background: grey;
   border-radius: 20px;
   background-size: cover;
