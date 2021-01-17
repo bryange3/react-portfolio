@@ -39,14 +39,14 @@ function TaskCalPage(props) {
                             <li>
                                 <b>Task creation is made easy and adaptive to the user's schedule.</b> Users can easily drag and drop the add button to create new tasks wherever there is available time. The drag and drop gesture is widely used throughout the app so users can quickly change where tasks are placed on the daily schedule.
 
-                                <iframe title="TaskCal Intro Task Creation" className="full-width project-img" width="560" height="560" src="https://www.youtube-nocookie.com/embed/KiNMoRwBzRY?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe title="TaskCal Intro Task Creation" className="full-width project-img" width="560" height="560" src="https://www.youtube-nocookie.com/embed/KiNMoRwBzRY?autoplay=1&mute=1&loop=1&playlist=KiNMoRwBzRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </li>
 
                             <li>
                                 <b>Users can move existing tasks by dragging and dropping them to a new location on the schedule.</b> There is a subtle shadow that is visible under the task being moved to emulate picking up an object and moving it somewhere else. The shadow signals to the user that it is above the schedule "board" and is free to be moved to a new time slot.
                                 <img src={taskdrag} alt="Task Drag Feature" className="project-img center" />
                                 Here is a demo of the task dragging interaction:
-                                <iframe title="TaskCal Task Drag" className="full-width project-img" width="560" height="560" src="https://www.youtube-nocookie.com/embed/ZkPmp8ur510" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe title="TaskCal Task Drag" className="full-width project-img" width="560" height="560" src="https://www.youtube-nocookie.com/embed/ZkPmp8ur510?autoplay=1&mute=1&loop=1&playlist=ZkPmp8ur510" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </li>
                         </ol>
                     </p>
