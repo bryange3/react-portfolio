@@ -26,8 +26,16 @@ function ResumePage(props) {
                         <span className="my-blue font-weight-bold">
                             University of Illinois at Urbana-Champaign
                         </span>
-                        <br />Anticipated May 2024
                         <br />B.S. Statistics and Computer Science with a minor in Business
+                        <br />Anticipated May 2024
+                    </p>
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
+                            Texas Academy of Math and Science
+                        </span>
+                        <br />Computer Science Track
+                        <br />TAMS is an early college high school program offered at the University of North Texas.
+                        <br />2018 - 2020
                     </p>
                 </p>
 
@@ -71,6 +79,14 @@ function ResumePage(props) {
                     <h2 className="font-weight-bold" data-aos="fade-up">
                         Leadership
                     </h2>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
+                            Teaching Assistant<span className="my-gray">, UIUC</span>
+                        </span>
+                        <br />Jan. 2021 - Present
+                    <br />TA for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
+                    </p>
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
@@ -126,14 +142,14 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             Programming
                         </span>
-                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React
+                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="font-weight-bold">
                             Design
                         </span>
-                        <br />Figma, Adobe XD, Adobe Lightroom, Keynote
+                        <br />Figma, Adobe XD, Adobe Lightroom
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
