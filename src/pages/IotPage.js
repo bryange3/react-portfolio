@@ -5,13 +5,12 @@ import Collapsible from 'react-collapsible';
 import Content from '../components/Content.js';
 import ProjectTitle from '../components/ProjectTitle.js';
 
-import designprocess from '../assets/project/iot/designprocess.png';
+import dashboard from '../assets/project/iot/dashboard.png';
 import olddesign from '../assets/project/iot/olddesign.png';
 import classintegration from '../assets/project/iot/classintegration.png';
 import category from '../assets/project/iot/category.png';
 import drag from '../assets/project/iot/drag.png';
 import componentinfo from '../assets/project/iot/componentinfo.png';
-import coding from '../assets/project/iot/coding.png';
 import ideation from '../assets/project/iot/ideation.png';
 import community from '../assets/project/iot/community.png';
 import hmwinsight from '../assets/project/iot/hmwinsight.png';
@@ -21,7 +20,7 @@ function IotPage(props) {
     const width = 10;
     return (
         <div>
-            <ProjectTitle info={props.info} width={width} />
+            <ProjectTitle info={props.info} width={8} />
             <Content width={width}>
                 <body>
                     <div class="med-text">
@@ -49,20 +48,68 @@ function IotPage(props) {
                             <h2 className="font-weight-bold">
                                 Problem
                             </h2>
-                            The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms. Our job is to improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page.
+                            The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms. Our job is to <b>improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page</b>.
                         </p>
 
                         <p className="paragraph">
                             <h2 className="font-weight-bold">
                                 Solution
                             </h2>
-                            IDEofThings is a refreshing improvement to the original design, as it is more informational, understandable, and modern. The new interface is more appealing to students and easier to navigate. The main features include class integration, project dashboard filtering, improved coding experience, and community sharing.
+                            IDEofThings is a refreshing improvement to the original design, as it is more <b>informational, understandable, and modern</b>. The new interface is more appealing to students and easier to navigate. The main features include class integration, project dashboard filtering, improved coding experience, and community sharing.
+                        </p>
+
+                        <p>
+                            View the full video demo below:
                         </p>
                     </div>
 
                     <iframe title="Internet of Things Playground Demo" className="project-img-medium center" width="990" height="560" src="https://www.youtube-nocookie.com/embed/fvJg08nuAVk?autoplay=1&mute=1&loop=1&playlist=fvJg08nuAVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    <br />
+                    <p className="paragraph med-text">
+                        <h2 className="font-weight-bold">
+                            Key Features
+                        </h2>
+                        <p className="line-space"><b>INFORMATIONAL LANDING PAGE</b></p>
+                        <p className="line-space">The landing page provides information on what the IDEofThings platform is used for. When the log-in/sign-up overlay is opened, the background is faded to focus the user's attention on the log-in pane.</p>
+                        <iframe title="Landing Page/Login" className="project-img center" width="560" height="500" src="https://www.youtube.com/embed/xJuGz0JpZE4?autoplay=1&mute=1&loop=1&playlist=xJuGz0JpZE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <br />
+                        <p className="line-space"><b>FILTERED PROJECT DASHBOARD</b> (simple and easy to use filtering panel)</p>
+                        <p className="line-space">Students' ability to view projects that have been submitted for classes or starred for individual use makes navigating projects incredibly simple. The "Submitted" labels also enable students to clearly see which projects were submitted for assignments.</p>
+                        <img src={dashboard} alt="Project Dashboard" className="project-img center" />
+
+                        <br />
+                        <p className="line-space"><b>UPCOMING ASSIGNMENTS VIEW</b> (understandable assignments and deadline information)</p>
+                        <p className="line-space">To improve the class integration experience, students are able to view which projects have been submitted for classwork and which ones have not. They can also view assignments that are due soon and whether or not they have submitted them yet. The <b>color-coded "Submitted" and "Incomplete" labels make it easy for students to see what assignments they need to complete</b>.</p>
+                        <p className="line-space">The assignments are shown in chronological order: assignments that are due the soonest at the top and assignments that are due the latest at the bottom.</p>
+                        <p className="line-space">Deadline display types:</p>
+                        <ul>
+                            <li>Assignment 1 uses a red countdown timer to highlight that the deadline is soon.</li>
+                            <li>Assignment 2 uses a weekday to signify the closeness and relative day of the week that the assignment is due.</li>
+                            <li>Assignment 3 uses a date to show that the deadline is not extremely close (assignment not due in the following 2 weeks)</li>
+                        </ul>
+                        <p className="line-space">The use of adaptable deadline display types enables students to better understand and visualize when their assignment is due.</p>
+                    </p>
+                    <p>
+                        <img src={classintegration} alt="Class Integration" className="project-img center" />
+                    </p>
+                    <p className="med-text">
+                        <br />
+                        <p className="line-space"><b>COMMUNITY PAGE</b></p>
+                        <p className="line-space">Users can share there projects with their classmates or with other people using IDEofThings. The community page is designed so that students will see shared projects from their classes at the top and other popular projects below. Contributors to projects are shown by the profile pictures displayed in the bottom right of each project card.</p>
+                        <img src={community} alt="Community Page" className="project-img center" />
+
+                        <br />
+                        <p className="line-space"><b>CODE EDITOR</b> (expandable/minimizable coding pane, easy component finding, informational components)</p>
+                        <ul>
+                            <li>The coding interface enables users to quickly search for components, view important information about selected components, share their project to the IDEofThings community or Github, and submit their project for classwork.</li>
+                            <li>The double-bars graphic on the coding pane signals to the user that they can drag it up and down based on their programming needs. The Internet of Things device (in this case the Arduino) adapts accordingly.</li>
+                        </ul>
+                        <iframe title="Code Editor" className="project-img center" width="560" height="500" src="https://www.youtube.com/embed/YgtFoRuD1Hw?autoplay=1&mute=1&loop=1&playlist=YgtFoRuD1Hw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p className="image-caption">Shadow is used to highlight the different informational and functional panes and the double-bars at the top of the coding pane signal that it is height-adjustable.</p>
+                    </p>
+
+                    <hr class="rounded med-text" />
 
                     <p className="paragraph med-text">
                         <h2 className="font-weight-bold">
@@ -93,7 +140,7 @@ function IotPage(props) {
                                             <li>Easy to understand, however not much functionality; unsure how to remove projects.</li>
                                         </ul>
                                     </p>
-                                    
+
                                     <p>
                                         <b>Code Editor</b>
                                         <ul>
@@ -144,56 +191,40 @@ function IotPage(props) {
 
                     <img src={ideation} alt="Ideation Lo-fi Mockups" className="project-img center" />
 
-                    <p className="paragraph med-text">
-                        Some of the common themes with our decisions for which elements to include in our design include ease of use, visibility, and practicality. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much cleaner and organized view compared to the old design.
-                    </p>
+                    <div className="med-text">
+                        <p className="line-space">
+                            Some of the common themes with my decisions for which design elements to include are <b>ease of use, visibility, and practicality</b>. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much <b>cleaner and organized view</b> compared to the old design.
+                        </p>
 
-                    <p className="paragraph med-text">
-                        For the coding interface, we identified 3 important changes to make to the old design:
-                        <br /><br />1) Components pane should include categories for greater organization of components
+                        <p className="line-space">
+                            For the coding interface, we identified 3 important changes to make to the old design:
+                        </p>
+
+                        <p className="line-space"><b>1) Components pane should include categories for greater organization of components</b></p>
+                        
                         <img src={category} alt="Components Categories" className="project-img-small center" />
+                        
                         <p className="image-caption smol">
                             When the "+" button is clicked, the category expands out.
                         </p>
-                        <br />2) Coding pane should be height-adjustable to allow the user to see more code at once
-                    </p>
-                    
+                        
+                        <p className="line-space"><b>2) Coding pane should be height-adjustable to allow the user to see more code at once</b></p>
+                    </div>
+
                     <img src={drag} alt="Drag Coding Pane" className="project-img center" />
                     <p className="image-caption">
-                            The coding pane on the middle-bottom of the interface can be dragged up and down to adjust its height.
+                        The coding pane on the middle-bottom of the interface can be dragged up and down to adjust its height.
                     </p>
+                        
+                    <div className="med-text">
+                        <p className="line-space"><b>3) Right-side component information pane should provide more usable information</b></p>
 
-                    <p className="med-text">
-                        <br />3) Right-side component information pane should provide more usable information
                         <img src={componentinfo} alt="Component Information Pane" className="project-img center" />
+
                         <p className="image-caption">
                             The component information pane enables users to change the name of each component used in their project, as well as the ability to flip connections. Users are also provided tips about the component they have selected.
                         </p>
-                    </p>
-
-                    <p className="paragraph med-text">
-                        <h2 className="font-weight-bold">
-                            Prototype
-                        </h2>
-                        I focused on creating a project dashboard that is easy to navigate and includes features targeted towards college students and programmers. Since IDEofThings has class integration, I came up with solutions to improve the experience for students.
-                        <img src={classintegration} alt="Class Integration" className="project-img center" />
-                        <p className="image-caption">
-                            Students are able to view which projects have been submitted for classwork and which ones have not. They can also view assignments that are due soon and whether or not they have submitted them yet. The color-coded "Submitted" and "Incomplete" markers make it easy for students to see what assignments they need to complete.
-                        </p>
-                    </p>
-
-                    <p className="paragraph med-text">
-                        The community page is designed so that students will see shared projects from their classes at the top.
-                        <img src={community} alt="Community Page" className="project-img center" />
-                        <p className="image-caption">
-                            Users have the ability to view projects from other classmates as well as the contributors by the profile pictures displayed in the bottom right of each project card.
-                        </p>
-                    </p>
-
-                    <p className="paragraph med-text">
-                        The coding interface enables users to quickly search for components, view important information about selected components, share their project to the IDEofThings community or Github, and submit their project for classwork.
-                        <img src={coding} alt="Coding Interface" className="project-img center" />
-                    </p>
+                    </div>
 
                     <p className="paragraph med-text">
                         Play around with the landing page, project dashboard, community page, account page, and coding interface on our Figma prototype below:
@@ -201,11 +232,13 @@ function IotPage(props) {
 
                     <iframe title="IOT Playground Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5NeueJmeFWk6oWz3mzY6Uo%2FInternet-of-Things-Playground%3Fnode-id%3D513%253A3258%26viewport%3D-47%252C-3148%252C0.27747851610183716%26scaling%3Dscale-down" allowfullscreen></iframe>
 
-                    <p className="paragraph" med-text>
-                        Check out our <a href="https://www.figma.com/file/oy9lBpGHw6pJzaMf0wGUMo?embed_host=notion&kind=&node-id=509%3A1387&viewer=1" target="_blank" rel="noreferrer" className="default">Figma document</a>.
-                    </p>
+                    <div className="med-text">
+                        <p className="paragraph">
+                            Check out our <a href="https://www.figma.com/file/5NeueJmeFWk6oWz3mzY6Uo/Internet-of-Things-Playground?node-id=509%3A1387" target="_blank" rel="noreferrer" className="default">Figma document</a>.
+                        </p>
 
-                    <iframe title="IOT Playground Figma Wireframe" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5NeueJmeFWk6oWz3mzY6Uo%2FInternet-of-Things-Playground%3Fnode-id%3D509%253A1387" allowfullscreen></iframe>
+                        <iframe title="IOT Playground Figma Wireframe" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5NeueJmeFWk6oWz3mzY6Uo%2FInternet-of-Things-Playground%3Fnode-id%3D509%253A1387" allowfullscreen></iframe>
+                    </div>
                 </body>
             </Content>
         </div>

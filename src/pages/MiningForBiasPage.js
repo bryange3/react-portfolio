@@ -40,7 +40,7 @@ function MiningForBiasPage(props) {
                         We created a webpage where users provide a link to a news article and are given an evaluation of the bias in the article. This is done through the use of <b>Python</b> and <b>sentiment analysis</b>.
                     </p>
 
-                    <iframe title="Mining for Bias Demo" className="full-width curve-five" width="560" height="560" src="https://www.youtube-nocookie.com/embed/Y_1Dw3HevWw?autoplay=1&mute=1&loop=1&playlist=Y_1Dw3HevWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Mining for Bias Demo" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/Y_1Dw3HevWw?autoplay=1&mute=1&loop=1&playlist=Y_1Dw3HevWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph">
                         <h2 className="font-weight-bold">
