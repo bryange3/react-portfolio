@@ -125,24 +125,33 @@ function IotPage(props) {
                         <p className="paragraph">
                             <Collapsible trigger="User Interviews" className="toggle Collpasible__trigger" openedClassName="toggle">
                                 <p className="toggle-text">
-                                    Through our 10 interviews with other college students we discovered the following:
-                                <br />
+                                    <p className="line-space">Through our 10 interviews with other college students we discovered the following:</p>
+                                    
                                     <p>
-                                        <b>Landing Page</b>
+                                        <p className="line-space">
+                                            <b>Landing Page</b>
+                                        </p>
+
                                         <ul>
                                             <li>The sign-in screen is not informative and users don't know what the website is for.</li>
                                         </ul>
                                     </p>
 
                                     <p>
-                                        <b>Project Dashboard</b>
+                                        <p className="line-space">
+                                            <b>Project Dashboard</b>
+                                        </p>
+
                                         <ul>
                                             <li>Easy to understand, however not much functionality; unsure how to remove projects.</li>
                                         </ul>
                                     </p>
 
                                     <p>
-                                        <b>Code Editor</b>
+                                        <p className="line-space">
+                                            <b>Code Editor</b>
+                                        </p>
+
                                         <ul>
                                             <li>Users do not know what the "+" button at the top left is for.</li>
                                             <li>The right pane is confusing; users do not understand what "x" and "y" is or what the trash icon is meant to be used for.</li>
@@ -155,7 +164,10 @@ function IotPage(props) {
 
                             <Collapsible trigger="Competitive Analysis" className="toggle Collpasible__trigger" openedClassName="toggle">
                                 <p className="toggle-text">
-                                    We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
+                                    <p className="line-space">
+                                        We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
+                                    </p>
+
                                     <ul>
                                         <li>Connected to GitHub, way to commit and push.</li>
                                         <li>Shortcut for changing the direction of electrical components.</li>
@@ -201,13 +213,13 @@ function IotPage(props) {
                         </p>
 
                         <p className="line-space"><b>1) Components pane should include categories for greater organization of components</b></p>
-                        
+
                         <img src={category} alt="Components Categories" className="project-img-small center" />
-                        
+
                         <p className="image-caption smol">
                             When the "+" button is clicked, the category expands out.
                         </p>
-                        
+
                         <p className="line-space"><b>2) Coding pane should be height-adjustable to allow the user to see more code at once</b></p>
                     </div>
 
@@ -215,7 +227,7 @@ function IotPage(props) {
                     <p className="image-caption">
                         The coding pane on the middle-bottom of the interface can be dragged up and down to adjust its height.
                     </p>
-                        
+
                     <div className="med-text">
                         <p className="line-space"><b>3) Right-side component information pane should provide more usable information</b></p>
 
