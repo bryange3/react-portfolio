@@ -75,38 +75,38 @@ function IotPage(props) {
 
                         <br />
                         <p className="line-space"><b>FILTERED PROJECT DASHBOARD</b> (simple and easy to use filtering panel)</p>
-                        <p className="line-space">Students' ability to view projects that have been submitted for classes or starred for individual use makes navigating projects incredibly simple. The "Submitted" labels also enable students to clearly see which projects were submitted for assignments.</p>
+                        <p className="line-space">Students' ability to view projects that have been submitted for classes or starred for individual use makes navigating projects incredibly simple.</p>
                         <img src={dashboard} alt="Project Dashboard" className="project-img center" />
 
                         <br />
                         <p className="line-space"><b>UPCOMING ASSIGNMENTS VIEW</b> (understandable assignments and deadline information)</p>
-                        <p className="line-space">To improve the class integration experience, students are able to view which projects have been submitted for classwork and which ones have not. They can also view assignments that are due soon and whether or not they have submitted them yet. The <b>color-coded "Submitted" and "Incomplete" labels make it easy for students to see what assignments they need to complete</b>.</p>
+                        <p className="line-space">To improve the class integration experience, I  developed a feature where students are able to view which projects have been submitted for classwork. This can be seen through the green "Submitted" label located on the bottom right of submitted projects. They can also view deadlines for assignments as well as their submission statuses. The <b>color-coded "Submitted" and "Incomplete" labels make it easy for students to see what assignments they need to complete</b>.</p>
                         <p className="line-space">The assignments are shown in chronological order: assignments that are due the soonest at the top and assignments that are due the latest at the bottom.</p>
                         <p className="line-space">Deadline display types:</p>
                         <ul>
                             <li>Assignment 1 uses a red countdown timer to highlight that the deadline is soon.</li>
-                            <li>Assignment 2 uses a weekday to signify the closeness and relative day of the week that the assignment is due.</li>
-                            <li>Assignment 3 uses a date to show that the deadline is not extremely close (assignment not due in the following 2 weeks)</li>
+                            <li>Assignment 2 displays a weekday and time to signify the closeness and relative day of the week that the assignment is due.</li>
+                            <li>Assignment 3 shows a date, since the deadline is not near (assignment not due in the following 2 weeks).</li>
                         </ul>
-                        <p className="line-space">The use of adaptable deadline display types enables students to better understand and visualize when their assignment is due.</p>
+                        <p className="line-space">The use of adaptable deadline display types enables students to better understand and visualize when their assignment is due. <b>The way deadline information is presented is designed with inspiration from the way humans speak about dates and time.</b></p>
                     </p>
-                    <p>
-                        <img src={classintegration} alt="Class Integration" className="project-img center" />
-                    </p>
+
+                    <img src={classintegration} alt="Class Integration" className="project-img center" />
+
                     <p className="med-text">
                         <br />
                         <p className="line-space"><b>COMMUNITY PAGE</b></p>
-                        <p className="line-space">Users can share there projects with their classmates or with other people using IDEofThings. The community page is designed so that students will see shared projects from their classes at the top and other popular projects below. Contributors to projects are shown by the profile pictures displayed in the bottom right of each project card.</p>
+                        <p className="line-space">Users can share their projects with their classmates or with other people using IDEofThings. The community page is designed so that students will see shared projects from their classes at the top and other popular projects below. Contributors to projects are shown by the profile pictures displayed in the bottom right of each project card.</p>
                         <img src={community} alt="Community Page" className="project-img center" />
 
                         <br />
                         <p className="line-space"><b>CODE EDITOR</b> (expandable/minimizable coding pane, easy component finding, informational components)</p>
                         <ul>
                             <li>The coding interface enables users to quickly search for components, view important information about selected components, share their project to the IDEofThings community or Github, and submit their project for classwork.</li>
-                            <li>The double-bars graphic on the coding pane signals to the user that they can drag it up and down based on their programming needs. The Internet of Things device (in this case the Arduino) adapts accordingly.</li>
+                            <li>The double-bars graphic on the coding pane signals to the user that they can drag it up and down based on their programming needs. The Internet of Things device (in this case, the Arduino) adapts accordingly.</li>
                         </ul>
                         <iframe title="Code Editor" className="project-img center" width="560" height="500" src="https://www.youtube.com/embed/YgtFoRuD1Hw?autoplay=1&mute=1&loop=1&playlist=YgtFoRuD1Hw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p className="image-caption">Shadow is used to highlight the different informational and functional panes and the double-bars at the top of the coding pane signal that it is height-adjustable.</p>
+                        <p className="image-caption">Shadow is used to highlight the different informational and functional panes. The double-bars at the top of the coding pane signal that it is height-adjustable.</p>
                     </p>
 
                     <hr class="rounded med-text" />
@@ -156,7 +156,7 @@ function IotPage(props) {
                             <Collapsible trigger="Competitive Analysis" className="toggle Collpasible__trigger" openedClassName="toggle">
                                 <p className="toggle-text">
                                     We researched competing products such as IntelliJ, SolidWorks, Eclipse, and Arduino Simulator on TinkerCad and took note on their best features.
-                        <ul>
+                                    <ul>
                                         <li>Connected to GitHub, way to commit and push.</li>
                                         <li>Shortcut for changing the direction of electrical components.</li>
                                         <li>Debugging tool.</li>
