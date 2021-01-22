@@ -82,10 +82,10 @@ function ResumePage(props) {
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
-                            Teaching Assistant<span className="my-gray">, UIUC</span>
+                            Course Assistant<span className="my-gray">, UIUC</span>
                         </span>
                         <br />Jan. 2021 - Present
-                    <br />TA for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
+                    <br />Course Assistant for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
