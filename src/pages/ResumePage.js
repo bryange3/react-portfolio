@@ -44,15 +44,40 @@ function ResumePage(props) {
 
                 <p className="paragraph">
                     <h2 className="font-weight-bold" data-aos="fade-up">
-                        Projects
+                        Experience
                     </h2>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
+                            Product Design Intern<span className="my-gray">, Trill Project</span>
+                        </span>
+                        <br />Jan. 2021 - Present
+                        <br />Trill is a social media app that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.
+                    </p>
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
                             User Interface Designer<span className="my-gray">, Design Innovation</span>
                         </span>
-                        <br />Sept. 2020 - Present
+                        <br />Sept. 2020 - Dec. 2020
                         <br />Collaborated with 3 other students to design a website interface on Figma that enables students to code and share Internet of Things projects.
+                    </p>
+                </p>
+
+                <br />
+                <hr className="rounded" data-aos="fade-up" />
+
+                <p className="paragraph">
+                    <h2 className="font-weight-bold" data-aos="fade-up">
+                        Projects
+                    </h2>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
+                            UI/UX Designer & Software Developer<span className="my-gray">, Women in Computer Science</span>
+                        </span>
+                        <br />January 2021 - Present
+                        <br />Currently developing SafeWalks app, a way for UIUC students to find others to walk with to safely reach their destinations on campus.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">

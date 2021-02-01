@@ -31,7 +31,7 @@ function HomePage(props) {
                             {props.animated && <h1 className="display-1"><Animation>{props.animated}</Animation></h1>}
                             {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
                             {props.subTitle && <h2 className="display-4 font-weight-normal">{props.subTitle}</h2>}
-                            <h3 className="font-weight-normal mt-4 small-description">Currently at <a className="link-underline" href="https://illinois.edu" target="_blank" rel="noreferrer">UIUC</a> studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a> and designing for <a className="link-underline" href="https://www.designinnovationillinois.com/" target="_blank" rel="noreferrer">Design Innovation</a>.</h3>
+                            <h2 className="font-weight-normal mt-4 small-description">Designing for <a className="link-underline" href="https://trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a> and studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a> at <a className="link-underline" href="https://illinois.edu" target="_blank" rel="noreferrer">UIUC</a>.</h2>
                         </Col>
                     </Row>
                 </Container>
