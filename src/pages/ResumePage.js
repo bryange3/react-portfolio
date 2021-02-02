@@ -76,7 +76,7 @@ function ResumePage(props) {
                         <span className="my-blue font-weight-bold">
                             UI/UX Designer & Software Developer<span className="my-gray">, Women in Computer Science</span>
                         </span>
-                        <br />January 2021 - Present
+                        <br />Jan. 2021 - Present
                         <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
                     </p>
 
