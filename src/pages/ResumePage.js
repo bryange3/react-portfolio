@@ -189,12 +189,15 @@ function ResumePage(props) {
                             Certificates
                         </span>
                         <br />Introduction to User Experience Design (Coursera - Georgia Tech)
+                        <br />Designing for Conversation (Amazon Alexa)
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="font-weight-bold">
                             UIUC Relevant Courses
                         </span>
+                        <br />CS 225 Data Structures
+                        <br />CS 357 Numerical Methods I
                         <br />CS 126 Software Design Studio
                         <br />CS 196 Freshman Honors (Semester Project Course)
                         <br />STAT 107 Data Science Discovery
