@@ -25,7 +25,7 @@ function LeafPage(props) {
                         <b>Tech Stack</b>: Python, HTML, CSS, JavaScript
                         <br />
                         <br />
-                        <i>This is our winning submission for UChicago's Francis Yuen East Asia 2020 Hackathon!</i>
+                        <i>This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!</i>
                     </p>
                     <br />
                     <hr class="rounded" />

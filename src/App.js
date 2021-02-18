@@ -16,8 +16,6 @@ import mfbproject from './assets/project/mfbproject.png';
 
 import taskcal from './assets/taskcal.png';
 import taskcalcover from './assets/project/taskcal/taskcalcover.png';
-import protothon2021 from './assets/protothon2021.png';
-import protothon2021cover from './assets/project/protothon2021cover.png';
 
 import bglogo from './assets/BGlogo.svg';
 
@@ -31,7 +29,6 @@ import DasPage from './pages/DasPage.js';
 import MiningForBiasPage from './pages/MiningForBiasPage.js';
 import IotPage from './pages/IotPage.js';
 import TaskCalPage from './pages/TaskCalPage.js';
-import Protothon2021Page from './pages/Protothon2021Page';
 import PhotographyPage from './pages/PhotographyPage';
 import PlayPage from './pages/PlayPage';
 
@@ -120,16 +117,6 @@ class App extends React.Component {
           cover: taskcalcover,
           path: '/taskcal',
           timeline: '2 weeks',
-        },
-        {
-          id: 1,
-          name: 'DubsTech Designathon - Honorable Mention',
-          description: 'A redesign of a coaching service site to improve customers\' experience in seeking and selecting the right type of support.',
-          roles: 'UI Designer',
-          imgSrc: protothon2021,
-          cover: protothon2021cover,
-          path: '/protothon2021',
-          timeline: '1 day',
         }
       ]
     }
@@ -165,7 +152,6 @@ class App extends React.Component {
           <Route path={this.state.workProjects[3].path} render={() => <MiningForBiasPage info={this.state.workProjects[3]} />} />
 
           <Route path={this.state.playProjects[0].path} render={() => <TaskCalPage info={this.state.playProjects[0]} />} />
-          <Route path={this.state.playProjects[1].path} render={() => <Protothon2021Page info={this.state.playProjects[1]} />} />
 
           <ScrollArrow />
           <Footer />
