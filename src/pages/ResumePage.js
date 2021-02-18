@@ -16,7 +16,7 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1vaYJJ1kNiltkkYB-yD77u_Hj_35wkr_v/view?usp=sharing" target="_blank" rel="noreferrer" className="default">Professional Resume</a> or <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="default">Creative Resume</a> or view it below.
+                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="default">resume</a> or view it below.
                 </p>
                 <p className="paragraph" data-aos="fade-up">
                     <h2 className="font-weight-bold">
@@ -140,6 +140,14 @@ function ResumePage(props) {
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
+                            Honorable Mention for DubsTech Protothon
+                        </span>
+                        <br />Feb. 2021
+                    <br />Revamped coaching service site to improve customers' experience in seeking and selecting the right type of support (blogs, free consultations, or paid coaching).
+                    </p>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
                             Winner of Francis & Rose Yuen East Asia Hackathon
                         </span>
                         <br />Dec. 2020
@@ -200,6 +208,7 @@ function ResumePage(props) {
                         <br />CS 357 Numerical Methods I
                         <br />CS 126 Software Design Studio
                         <br />CS 196 Freshman Honors (Semester Project Course)
+                        <br />STAT 400 Statistics & Probability I
                         <br />STAT 107 Data Science Discovery
                         <br />MATH 415 Linear Algebra with Computational Applications
                     </p>
