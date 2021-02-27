@@ -13,6 +13,8 @@ import das from './assets/dascover.png';
 import dasproject from './assets/project/dasproject.png';
 import mfb from './assets/miningforbias.png';
 import mfbproject from './assets/project/mfbproject.png';
+import trill from './assets/trill.png';
+import trillcover from './assets/project/trillcover.png';
 
 import taskcal from './assets/taskcal.png';
 import taskcalcover from './assets/project/taskcal/taskcalcover.png';
@@ -28,6 +30,7 @@ import LeafPage from './pages/LeafPage.js';
 import DasPage from './pages/DasPage.js';
 import MiningForBiasPage from './pages/MiningForBiasPage.js';
 import IotPage from './pages/IotPage.js';
+import TrillPage from './pages/TrillPage.js';
 import TaskCalPage from './pages/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 import PlayPage from './pages/PlayPage';
@@ -60,18 +63,29 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          name: 'Trill Project | Internship',
+          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
+          roles: 'Product Designer',
+          imgSrc: trill,
+          cover: trillcover,
+          path: '/trillproject',
+          timeline: 'February 2021 - Present',
+          location: 'Remote'
+        },
+        {
+          id: 1,
           name: 'Internet of Things Playground',
           description: 'Website where students can code Internet of Things devices and share them with the world.',
           roles: 'UI Designer',
           imgSrc: iot,
           cover: iotproject,
           path: '/iot-playground',
-          teamMembers: 'Saud Tahir, Bryan Ge, Siddharth Pyapali, Lin Jiang',
+          teamMembers: '4 designers',
           timeline: 'September 2020 - December 2020',
-          location: 'Remote'
+          location: 'Champaign, IL'
         },
         {
-          id: 1,
+          id: 2,
           name: 'TaskCal',
           description: 'Personal exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
           roles: 'UI/UX Designer',
@@ -81,19 +95,19 @@ class App extends React.Component {
           timeline: '2 weeks',
         },
         {
-          id: 2,
-          name: 'Winner - Francis Yuen East Asia Hackathon',
+          id: 3,
+          name: 'Winner of Francis Yuen East Asia Hackathon',
           description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UI/UX Designer, Frontend Developer',
           imgSrc: leaf,
           cover: leafproject,
-          path: '/leaf',
-          teamMembers: 'Connie Xu, Bryan Ge, Dhruv Baid, Cherry Ying',
+          path: '/hackathon-leaf',
+          teamMembers: 'Connie Xu, Dhruv Baid, Cherry Ying',
           timeline: 'December 15, 2020 - December 17, 2020',
           location: 'Remote'
         },
         {
-          id: 3,
+          id: 4,
           name: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'UI Designer, Web Developer, Content Creator',
@@ -102,10 +116,10 @@ class App extends React.Component {
           path: '/daily-awareness-society',
           teamMembers: 'Connie Xu, Rachel Qian, Bryan Ge, Kate Liang, Helen Xia',
           timeline: 'September 2019 - Present',
-          location: 'Remote'
+          location: 'Denton, TX'
         },
         {
-          id: 4,
+          id: 5,
           name: 'Mining for Bias',
           description: 'Program that gives users bias information on news articles.',
           roles: 'Software Developer',
@@ -114,7 +128,7 @@ class App extends React.Component {
           path: '/mining-for-bias',
           teamMembers: 'Aileen Long, Bryan Ge, Serena Behera, Aditya Joshi, Riya Jain, Michal Juskinski',
           timeline: 'September 2020 - December 2020',
-          location: 'Remote'
+          location: 'Champaign, IL'
         }
       ],
       playProjects: [
@@ -147,11 +161,12 @@ class App extends React.Component {
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
-          <Route path={this.state.workProjects[0].path} render={() => <IotPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <TaskCalPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <LeafPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <DasPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <TrillPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <IotPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <TaskCalPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <DasPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[5]} />} />
 
           <ScrollArrow />
           <Footer />
