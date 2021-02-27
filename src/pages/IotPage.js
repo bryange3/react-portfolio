@@ -205,7 +205,7 @@ function IotPage(props) {
                             <h2 className="font-weight-bold">
                                 Low-fidelity
                         </h2>
-                        Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. We came together and used colored circles to mark individual features we liked and wanted to include in our design.
+                        Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. I sketched the project dashboard in the top-left of the image below to include a cohesive header which contains the main controls and more functional project cards. We then came together and used colored circles to mark individual features we liked and wanted to include in our design.
                     </p>
                     </div>
 
