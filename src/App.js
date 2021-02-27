@@ -72,7 +72,17 @@ class App extends React.Component {
         },
         {
           id: 1,
-          name: 'UChicago Hackathon - Winner',
+          name: 'TaskCal',
+          description: 'Personal exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
+          roles: 'UI/UX Designer',
+          imgSrc: taskcal,
+          cover: taskcalcover,
+          path: '/taskcal',
+          timeline: '2 weeks',
+        },
+        {
+          id: 2,
+          name: 'Winner - Francis Yuen East Asia Hackathon',
           description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UI/UX Designer, Frontend Developer',
           imgSrc: leaf,
@@ -83,7 +93,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 2,
+          id: 3,
           name: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'UI Designer, Web Developer, Content Creator',
@@ -95,7 +105,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 3,
+          id: 4,
           name: 'Mining for Bias',
           description: 'Program that gives users bias information on news articles.',
           roles: 'Software Developer',
@@ -108,16 +118,7 @@ class App extends React.Component {
         }
       ],
       playProjects: [
-        {
-          id: 0,
-          name: 'TaskCal',
-          description: 'An exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
-          roles: 'UI/UX Designer',
-          imgSrc: taskcal,
-          cover: taskcalcover,
-          path: '/taskcal',
-          timeline: '2 weeks',
-        }
+        
       ]
     }
   }
@@ -132,7 +133,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
-                <Link className="nav-link default" to="/play">Play</Link>
+                {/* <Link className="nav-link default" to="/play">Play</Link> */}
                 <Link className="nav-link default" to="/photography">Photography</Link>
                 <Link className="nav-link default" to="/about">About</Link>
                 <Link className="nav-link default" to="/resume">Resume</Link>
@@ -141,17 +142,16 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage animated={this.state.home.animated} title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
-          <Route path="/play" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} />
+          {/* <Route path="/play" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <IotPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <LeafPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <DasPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <MiningForBiasPage info={this.state.workProjects[3]} />} />
-
-          <Route path={this.state.playProjects[0].path} render={() => <TaskCalPage info={this.state.playProjects[0]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <TaskCalPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <LeafPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <DasPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
 
           <ScrollArrow />
           <Footer />
