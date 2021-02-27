@@ -20,7 +20,7 @@ const Animation = styled.div`
 `;
 
 function HomePage(props) {
-    const width = 10;
+    const width = 9;
     window.scrollTo(0, 0);
     return (
         <FadeIn delay={400}>
@@ -28,8 +28,8 @@ function HomePage(props) {
                 <Container fluid={true}>
                     <Row className="justify-content-center py-5">
                         <Col md={width} sm={12}>
-                            {props.animated && <h1 className="display-1"><Animation>{props.animated}</Animation></h1>}
-                            {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
+                            {props.animated && <h1 className="display-3"><Animation>{props.animated}</Animation></h1>}
+                            {props.title && <h1 className="display-3 font-weight-bolder">{props.title}</h1>}
                             {props.subTitle && <h2 className="display-4 font-weight-normal">{props.subTitle}</h2>}
                             <h2 className="font-weight-normal mt-4 small-description">Designing for <a className="link-underline" href="https://trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a> and studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a> at <a className="link-underline" href="https://illinois.edu" target="_blank" rel="noreferrer">UIUC</a>.</h2>
                         </Col>
