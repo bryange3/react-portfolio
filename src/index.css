@@ -49,6 +49,11 @@
   [class*="med-text"] {
     margin: 0% !important;
   }
+  [class*="image-caption-center"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: left !important;
+  }
 }
 
 h1, h2, h3 {
@@ -250,6 +255,13 @@ hr.rounded {
   margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 14px;
+  color: #828282;
+}
+
+.image-caption-center {
+  margin-top: 1%;
+  text-align: center;
   font-size: 14px;
   color: #828282;
 }

@@ -5,8 +5,10 @@ import Collapsible from 'react-collapsible';
 import Content from '../components/Content.js';
 import ProjectTitle from '../components/ProjectTitle.js';
 
+import landingpage from '../assets/project/iot/landingpage.png';
+import projectdashboard from '../assets/project/iot/projectdashboard.png';
+import codinginterface from '../assets/project/iot/codinginterface.png';
 import dashboard from '../assets/project/iot/dashboard.png';
-import olddesign from '../assets/project/iot/olddesign.png';
 import classintegration from '../assets/project/iot/classintegration.png';
 import category from '../assets/project/iot/category.png';
 import drag from '../assets/project/iot/drag.png';
@@ -66,6 +68,15 @@ function IotPage(props) {
                     <iframe title="Internet of Things Playground Demo" className="project-img-medium center" width="990" height="560" src="https://www.youtube-nocookie.com/embed/fvJg08nuAVk?autoplay=1&mute=1&loop=1&playlist=fvJg08nuAVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph med-text">
+                        <br/>
+                        Check out the side-by-sides of the existing and new designs for the landing page, project dashboard, and coding interface:
+                    </p>
+
+                    <img src={landingpage} alt="Landing Page Before & After" className="project-img" />
+                    <img src={projectdashboard} alt="Project Dashboard Before & After" className="project-img" />
+                    <img src={codinginterface} alt="Coding Interface Before & After" className="project-img" />
+
+                    <p className="paragraph med-text">
                         <h2 className="font-weight-bold">
                             Key Features
                         </h2>
@@ -117,9 +128,6 @@ function IotPage(props) {
                         </h2>
                         We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform. Here are the existing designs of the landing page, project dashboard, and coding interface:
                     </p>
-
-                    <img src={olddesign} alt="Old Designs" className="project-img center" />
-
 
                     <div className="med-text">
                         <p className="paragraph">
@@ -208,6 +216,8 @@ function IotPage(props) {
                             Some of the common themes with my decisions for which design elements to include are <b>ease of use, visibility, and practicality</b>. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much <b>cleaner and organized view</b> compared to the old design.
                         </p>
 
+                        <br/>
+
                         <p className="line-space">
                             For the coding interface, we identified 3 important changes to make to the old design:
                         </p>
@@ -224,7 +234,7 @@ function IotPage(props) {
                     </div>
 
                     <img src={drag} alt="Drag Coding Pane" className="project-img center" />
-                    <p className="image-caption">
+                    <p className="image-caption-center">
                         The coding pane on the middle-bottom of the interface can be dragged up and down to adjust its height.
                     </p>
 

@@ -74,7 +74,7 @@ function ResumePage(props) {
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
-                            UI/UX Designer & Software Developer<span className="my-gray">, Women in Computer Science</span>
+                            UI/UX Designer<span className="my-gray">, Women in Computer Science</span>
                         </span>
                         <br />Jan. 2021 - Present
                         <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
@@ -110,7 +110,7 @@ function ResumePage(props) {
                             Course Assistant<span className="my-gray">, UIUC</span>
                         </span>
                         <br />Jan. 2021 - Present
-                    <br />Course Assistant for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
+                    <br />Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
