@@ -68,7 +68,7 @@ function IotPage(props) {
                     <iframe title="Internet of Things Playground Demo" className="project-img-medium center" width="990" height="560" src="https://www.youtube-nocookie.com/embed/fvJg08nuAVk?autoplay=1&mute=1&loop=1&playlist=fvJg08nuAVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph med-text">
-                        <br/>
+                        <br />
                         Check out the side-by-sides of the existing and new designs for the landing page, project dashboard, and coding interface:
                     </p>
 
@@ -126,15 +126,13 @@ function IotPage(props) {
                         <h2 className="font-weight-bold">
                             Research
                         </h2>
-                        We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform. Here are the existing designs of the landing page, project dashboard, and coding interface:
-                    </p>
+                        We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform.
 
-                    <div className="med-text">
                         <p className="paragraph">
                             <Collapsible trigger="User Interviews" className="toggle Collpasible__trigger" openedClassName="toggle">
                                 <p className="toggle-text">
                                     <p className="line-space">Through our 10 interviews with other college students we discovered the following:</p>
-                                    
+
                                     <p>
                                         <p className="line-space">
                                             <b>Landing Page</b>
@@ -191,7 +189,9 @@ function IotPage(props) {
                                 </p>
                             </Collapsible>
                         </p>
+                    </p>
 
+                    <div className="med-text">
                         <p className="paragraph">
                             <h2 className="font-weight-bold">
                                 Synthesis
@@ -216,7 +216,7 @@ function IotPage(props) {
                             Some of the common themes with my decisions for which design elements to include are <b>ease of use, visibility, and practicality</b>. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much <b>cleaner and organized view</b> compared to the old design.
                         </p>
 
-                        <br/>
+                        <br />
 
                         <p className="line-space">
                             For the coding interface, we identified 3 important changes to make to the old design:
