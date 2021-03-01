@@ -26,8 +26,8 @@ function ResumePage(props) {
                         <span className="my-blue font-weight-bold">
                             University of Illinois at Urbana-Champaign
                         </span>
-                        <br />B.S. Statistics and Computer Science with a minor in Business
-                        <br />Anticipated May 2024
+                        <br />B.S. Statistics and Computer Science with minors in Business and Informatics
+                        <br />Expected May 2024
                     </p>
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
@@ -175,7 +175,7 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             Programming
                         </span>
-                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js
+                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js, R
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
@@ -204,13 +204,22 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             UIUC Relevant Courses
                         </span>
-                        <br />CS 225 Data Structures
-                        <br />CS 357 Numerical Methods I
-                        <br />CS 126 Software Design Studio
-                        <br />CS 196 Freshman Honors (Semester Project Course)
-                        <br />STAT 400 Statistics & Probability I
-                        <br />STAT 107 Data Science Discovery
-                        <br />MATH 415 Linear Algebra with Computational Applications
+                        <br />CS 225 Data Structures (C++)
+                        <br />CS 357 Numerical Methods I (Python)
+                        <br />CS 126 Software Design Studio (Java/C++)
+                        <br />CS 196 Freshman Honors - Semester Project Course (Python, React.js)
+                        <br />STAT 400 Statistics & Probability I (R)
+                        <br />STAT 107 Data Science Discovery (Python)
+                        <br />MATH 415 Linear Algebra with Computational Applications (Python)
+                    </p>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="font-weight-bold">
+                            TAMS (UNT) Relevant Courses
+                        </span>
+                        <br />CSCE 2100 Computing Foundations I - Discrete Structures
+                        <br />CSCE 1040 Computer Science II (C++)
+                        <br />CSCE 1030 Computer Science I (C++)
                     </p>
                 </p>
             </Content>
