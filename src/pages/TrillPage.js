@@ -23,7 +23,7 @@ function TrillPage(props) {
                     <hr class="rounded" />
 
                     <p className="paragraph">
-                        I am currently a product design intern for Trill Project and am under an NDA. My work consists of ideation, wireframing, and prototyping new Trill mobile app features, as well as conducting user research and developing beta tester relations.
+                        I am currently a product design intern for Trill Project. My work consists of ideation, wireframing, and prototyping new Trill mobile app features, as well as conducting user research and developing beta tester relations.
                     </p>
                 </body>
             </Content>

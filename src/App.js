@@ -15,6 +15,8 @@ import mfb from './assets/miningforbias.png';
 import mfbproject from './assets/project/mfbproject.png';
 import trill from './assets/trill.png';
 import trillcover from './assets/project/trillcover.png';
+import safewalks from './assets/safewalks.png';
+import safewalkscover from './assets/project/safewalks/safewalkscover.png';
 
 import taskcal from './assets/taskcal.png';
 import taskcalcover from './assets/project/taskcal/taskcalcover.png';
@@ -27,6 +29,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/LeafPage.js';
+import SafeWalksPage from './pages/SafeWalksPage.js';
 import DasPage from './pages/DasPage.js';
 import MiningForBiasPage from './pages/MiningForBiasPage.js';
 import IotPage from './pages/IotPage.js';
@@ -47,7 +50,7 @@ class App extends React.Component {
         description: 'Currently @ UIUC studying CS + Statistics.'
       },
       play: {
-        title: '🤓 Play',
+        title: '🤓 For Fun',
         subTitle: 'Here are some projects I have done for fun!'
       },
       about: {
@@ -96,43 +99,54 @@ class App extends React.Component {
         },
         {
           id: 3,
-          name: 'Winner of Francis Yuen East Asia Hackathon',
-          description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
-          roles: 'UI/UX Designer, Frontend Developer',
-          imgSrc: leaf,
-          cover: leafproject,
-          path: '/hackathon-leaf',
-          teamMembers: 'Connie Xu, Dhruv Baid, Cherry Ying',
-          timeline: 'December 15, 2020 - December 17, 2020',
-          location: 'Remote'
-        },
-        {
-          id: 4,
           name: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'UI Designer, Web Developer, Content Creator',
           imgSrc: das,
           cover: dasproject,
           path: '/daily-awareness-society',
-          teamMembers: 'Connie Xu, Rachel Qian, Bryan Ge, Kate Liang, Helen Xia',
+          teamMembers: '4 team members',
           timeline: 'September 2019 - Present',
           location: 'Denton, TX'
         },
         {
-          id: 5,
+          id: 4,
           name: 'Mining for Bias',
           description: 'Program that gives users bias information on news articles.',
           roles: 'Software Developer',
           imgSrc: mfb,
           cover: mfbproject,
           path: '/mining-for-bias',
-          teamMembers: 'Aileen Long, Bryan Ge, Serena Behera, Aditya Joshi, Riya Jain, Michal Juskinski',
+          teamMembers: '1 project manager, 5 software developers',
           timeline: 'September 2020 - December 2020',
           location: 'Champaign, IL'
         }
       ],
       playProjects: [
-        
+        {
+          id: 0,
+          name: 'Winner of Francis Yuen East Asia Hackathon',
+          description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
+          roles: 'UI/UX Designer, Frontend Developer',
+          imgSrc: leaf,
+          cover: leafproject,
+          path: '/hackathon-leaf',
+          teamMembers: '4 team members',
+          timeline: 'December 15, 2020 - December 17, 2020',
+          location: 'Remote'
+        },
+        {
+          id: 1,
+          name: 'University SafeWalks',
+          description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
+          roles: 'UI/UX Designer',
+          imgSrc: safewalks,
+          cover: safewalkscover,
+          path: '/university-safewalks',
+          teamMembers: '4 team members',
+          timeline: 'January 2021 - Present',
+          location: 'Champaign, IL'
+        }
       ]
     }
   }
@@ -147,7 +161,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
-                {/* <Link className="nav-link default" to="/play">Play</Link> */}
+                <Link className="nav-link default" to="/for-fun">For Fun</Link>
                 <Link className="nav-link default" to="/photography">Photography</Link>
                 <Link className="nav-link default" to="/about">About</Link>
                 <Link className="nav-link default" to="/resume">Resume</Link>
@@ -156,7 +170,7 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage animated={this.state.home.animated} title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
-          {/* <Route path="/play" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
+          <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
@@ -164,9 +178,11 @@ class App extends React.Component {
           <Route path={this.state.workProjects[0].path} render={() => <TrillPage info={this.state.workProjects[0]} />} />
           <Route path={this.state.workProjects[1].path} render={() => <IotPage info={this.state.workProjects[1]} />} />
           <Route path={this.state.workProjects[2].path} render={() => <TaskCalPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <DasPage info={this.state.workProjects[4]} />} />
-          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <DasPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
+
+          <Route path={this.state.playProjects[0].path} render={() => <LeafPage info={this.state.playProjects[0]} />} />
+          <Route path={this.state.playProjects[1].path} render={() => <SafeWalksPage info={this.state.playProjects[1]} />} />
 
           <ScrollArrow />
           <Footer />
