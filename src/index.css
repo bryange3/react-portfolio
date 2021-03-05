@@ -3,10 +3,13 @@
     display: none;
   }
   h1 {
-    font-size: 50px !important;
+    font-size: 40px !important;
   }
   h2 {
-    font-size: 30px !important
+    font-size: 25px !important;
+  }
+  [class*="role"] {
+    font-size: 18px !important;
   }
   [class*="project-card-image"] {
     width: 100% !important;
@@ -326,7 +329,7 @@ blockquote {
 }
 
 .about-text {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -449,13 +452,12 @@ footer {
 }
 
 .link-underline {
-  color: #666666;
-  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
   transition-duration: 0.5s;
 }
 
 .link-underline:hover {
-  text-decoration: none;
   color: #257CA3;
   transition-duration: 0.5s;
 }
@@ -517,4 +519,13 @@ footer {
 .med-text {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.home-positions {
+  margin-top: 1em;
+  margin-bottom: 0%;
+}
+
+.role {
+  font-size: 24px;
 }

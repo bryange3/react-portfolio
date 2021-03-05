@@ -46,7 +46,7 @@ class App extends React.Component {
       home: {
         animated: '👋🏻',
         title: 'Hi! I\'m Bryan Ge.',
-        subTitle: 'I am a programmer, designer, and photographer.',
+        subTitle: 'I am a designer, programmer, and photographer!',
         description: 'Currently @ UIUC studying CS + Statistics.'
       },
       play: {

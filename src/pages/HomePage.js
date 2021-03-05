@@ -28,17 +28,21 @@ function HomePage(props) {
                 <Container fluid={true}>
                     <Row className="justify-content-center py-5">
                         <Col md={width} sm={12}>
-                            {props.animated && <h1 className="display-3"><Animation>{props.animated}</Animation></h1>}
-                            {props.title && <h1 className="display-3 font-weight-bolder">{props.title}</h1>}
-                            {props.subTitle && <h2 className="display-4 font-weight-normal">{props.subTitle}</h2>}
-                            <h2 className="font-weight-normal mt-4 small-description">Designing for <a className="link-underline" href="https://trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a> and studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a> at <a className="link-underline" href="https://illinois.edu" target="_blank" rel="noreferrer">UIUC</a>.</h2>
+                            {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
+                            {props.title && <h1 className="display-4 font-weight-bolder">{props.title}</h1>}
+                            {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
+                            <div className="home-positions">
+                                <h3 className="font-weight-normal role">Student at the University of Illinois at Urbana-Champaign studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
+                                <h3 className="font-weight-normal role">Product Design Intern at <a className="link-underline" href="https://trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a></h3>
+                                <h3 className="font-weight-normal role">Course Assistant for <a className="link-underline" href="https://stat107.hknguyen.org/" target="_blank" rel="noreferrer">Data Science Discovery</a></h3>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
             </Jumbotron>
 
             <Grid projects={props.projects} />
-        </FadeIn>
+        </FadeIn >
     );
 }
 
