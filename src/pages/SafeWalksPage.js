@@ -45,7 +45,7 @@ function SafeWalksPage(props) {
                         <h2 className="font-weight-bold">
                             Solution
                         </h2>
-                        University SafeWalks connects students with each other and helps bring students walking in similar paths together. By walking in groups, students can feel more comfortable reaching their destinations. To combat the issue of unsolicited registration of non-students, University SafeWalks requires users to sign in using a valid university email address.
+                        University SafeWalks connects students with each other and helps bring students walking in similar paths together. By walking in groups, students can feel more comfortable reaching their destinations. To combat the issue of registration of non-students, University SafeWalks requires users to sign in using a valid university email address.
                     </p>
 
                     <p className="paragraph">
