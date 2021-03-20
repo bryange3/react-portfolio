@@ -16,7 +16,7 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="default">resume</a> or view it below.
+                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1q-DN1mdAKj0zdZgWGs1KtQrXB2qPogue/view?usp=sharing" target="_blank" rel="noreferrer" className="default">professional resume</a> or <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="default">creative resume</a>.
                 </p>
                 <p className="paragraph" data-aos="fade-up">
                     <h2 className="font-weight-bold">
