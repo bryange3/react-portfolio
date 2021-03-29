@@ -74,18 +74,18 @@ function ResumePage(props) {
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
-                            UI/UX Designer<span className="my-gray">, Women in Computer Science</span>
-                        </span>
-                        <br />Jan. 2021 - Present
-                        <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
-                    </p>
-
-                    <p className="paragraph" data-aos="fade-up">
-                        <span className="my-blue font-weight-bold">
                             Web Developer & Content Creator<span className="my-gray">, Daily Awareness Society</span>
                         </span>
                         <br />Sept. 2020 - Present
                         <br />Completed development of dailyawarenesssociety.com website using HTML, CSS, and JavaScript, resulting in 10,000+ page views and 600+ website users in the span of 5 months.
+                    </p>
+
+                    <p className="paragraph" data-aos="fade-up">
+                        <span className="my-blue font-weight-bold">
+                            UI/UX Designer<span className="my-gray">, Women in Computer Science</span>
+                        </span>
+                        <br />Jan. 2021 - March 2021
+                        <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
