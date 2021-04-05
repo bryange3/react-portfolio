@@ -26,7 +26,8 @@ function ResumePage(props) {
                         <span className="my-blue font-weight-bold">
                             University of Illinois at Urbana-Champaign
                         </span>
-                        <br />B.S. Statistics and Computer Science with minors in Business and Informatics
+                        <br />B.S. Statistics and Computer Science
+                        <br />Minors in Business and Informatics
                         <br />Expected May 2024
                     </p>
                     <p className="paragraph" data-aos="fade-up">
@@ -34,8 +35,8 @@ function ResumePage(props) {
                             Texas Academy of Math and Science
                         </span>
                         <br />Computer Science Track
-                        <br />TAMS is an early college high school program offered at the University of North Texas.
-                        <br />2018 - 2020
+                        <br />TAMS is an early college high school program (11th & 12th grade) offered at the University of North Texas.
+                        <br />May 2018 - August 2020
                     </p>
                 </p>
 
@@ -51,13 +52,13 @@ function ResumePage(props) {
                         <span className="my-blue font-weight-bold">
                             Product Design Intern<span className="my-gray">, Trill Project</span>
                         </span>
-                        <br />Jan. 2021 - Present
+                        <br />February. 2021 - Present
                         <br />Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.
                     </p>
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
-                            User Interface Designer<span className="my-gray">, Design Innovation</span>
+                            UI Designer<span className="my-gray">, Design Innovation</span>
                         </span>
                         <br />Sept. 2020 - Dec. 2020
                         <br />Collaborated with 3 other students to design a website interface on Figma that enables students to code and share Internet of Things projects.
@@ -82,7 +83,7 @@ function ResumePage(props) {
 
                     <p className="paragraph" data-aos="fade-up">
                         <span className="my-blue font-weight-bold">
-                            UI/UX Designer<span className="my-gray">, Women in Computer Science</span>
+                            UX/UI Designer<span className="my-gray">, Women in Computer Science</span>
                         </span>
                         <br />Jan. 2021 - March 2021
                         <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
