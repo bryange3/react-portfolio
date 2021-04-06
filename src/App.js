@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
+// import Navbar from "./components/Navbar/Navbar.js"
+
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
 import iot from './assets/iot.png';
@@ -90,7 +92,7 @@ class App extends React.Component {
           id: 2,
           name: 'TaskCal',
           description: 'Personal exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
-          roles: 'UI/UX Designer',
+          roles: 'UX/UI Designer',
           imgSrc: taskcal,
           cover: taskcalcover,
           path: '/taskcal',
@@ -126,7 +128,7 @@ class App extends React.Component {
           id: 0,
           name: 'Winner of Francis Yuen East Asia Hackathon',
           description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
-          roles: 'UI/UX Designer, Frontend Developer',
+          roles: 'UX/UI Designer, Frontend Developer',
           imgSrc: leaf,
           cover: leafproject,
           path: '/hackathon-leaf',
@@ -138,7 +140,7 @@ class App extends React.Component {
           id: 1,
           name: 'University SafeWalks',
           description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
-          roles: 'UI/UX Designer',
+          roles: 'UX/UI Designer',
           imgSrc: safewalks,
           cover: safewalkscover,
           path: '/university-safewalks',
@@ -167,6 +169,7 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+          {/* <Navbar /> */}
 
           <Route path="/" exact render={() => <HomePage animated={this.state.home.animated} title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
           <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} />
