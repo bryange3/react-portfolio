@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Content from '../components/Content.js';
-import ProjectTitle from '../components/ProjectTitle.js';
+import Content from '../../../components/Content.js';
+import ProjectTitle from '../../../components/ProjectTitle.js';
 
-import taskdrag from '../assets/project/taskcal/taskdrag.png';
+import taskdrag from '../../../assets/project/taskcal/taskdrag.png';
 
 function TaskCalPage(props) {
     window.scrollTo(0, 0);

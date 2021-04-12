@@ -2,20 +2,20 @@ import React from 'react';
 
 import Collapsible from 'react-collapsible';
 
-import Content from '../components/Content.js';
-import ProjectTitle from '../components/ProjectTitle.js';
+import Content from '../../../components/Content.js';
+import ProjectTitle from '../../../components/ProjectTitle.js';
 
-import landingpage from '../assets/project/iot/landingpage.png';
-import projectdashboard from '../assets/project/iot/projectdashboard.png';
-import codinginterface from '../assets/project/iot/codinginterface.png';
-import dashboard from '../assets/project/iot/dashboard.png';
-import classintegration from '../assets/project/iot/classintegration.png';
-import category from '../assets/project/iot/category.png';
-import drag from '../assets/project/iot/drag.png';
-import componentinfo from '../assets/project/iot/componentinfo.png';
-import ideation from '../assets/project/iot/ideation.png';
-import community from '../assets/project/iot/community.png';
-import hmwinsight from '../assets/project/iot/hmwinsight.png';
+import landingpage from '../../../assets/project/iot/landingpage.png';
+import projectdashboard from '../../../assets/project/iot/projectdashboard.png';
+import codinginterface from '../../../assets/project/iot/codinginterface.png';
+import dashboard from '../../../assets/project/iot/dashboard.png';
+import classintegration from '../../../assets/project/iot/classintegration.png';
+import category from '../../../assets/project/iot/category.png';
+import drag from '../../../assets/project/iot/drag.png';
+import componentinfo from '../../../assets/project/iot/componentinfo.png';
+import ideation from '../../../assets/project/iot/ideation.png';
+import community from '../../../assets/project/iot/community.png';
+import hmwinsight from '../../../assets/project/iot/hmwinsight.png';
 
 function IotPage(props) {
     window.scrollTo(0, 0);

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Content from '../components/Content.js';
-import ProjectTitle from '../components/ProjectTitle.js';
+import Content from '../../../components/Content.js';
+import ProjectTitle from '../../../components/ProjectTitle.js';
 
-import dasscreenshot from '../assets/project/dasscreenshot.png';
+import dasscreenshot from '../../../assets/project/dasscreenshot.png';
 
 function DasPage(props) {
     window.scrollTo(0, 0);

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Content from '../components/Content.js';
-import ProjectTitle from '../components/ProjectTitle.js';
+import Content from '../../../components/Content.js';
+import ProjectTitle from '../../../components/ProjectTitle.js';
 
-import leafzoom from '../assets/project/leafzoom.png';
+import leafzoom from '../../../assets/project/leafzoom.png';
 
 function LeafPage(props) {
     window.scrollTo(0, 0);

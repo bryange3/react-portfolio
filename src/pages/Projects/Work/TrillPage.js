@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Content from '../components/Content.js';
-import ProjectTitle from '../components/ProjectTitle.js';
+import Content from '../../../components/Content.js';
+import ProjectTitle from '../../../components/ProjectTitle.js';
 
 function TrillPage(props) {
     window.scrollTo(0, 0);
