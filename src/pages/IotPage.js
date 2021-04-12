@@ -47,16 +47,16 @@ function IotPage(props) {
                         </p>
 
                         <p className="paragraph">
-                            <h2 className="font-weight-bold">
+                            <h3 className="font-weight-bold">
                                 Problem
-                            </h2>
+                            </h3>
                             The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms. Our job is to <b>improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page</b>.
                         </p>
 
                         <p className="paragraph">
-                            <h2 className="font-weight-bold">
+                            <h3 className="font-weight-bold">
                                 Solution
-                            </h2>
+                            </h3>
                             IDEofThings is a refreshing improvement to the original design, as it is more <b>informational, understandable, and modern</b>. The new interface is more appealing to students and easier to navigate. The main features include class integration, project dashboard filtering, improved coding experience, and community sharing.
                         </p>
 
@@ -77,9 +77,9 @@ function IotPage(props) {
                     <img src={codinginterface} alt="Coding Interface Before & After" className="project-img" />
 
                     <p className="paragraph med-text">
-                        <h2 className="font-weight-bold">
+                        <h3 className="font-weight-bold">
                             Key Features
-                        </h2>
+                        </h3>
                         <p className="line-space"><b>INFORMATIONAL LANDING PAGE</b></p>
                         <p className="line-space">The landing page provides information on what the IDEofThings platform is used for. When the log-in/sign-up overlay is opened, the background is faded to focus the user's attention on the log-in pane.</p>
                         <iframe title="Landing Page/Login" className="project-img center" width="560" height="500" src="https://www.youtube.com/embed/xJuGz0JpZE4?autoplay=1&mute=1&loop=1&playlist=xJuGz0JpZE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -123,9 +123,9 @@ function IotPage(props) {
                     <hr class="rounded med-text" />
 
                     <p className="paragraph med-text">
-                        <h2 className="font-weight-bold">
+                        <h3 className="font-weight-bold">
                             Research
-                        </h2>
+                        </h3>
                         We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform.
 
                         <p className="paragraph">
@@ -193,18 +193,18 @@ function IotPage(props) {
 
                     <div className="med-text">
                         <p className="paragraph">
-                            <h2 className="font-weight-bold">
+                            <h3 className="font-weight-bold">
                                 Synthesis
-                        </h2>
+                        </h3>
                         After gathering all our research, we identified the problems with the existing design through <b>"How Might We" statements</b> and <b>insight statements</b>.
                     </p>
 
                         <img src={hmwinsight} alt="How Might We & Insight Statements" className="project-img-medium center" />
 
                         <p className="paragraph">
-                            <h2 className="font-weight-bold">
+                            <h3 className="font-weight-bold">
                                 Low-fidelity
-                        </h2>
+                            </h3>
                         Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. I sketched the project dashboard in the top-left of the image below to include a cohesive header which contains the main controls and more functional project cards. We then came together and used colored circles to mark individual features we liked and wanted to include in our design.
                     </p>
                     </div>
@@ -256,7 +256,7 @@ function IotPage(props) {
 
                     <div className="med-text">
                         <p className="paragraph">
-                            Check out our <a href="https://www.figma.com/file/5NeueJmeFWk6oWz3mzY6Uo/Internet-of-Things-Playground?node-id=509%3A1387" target="_blank" rel="noreferrer" className="default">Figma document</a>.
+                            Check out our <a href="https://www.figma.com/file/5NeueJmeFWk6oWz3mzY6Uo/Internet-of-Things-Playground?node-id=509%3A1387" target="_blank" rel="noreferrer" className="link-underline">Figma document</a>.
                         </p>
 
                         <iframe title="IOT Playground Figma Wireframe" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5NeueJmeFWk6oWz3mzY6Uo%2FInternet-of-Things-Playground%3Fnode-id%3D509%253A1387" allowfullscreen></iframe>

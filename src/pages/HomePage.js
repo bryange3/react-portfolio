@@ -27,9 +27,9 @@ function HomePage(props) {
             <Jumbotron className="bg-transparent jumbotron-fluid hero">
                 <Container fluid={true}>
                     <Row className="justify-content-center py-5">
-                        <Col md={width - 1} sm={12}>
+                        <Col md={width - 2} sm={12}>
                             {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
-                            {props.title && <h1 className="display-4 font-weight-bolder">{props.title}</h1>}
+                            {props.title && <h1 className="display-5 font-weight-bolder">{props.title}</h1>}
                             {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
                             <div className="home-positions">
                                 <h3 className="font-weight-normal role">Product Design Intern at <a className="link-underline" href="https://trillproject.com/" target="_blank" rel="noreferrer">Trill Project</a></h3>

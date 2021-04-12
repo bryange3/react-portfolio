@@ -10,7 +10,7 @@ function PlayPage(props) {
     window.scrollTo(0, 0);
     return (
         <FadeIn delay={400}>
-            <Hero title={props.title} subTitle={props.subTitle} width={width} />
+            <Hero title={props.title} subTitle={props.subTitle} width={width - 2} />
             <Grid projects={props.projects} />
         </FadeIn>
     );

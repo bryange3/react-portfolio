@@ -52,7 +52,7 @@ class App extends React.Component {
       },
       play: {
         title: '🤓 For Fun',
-        subTitle: 'Here are some projects I have done for fun!'
+        subTitle: 'Here are my hackathon, designathon, and personal projects.'
       },
       about: {
         title: '🧑🏻‍💻 About Me'
@@ -62,12 +62,12 @@ class App extends React.Component {
       },
       photography: {
         title: '📸 Photography',
-        subTitle: 'Some of my favorite moments I\'ve captured.'
+        subTitle: 'Check out some of my favorite moments I\'ve captured.'
       },
       workProjects: [
         {
           id: 0,
-          name: 'Trill Project | Internship',
+          projectTitle: 'Trill Project • Internship',
           description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
           roles: 'Product Designer',
           imgSrc: trill,
@@ -78,7 +78,7 @@ class App extends React.Component {
         },
         {
           id: 1,
-          name: 'Internet of Things Playground',
+          projectTitle: 'Internet of Things Playground',
           description: 'Website where students can code Internet of Things devices and share them with the world.',
           roles: 'UI Designer',
           imgSrc: iot,
@@ -90,7 +90,7 @@ class App extends React.Component {
         },
         {
           id: 2,
-          name: 'TaskCal',
+          projectTitle: 'TaskCal',
           description: 'Personal exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
           roles: 'UX/UI Designer',
           imgSrc: taskcal,
@@ -100,7 +100,7 @@ class App extends React.Component {
         },
         {
           id: 3,
-          name: 'Daily Awareness Society',
+          projectTitle: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'UI Designer, Web Developer, Content Creator',
           imgSrc: das,
@@ -112,7 +112,7 @@ class App extends React.Component {
         },
         {
           id: 4,
-          name: 'Mining for Bias',
+          projectTitle: 'Mining for Bias',
           description: 'Program that gives users bias information on news articles.',
           roles: 'Software Developer',
           imgSrc: mfb,
@@ -126,7 +126,7 @@ class App extends React.Component {
       playProjects: [
         {
           id: 0,
-          name: 'Winner of Francis Yuen East Asia Hackathon',
+          projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
           description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UX/UI Designer, Frontend Developer',
           imgSrc: leaf,
@@ -138,7 +138,7 @@ class App extends React.Component {
         },
         {
           id: 1,
-          name: 'University SafeWalks',
+          projectTitle: 'University SafeWalks',
           description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
           roles: 'UX/UI Designer',
           imgSrc: safewalks,

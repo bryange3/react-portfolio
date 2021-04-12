@@ -16,13 +16,13 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1q-DN1mdAKj0zdZgWGs1KtQrXB2qPogue/view?usp=sharing" target="_blank" rel="noreferrer" className="default">professional resume</a> or <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="default">creative resume</a>.
+                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1q-DN1mdAKj0zdZgWGs1KtQrXB2qPogue/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">professional resume</a> or <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">creative resume</a>.
                 </p>
-                <p className="paragraph" data-aos="fade-up">
+                <p className="paragraph">
                     <h2 className="font-weight-bold">
                         Education
                     </h2>
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             University of Illinois at Urbana-Champaign
                         </span>
@@ -30,25 +30,25 @@ function ResumePage(props) {
                         <br />Minors in Business and Informatics
                         <br />Expected May 2024
                     </p>
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Texas Academy of Math and Science
                         </span>
                         <br />Computer Science Track
-                        <br />TAMS is an early college high school program (11th & 12th grade) offered at the University of North Texas.
+                        <br />TAMS is an early college high school program offered at the University of North Texas.
                         <br />May 2018 - August 2020
                     </p>
                 </p>
 
                 <br />
-                <hr className="rounded" data-aos="fade-up" />
+                <hr className="rounded" />
 
                 <p className="paragraph">
-                    <h2 className="font-weight-bold" data-aos="fade-up">
+                    <h2 className="font-weight-bold">
                         Experience
                     </h2>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Product Design Intern<span className="my-gray">, Trill Project</span>
                         </span>
@@ -56,7 +56,7 @@ function ResumePage(props) {
                         <br />Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             UI Designer<span className="my-gray">, Design Innovation</span>
                         </span>
@@ -66,14 +66,14 @@ function ResumePage(props) {
                 </p>
 
                 <br />
-                <hr className="rounded" data-aos="fade-up" />
+                <hr className="rounded" />
 
                 <p className="paragraph">
-                    <h2 className="font-weight-bold" data-aos="fade-up">
+                    <h2 className="font-weight-bold">
                         Projects
                     </h2>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Web Developer & Content Creator<span className="my-gray">, Daily Awareness Society</span>
                         </span>
@@ -81,7 +81,7 @@ function ResumePage(props) {
                         <br />Completed development of dailyawarenesssociety.com website using HTML, CSS, and JavaScript, resulting in 10,000+ page views and 600+ website users in the span of 5 months.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             UX/UI Designer<span className="my-gray">, Women in Computer Science</span>
                         </span>
@@ -89,7 +89,7 @@ function ResumePage(props) {
                         <br />Currently developing University SafeWalks app, a way for students to find others to walk with to safely reach their destinations on campus.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Software Developer<span className="my-gray">, Mining for Bias</span>
                         </span>
@@ -99,14 +99,14 @@ function ResumePage(props) {
                 </p>
 
                 <br />
-                <hr className="rounded" data-aos="fade-up" />
+                <hr className="rounded" />
 
                 <p className="paragraph">
-                    <h2 className="font-weight-bold" data-aos="fade-up">
-                        Leadership
+                    <h2 className="font-weight-bold">
+                        Involvement
                     </h2>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Course Assistant<span className="my-gray">, UIUC</span>
                         </span>
@@ -114,7 +114,7 @@ function ResumePage(props) {
                     <br />Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Executive<span className="my-gray">, Sexuality and Gender Alliance</span>
                         </span>
@@ -122,7 +122,7 @@ function ResumePage(props) {
                     <br />Prepared presentations on LGBTQ topics and passed legislation to add pronouns to nameplates inside the TAMS residence hall to promote awareness of gender identities.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Senior Mentor<span className="my-gray">, Texas Academy of Math and Science</span>
                         </span>
@@ -132,14 +132,14 @@ function ResumePage(props) {
                 </p>
 
                 <br />
-                <hr className="rounded" data-aos="fade-up" />
+                <hr className="rounded" />
 
                 <p className="paragraph">
-                    <h2 className="font-weight-bold" data-aos="fade-up">
-                        Awards
+                    <h2 className="font-weight-bold">
+                        Honors
                     </h2>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Honorable Mention for DubsTech Protothon
                         </span>
@@ -147,7 +147,7 @@ function ResumePage(props) {
                     <br />Revamped coaching service site to improve customers' experience in seeking and selecting the right type of support (blogs, free consultations, or paid coaching).
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Winner of Francis & Rose Yuen East Asia Hackathon
                         </span>
@@ -155,7 +155,7 @@ function ResumePage(props) {
                     <br />Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, and Python for children to learn about the effects of carbon emissions starting with a new generation.
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="my-blue font-weight-bold">
                             Collegiate DECA State Finalist & International Qualifier
                         </span>
@@ -165,61 +165,59 @@ function ResumePage(props) {
                 </p>
 
                 <br />
-                <hr className="rounded" data-aos="fade-up" />
+                <hr className="rounded"/>
 
                 <p className="paragraph">
-                    <h2 className="font-weight-bold" data-aos="fade-up">
+                    <h2 className="font-weight-bold">
                         Skills
                     </h2>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
                             Programming
                         </span>
                         <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js, R
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
                             Design
                         </span>
                         <br />Figma, Adobe XD, Adobe Lightroom
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
                             Languages
                         </span>
                         <br />English, Mandarin Chinese
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
-                            Certificates
+                            Personal Coursework
                         </span>
                         <br />Introduction to User Experience Design (Coursera - Georgia Tech)
                         <br />Designing for Conversation (Amazon Alexa)
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
-                            UIUC Relevant Courses
+                            UIUC Coursework
                         </span>
                         <br />CS 225 Data Structures (C++)
-                        <br />CS 357 Numerical Methods I (Python)
                         <br />CS 126 Software Design Studio (Java/C++)
                         <br />CS 196 Freshman Honors - Semester Project Course (Python, React.js)
                         <br />STAT 400 Statistics & Probability I (R)
                         <br />STAT 107 Data Science Discovery (Python)
-                        <br />MATH 415 Linear Algebra with Computational Applications (Python)
                     </p>
 
-                    <p className="paragraph" data-aos="fade-up">
+                    <p className="paragraph">
                         <span className="font-weight-bold">
-                            TAMS (UNT) Relevant Courses
+                            TAMS (UNT) Coursework
                         </span>
                         <br />CSCE 2100 Computing Foundations I - Discrete Structures
-                        <br />CSCE 1040 Computer Science II (C++)
+                        <br />CSCE 1040 Computer Science II - Object-Oriented Programming (C++)
                         <br />CSCE 1030 Computer Science I (C++)
                     </p>
                 </p>
