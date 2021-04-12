@@ -53,9 +53,9 @@ function AboutPage(props) {
 
                         <p>
                             🎞️ watching thrillers with friends
-                            <br />📸 going on photoshoots (pre-covid)
+                            <br />📸 going on photoshoots
                             <br />👨‍🍳 baking blueberry crumble & cranberry brie tarts
-                            <br />🐶 spending time with my sister and her corgi (Denzel)
+                            <br />🐶 spending time with my sister and her corgi (Denzel Corgiton)
                         </p>
 
                         <p>
