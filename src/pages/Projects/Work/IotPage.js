@@ -22,7 +22,7 @@ function IotPage(props) {
     const width = 10;
     return (
         <div>
-            <ProjectTitle info={props.info} width={8} />
+            <ProjectTitle info={props.info} width={7} />
             <Content width={width}>
                 <body>
                     <div class="med-text">
@@ -36,10 +36,9 @@ function IotPage(props) {
                             <b>Design Tools</b>: Figma
                             <br />
                             <br />
-                            <i>This project was conducted at Design Innovation Illinois for Professor Matthew Caesar's website.</i>
+                            This project was conducted at Design Innovation Illinois for Professor Matthew Caesar's website.
                         </p>
 
-                        <br />
                         <hr class="rounded" />
 
                         <p className="paragraph impact-statement">
@@ -47,17 +46,23 @@ function IotPage(props) {
                         </p>
 
                         <p className="paragraph">
-                            <h3 className="font-weight-bold">
+                            <p className="section">
                                 Problem
+                            </p>
+                            <h3 className="subsection">
+                                The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms.
                             </h3>
-                            The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms. Our job is to <b>improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page</b>.
+                             Our job is to improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page.
                         </p>
 
                         <p className="paragraph">
-                            <h3 className="font-weight-bold">
+                            <p className="section">
                                 Solution
+                            </p>
+                            <h3 className="subsection">
+                                IoT's interface is more appealing to students and easier to navigate.
                             </h3>
-                            IDEofThings is a refreshing improvement to the original design, as it is more <b>informational, understandable, and modern</b>. The new interface is more appealing to students and easier to navigate. The main features include class integration, project dashboard filtering, improved coding experience, and community sharing.
+                            IDEofThings is a refreshing improvement to the original design, as it is more informational, understandable, and modern. The main features include <mark>class integration, project dashboard filtering, improved coding experience, and community sharing</mark>.
                         </p>
 
                         <p>
@@ -77,21 +82,22 @@ function IotPage(props) {
                     <img src={codinginterface} alt="Coding Interface Before & After" className="project-img" />
 
                     <p className="paragraph med-text">
-                        <h3 className="font-weight-bold">
+                        <hr className="rounded" />
+                        <p className="section">
                             Key Features
-                        </h3>
-                        <p className="line-space"><b>INFORMATIONAL LANDING PAGE</b></p>
+                        </p>
+                        <h3 className="subsection">Informational Landing Page</h3>
                         <p className="line-space">The landing page provides information on what the IDEofThings platform is used for. When the log-in/sign-up overlay is opened, the background is faded to focus the user's attention on the log-in pane.</p>
                         <iframe title="Landing Page/Login" className="project-img center" width="560" height="500" src="https://www.youtube.com/embed/xJuGz0JpZE4?autoplay=1&mute=1&loop=1&playlist=xJuGz0JpZE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         <br />
-                        <p className="line-space"><b>FILTERED PROJECT DASHBOARD</b> (simple and easy to use filtering panel)</p>
+                        <h3 className="subsection">Intuitive Project Dashboard Filtering</h3>
                         <p className="line-space">Students' ability to view projects that have been submitted for classes or starred for individual use makes navigating projects incredibly simple.</p>
                         <img src={dashboard} alt="Project Dashboard" className="project-img center" />
 
                         <br />
-                        <p className="line-space"><b>UPCOMING ASSIGNMENTS VIEW</b> (understandable assignments and deadline information)</p>
-                        <p className="line-space">To improve the class integration experience, I  developed a feature where students are able to view which projects have been submitted for classwork. This can be seen through the green "Submitted" label located on the bottom right of submitted projects. They can also view deadlines for assignments as well as their submission statuses. The <b>color-coded "Submitted" and "Incomplete" labels make it easy for students to see what assignments they need to complete</b>.</p>
+                        <h3 className="subsection">Upcoming Assignments View</h3>
+                        <p className="line-space">To improve the class integration experience, I  developed a feature where students are able to view which projects have been submitted for classwork. This can be seen through the green "Submitted" label located on the bottom right of submitted projects. They can also view deadlines for assignments as well as their submission statuses. The <mark>color-coded "Submitted" and "Incomplete" labels make it easy for students to see what assignments they need to complete</mark>.</p>
                         <p className="line-space">The assignments are shown in chronological order: assignments that are due the soonest at the top and assignments that are due the latest at the bottom.</p>
                         <p className="line-space">Deadline display types:</p>
                         <ul>
@@ -99,19 +105,19 @@ function IotPage(props) {
                             <li>Assignment 2 displays a weekday and time to signify the closeness and relative day of the week that the assignment is due.</li>
                             <li>Assignment 3 shows a date, since the deadline is not near (assignment not due in the following 2 weeks).</li>
                         </ul>
-                        <p className="line-space">The use of adaptable deadline display types enables students to better understand and visualize when their assignment is due. <b>The way deadline information is presented is designed with inspiration from the way humans speak about dates and time.</b></p>
+                        <p className="line-space">The use of adaptable deadline display types enables students to better understand and visualize when their assignment is due. <mark>The way deadline information is presented is designed with inspiration from the way humans speak about dates and time.</mark></p>
                     </p>
 
                     <img src={classintegration} alt="Class Integration" className="project-img center" />
 
                     <p className="med-text">
                         <br />
-                        <p className="line-space"><b>COMMUNITY PAGE</b></p>
+                        <h3 className="subsection">Community Page</h3>
                         <p className="line-space">Users can share their projects with their classmates or with other people using IDEofThings. The community page is designed so that students will see shared projects from their classes at the top and other popular projects below. Contributors to projects are shown by the profile pictures displayed in the bottom right of each project card.</p>
                         <img src={community} alt="Community Page" className="project-img center" />
 
                         <br />
-                        <p className="line-space"><b>CODE EDITOR</b> (expandable/minimizable coding pane, easy component finding, informational components)</p>
+                        <h3 className="subsection">Code Editor</h3>
                         <ul>
                             <li>The coding interface enables users to quickly search for components, view important information about selected components, share their project to the IDEofThings community or Github, and submit their project for classwork.</li>
                             <li>The double-bars graphic on the coding pane signals to the user that they can drag it up and down based on their programming needs. The Internet of Things device (in this case, the Arduino) adapts accordingly.</li>
@@ -123,9 +129,9 @@ function IotPage(props) {
                     <hr class="rounded med-text" />
 
                     <p className="paragraph med-text">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Research
-                        </h3>
+                        </p>
                         We conducted user interviews and competitive analysis to better understand how to improve the existing interface, as well as what students want in an online coding platform.
 
                         <p className="paragraph">
@@ -193,18 +199,20 @@ function IotPage(props) {
 
                     <div className="med-text">
                         <p className="paragraph">
-                            <h3 className="font-weight-bold">
+                            <p className="section">
                                 Synthesis
+                        </p>
+                            <h3 className="subsection">
+                                After gathering all our research, we identified the problems with the existing design through "How Might We" statements and insight statements.
                         </h3>
-                        After gathering all our research, we identified the problems with the existing design through <b>"How Might We" statements</b> and <b>insight statements</b>.
-                    </p>
+                        </p>
 
                         <img src={hmwinsight} alt="How Might We & Insight Statements" className="project-img-medium center" />
 
                         <p className="paragraph">
-                            <h3 className="font-weight-bold">
+                            <p className="section">
                                 Low-fidelity
-                            </h3>
+                            </p>
                         Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. I sketched the project dashboard in the top-left of the image below to include a cohesive header which contains the main controls and more functional project cards. We then came together and used colored circles to mark individual features we liked and wanted to include in our design.
                     </p>
                     </div>
@@ -213,7 +221,7 @@ function IotPage(props) {
 
                     <div className="med-text">
                         <p className="line-space">
-                            Some of the common themes with my decisions for which design elements to include are <b>ease of use, visibility, and practicality</b>. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much <b>cleaner and organized view</b> compared to the old design.
+                            Some of the common themes with my decisions for which design elements to include are <mark>ease of use, visibility, and practicality</mark>. Elements such as the new project button or search bar should be easily viewable and understandable by the user. Including categories in the components pane of the coding interface creates a much <mark>cleaner and organized view</mark> compared to the old design.
                         </p>
 
                         <br />
@@ -222,7 +230,7 @@ function IotPage(props) {
                             For the coding interface, we identified 3 important changes to make to the old design:
                         </p>
 
-                        <p className="line-space"><b>1) Components pane should include categories for greater organization of components</b></p>
+                        <h3 className="subsection">1. Components pane should include categorize components for greater organization</h3>
 
                         <img src={category} alt="Components Categories" className="project-img-small center" />
 
@@ -230,7 +238,7 @@ function IotPage(props) {
                             When the "+" button is clicked, the category expands out.
                         </p>
 
-                        <p className="line-space"><b>2) Coding pane should be height-adjustable to allow the user to see more code at once</b></p>
+                        <h3 className="subsection">2. Coding pane should be height-adjustable, providing more adaptability for the user</h3>
                     </div>
 
                     <img src={drag} alt="Drag Coding Pane" className="project-img center" />
@@ -239,7 +247,7 @@ function IotPage(props) {
                     </p>
 
                     <div className="med-text">
-                        <p className="line-space"><b>3) Right-side component information pane should provide more usable information</b></p>
+                        <h3 className="subsection">3. Right-side component information pane should provide usable information</h3>
 
                         <img src={componentinfo} alt="Component Information Pane" className="project-img center" />
 

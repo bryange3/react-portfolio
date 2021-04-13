@@ -91,7 +91,7 @@ class App extends React.Component {
         {
           id: 2,
           projectTitle: 'TaskCal',
-          description: 'Personal exploration of user interactions in a mobile time-management system for daily tasks and calendar events.',
+          description: 'Personal exploration of user interactions in a mobile time-management system.',
           roles: 'UX/UI Designer',
           imgSrc: taskcal,
           cover: taskcalcover,
@@ -127,7 +127,7 @@ class App extends React.Component {
         {
           id: 0,
           projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
-          description: 'Interactive educational web app for the future generation to learn about their carbon footprint.',
+          description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UX/UI Designer, Frontend Developer',
           imgSrc: leaf,
           cover: leafproject,
@@ -144,8 +144,8 @@ class App extends React.Component {
           imgSrc: safewalks,
           cover: safewalkscover,
           path: '/university-safewalks',
-          teamMembers: '4 team members',
-          timeline: 'January 2021 - Present',
+          teamMembers: '2 UX/UI designers',
+          timeline: 'January 2021 - March 2021',
           location: 'Champaign, IL'
         }
       ]

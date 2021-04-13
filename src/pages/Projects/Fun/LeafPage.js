@@ -7,10 +7,10 @@ import leafzoom from '../../../assets/project/leafzoom.png';
 
 function LeafPage(props) {
     window.scrollTo(0, 0);
-    const width = 7;
+    const width = 6;
     return (
         <div>
-            <ProjectTitle info={props.info} width={width}/>
+            <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
                     <p>
@@ -25,9 +25,9 @@ function LeafPage(props) {
                         <b>Tech Stack</b>: Python, HTML, CSS, JavaScript
                         <br />
                         <br />
-                        <i>This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!</i>
+                        This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!
                     </p>
-                    <br />
+
                     <hr class="rounded" />
 
                     <p className="paragraph impact-statement">
@@ -35,17 +35,25 @@ function LeafPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Challenge
+                        </p>
+
+                        <h3 className="subsection">
+                            Innovate sustainable solutions to climate change by mapping personal carbon emissions.
                         </h3>
-                        Mapping Personal Carbon Footprint - little changes can make a big difference in climate change. We can all be a part of the environmental solution. Your challenge is to innovate sustainable solutions to climate change by mapping personal carbon emissions. Your solution may aid policy makers, scientists, businesses, government agencies, and/or individual consumers, in their global or local decision-making and plans for the future.
+                        Mapping Personal Carbon Footprint - little changes can make a big difference in climate change. We can all be a part of the environmental solution. Your solution may aid policy makers, scientists, businesses, government agencies, and/or individual consumers, in their global or local decision-making and plans for the future.
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Solution
+                        </p>
+
+                        <h3 className="subsection">
+                            LEAF is an interactive and education app with the goal of educating children about what the carbon footprint is and how they can take measures directly from home.
                         </h3>
-                        LEAF is an interactive and education app with the goal of educating children about what the carbon footprint is and how they can take measures directly from home. Users can upload an image of their room and click on various household items in the photo to learn about the items' carbon footprint. At the end of the program, users are able to calculate their own carbon footprint, utilizing the CoolClimate carbon footprint calculator.
+                        Users can upload an image of their room and click on various household items in the photo to learn about the items' carbon footprint. At the end of the program, users are able to calculate their own carbon footprint, utilizing the CoolClimate carbon footprint calculator.
                     </p>
 
                     <p className="paragraph">
@@ -67,9 +75,8 @@ function LeafPage(props) {
 
                     <iframe title="Leaf Figma Wireframe" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FG80m0m41vCR5qC5GoZ3QMO%2FUCHI-HACKATHON-WIREFRAME%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
-                    <br />
                     <hr class="rounded" />
-                    
+
                     <img src={leafzoom} alt="Leaf Zoom Screenshot" className="captionedImg center" />
                     <p className="image-caption">
                         Shake your hands if you enjoyed the hackathon!

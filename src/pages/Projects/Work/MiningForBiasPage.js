@@ -5,7 +5,7 @@ import ProjectTitle from '../../../components/ProjectTitle.js';
 
 function MiningForBiasPage(props) {
     window.scrollTo(0, 0);
-    const width = 7;
+    const width = 6;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
@@ -21,32 +21,39 @@ function MiningForBiasPage(props) {
                         <b>Tech Stack</b>: Python, HTML, CSS, JavaScript
                         <br />
                         <br />
-                        <i>This is our semester-long project "Mining for Bias", which we created in CS 196 Freshman Honors at UIUC.</i>
+                        This is our semester-long project "Mining for Bias", which we created in CS 196 Freshman Honors at UIUC.
                     </p>
-                    <br />
+
                     <hr class="rounded" />
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Problem
+                        </p>
+
+                        <h3 className="subsection">
+                            Readers of online news sources may find articles that attempt to feed the reader a narrative. These articles may contain bias.
                         </h3>
-                        In an age of online media and gaining information on current events through social media and online news sources, readers may find articles that attempt to feed the reader a particular narrative. These articles may contain varying levels of bias.
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Solution
+                        </p>
+
+                        <h3 className="subsection">
+                            We created a webpage where users provide a link to a news article and are given an evaluation of the bias in the article.
                         </h3>
-                        We created a webpage where users provide a link to a news article and are given an evaluation of the bias in the article. This is done through the use of <b>Python</b> and <b>sentiment analysis</b>.
+                        This is done through the use of Python and sentiment analysis.
                     </p>
 
                     <iframe title="Mining for Bias Demo" className="full-width" width="560" height="560" src="https://www.youtube-nocookie.com/embed/Y_1Dw3HevWw?autoplay=1&mute=1&loop=1&playlist=Y_1Dw3HevWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Our Work
-                        </h3>
-                        We used <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>Flask</b> to create a web page where the user can provide a link to an article and receive an evaluation of the bias in the article through the metric of a percentage subjectivity level. The lower the percentage, the less bias there is in the article.
+                        </p>
+                        We used HTML, CSS, and React to create a web page where the user can provide a link to an article and receive an evaluation of the bias in the article through the metric of a percentage subjectivity level. The lower the percentage, the less bias there is in the article.
                     </p>
 
                     <p className="paragraph">

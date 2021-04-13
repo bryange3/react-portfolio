@@ -10,7 +10,7 @@ function DasPage(props) {
     const width = 7;
     return (
         <div>
-            <ProjectTitle info={props.info} width={width}/>
+            <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
                     <p>
@@ -22,7 +22,7 @@ function DasPage(props) {
                         <br />
                         <b>Tech Stack</b>: HTML, CSS, JavaScript
                     </p>
-                    <br />
+
                     <hr class="rounded" />
 
                     <p className="paragraph">
@@ -30,24 +30,31 @@ function DasPage(props) {
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Problem
+                        </p>
+                        <h3 className="subsection">
+                            Young adults may often feel like they are trapped inside a small bubble within their local communities.
                         </h3>
-                        Young adults may often feel like they are trapped inside a small bubble within their local communities. They may not feel as well connected with issues and events happening in the rest of the country or world. This includes a wide variety of topics including health, modern films, injustice, ethics, and more.
+                        They may not feel as well connected with issues and events happening in the rest of the country or world. This includes a wide variety of topics including health, modern films, injustice, ethics, and more.
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             Solution
+                        </p>
+
+                        <h3 className="subsection">
+                            Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events through the form of a published article every week on the <a href="https://dailyawarenesssociety.com/" target="_blank" rel="noreferrer" className="link-underline">dailyawarenesssociety.com</a> website.
                         </h3>
-                        Daily Awareness Society aims to tackle this feeling of isolation through coverage of current events in STEM, entertainment, and lifestyle through the form of a published article every week on the dailyawarenesssociety.com website. It is through promotion on social media platforms that we hope to spread awareness on key topics to other young adults.
+                        Articles range in topics such as STEM, entertainment, and lifestyle. Through promotion on social media platforms, we hope to spread awareness on key topics to other young adults.
                     </p>
 
                     <p className="paragraph">
-                        <h3 className="font-weight-bold">
+                        <p className="section">
                             My Work
-                        </h3>
-                        I wrote articles on topics including self-care, productivity, and current events and published them using <b>HTML</b>. I also utilized <b>CSS</b> for aspects of the user interface including the article view, spacing between elements, and responsivity for mobile and desktop screens. Through weekly posts and social media promotion, dailyawarenesssociety.com has accumulated <b>656 users, 10,748 page views, and 1421 sessions over the course of 5 months</b>.
+                        </p>
+                        I wrote articles on topics including self-care, productivity, and current events and published them using HTML. I also utilized CSS for aspects of the user interface including the article view, spacing between elements, and responsivity for mobile and desktop screens. Through weekly posts and social media promotion, dailyawarenesssociety.com has accumulated <mark>656 users, 10,748 page views, and 1421 sessions over the course of 5 months</mark>.
                     </p>
 
                     <p className="paragraph">

@@ -191,12 +191,6 @@ code {
   letter-spacing: 0.05em;
 }
 
-.project-description {
-  margin-top: 1em;
-  font-size: 18px;
-  line-height: 1.5 !important;
-}
-
 ul.social-media-list {
   list-style-type: none;
   margin: 0;
@@ -210,7 +204,8 @@ ul.social-media-list li {
 }
 
 hr.rounded {
-  margin-top: 2%;
+  margin-top: 70px;
+  margin-bottom: 70px;
   border-top: 1px solid #c2c2c2;
   border-radius: 5px;
 }
@@ -219,7 +214,7 @@ hr.rounded {
   display: block;
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .project-img {
@@ -522,4 +517,47 @@ footer {
 
 .role {
   font-size: 20px;
+}
+
+
+
+
+
+/* new styling */
+
+.section {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #437E98;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.subsection {
+  margin-top: 35px;
+  margin-bottom: 20px !important;
+  font-weight: 600;
+}
+
+mark {
+  background-color: #b2d5e4 !important;
+}
+
+.project-description {
+  margin-top: 1em;
+  margin-bottom: 3em !important;
+  font-size: 18px;
+  line-height: 1.5 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.case-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0 !important;
 }

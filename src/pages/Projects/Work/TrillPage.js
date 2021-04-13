@@ -17,9 +17,8 @@ function TrillPage(props) {
                         <b>Timeline</b>: {props.info.timeline}
                         <br />
                         <b>Design Tools</b>: Figma
-                        <br />
                     </p>
-                    <br />
+
                     <hr class="rounded" />
 
                     <p className="paragraph">
