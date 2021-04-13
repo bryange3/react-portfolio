@@ -22,6 +22,8 @@ import safewalkscover from './assets/project/safewalks/safewalkscover.png';
 
 import taskcal from './assets/taskcal.png';
 import taskcalcover from './assets/project/taskcal/taskcalcover.png';
+import nour from './assets/nour.png';
+import nourcover from './assets/project/nour/nourcover.png';
 
 import bglogo from './assets/BGlogo.svg';
 
@@ -32,6 +34,7 @@ import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Fun/LeafPage.js';
 import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
+import NourPage from './pages/Projects/Fun/NourPage.js';
 import DasPage from './pages/Projects/Work/DasPage.js';
 import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
 import IotPage from './pages/Projects/Work/IotPage.js';
@@ -126,18 +129,30 @@ class App extends React.Component {
       playProjects: [
         {
           id: 0,
+          projectTitle: 'Duke Ideate Designathon',
+          description: 'Social platform connecting the elderly.',
+          roles: 'Product Designer',
+          imgSrc: nour,
+          cover: nourcover,
+          path: '/duke-ideate-designathon',
+          teamMembers: '4 team members',
+          timeline: '24 hours',
+          location: 'Remote'
+        },
+        {
+          id: 1,
           projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UX/UI Designer, Frontend Developer',
           imgSrc: leaf,
           cover: leafproject,
-          path: '/hackathon-leaf',
+          path: '/uchicago-hackathon',
           teamMembers: '4 team members',
-          timeline: 'December 15, 2020 - December 17, 2020',
+          timeline: '2 days',
           location: 'Remote'
         },
         {
-          id: 1,
+          id: 2,
           projectTitle: 'University SafeWalks',
           description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
           roles: 'UX/UI Designer',
@@ -183,8 +198,9 @@ class App extends React.Component {
           <Route path={this.state.workProjects[3].path} render={() => <DasPage info={this.state.workProjects[3]} />} />
           <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
 
-          <Route path={this.state.playProjects[0].path} render={() => <LeafPage info={this.state.playProjects[0]} />} />
-          <Route path={this.state.playProjects[1].path} render={() => <SafeWalksPage info={this.state.playProjects[1]} />} />
+          <Route path={this.state.playProjects[0].path} render={() => <NourPage info={this.state.playProjects[0]} />} />
+          <Route path={this.state.playProjects[1].path} render={() => <LeafPage info={this.state.playProjects[1]} />} />
+          <Route path={this.state.playProjects[2].path} render={() => <SafeWalksPage info={this.state.playProjects[2]} />} />
 
           <ScrollArrow />
           <Footer />
