@@ -79,7 +79,7 @@ function NourPage(props) {
                     <hr class="rounded" />
 
                     <p className="section">
-                        Solution
+                        Key Features
                     </p>
 
                     <p className="paragraph impact-statement">
@@ -135,6 +135,8 @@ function NourPage(props) {
 
                         <img src={searchmethods} alt="Search Methods" className="project-img-small center" />
                     </p>
+
+                    <hr class="rounded" />
 
                     <p className="paragraph">
                         <p className="section">
