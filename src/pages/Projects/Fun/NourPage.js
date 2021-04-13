@@ -161,7 +161,7 @@ function NourPage(props) {
                             After our first iteration of wireframes, I Zoom called my parents, shared my screen, and gave them remote control to walk through our prototype.
                         </h3>
 
-                        Since we only had 24 hours for this challenge, my parents served as the closest in age group and generation to our target audience. I let my parents click away at our prototype and discovered certain areas of confusion. From this, I iterated and produced more understandable screens:
+                        Since we only had 24 hours for this challenge, <mark>my parents served as the closest in age group and generation to our target audience</mark>. I let my parents click away at our prototype and discovered certain areas of confusion. From this, I iterated and produced more understandable screens:
 
                         <h3 className="subsubsection">
                             1. Improved communication of profile code scan
@@ -183,7 +183,7 @@ function NourPage(props) {
                             3. Less overwhelming room discovery
                         </h3>
 
-                        I chose to have our users <mark>browse through rooms one at a time so that the interface would be less overwhelming to view and navigate</mark>. By giving a user one room to preview at a time, they would also be able to <mark>listen in on what discussions are taking place before deciding to enter the room</mark> or not.
+                        I chose to have our users <mark>browse through rooms one at a time so that the interface would be less overwhelming</mark> to view and navigate. By giving a user one room to preview at a time, they would also be able to <mark>listen in on what discussions are taking place before deciding to enter the room</mark> or not.
 
                         <p className="paragraph">
                             By having the <mark>"next" and "previous" room buttons below the room card, they can be easier labeled and tapped</mark>. The larger and clearly labeled buttons underneath the room card also <mark>allow the room card to display more text if the room topic text is longer</mark>.
@@ -218,7 +218,7 @@ function NourPage(props) {
                         This was the first time that I was given a design prompt where I knew almost nothing about the target audience. Building an app for people who are naturally unfamiliar with technology proved difficult. However, through online research and Medium articles, I gained some knowledge on accessible design.
 
                         <p className="paragraph">
-                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the HackDuke Ideate mentors who provided me with their input during the ideation process.
+                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
                         </p>
                     </p>
 
