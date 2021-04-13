@@ -58,7 +58,7 @@ function NourPage(props) {
 
                     <p className="paragraph">
                         <p className="section">
-                            Chosen Problem
+                            Identified Problem
                         </p>
 
                         <h3 className="subsection">
