@@ -141,10 +141,10 @@ function ResumePage(props) {
 
                     <p className="paragraph">
                         <span className="my-blue font-weight-bold">
-                            Honorable Mention for DubsTech Protothon
+                            1st Place at HackDuke Ideate Designathon
                         </span>
-                        <br />Feb. 2021
-                    <br />Revamped coaching service site to improve customers' experience in seeking and selecting the right type of support (blogs, free consultations, or paid coaching).
+                        <br />Apr. 2021
+                        <br />Designed social platform to connect the elderly, focusing on accessibility.
                     </p>
 
                     <p className="paragraph">
@@ -152,7 +152,7 @@ function ResumePage(props) {
                             Winner of Francis & Rose Yuen East Asia Hackathon
                         </span>
                         <br />Dec. 2020
-                    <br />Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, and Python for children to learn about the effects of carbon emissions starting with a new generation.
+                        <br />Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, and Python for children to learn about the effects of carbon emissions starting with a new generation.
                     </p>
 
                     <p className="paragraph">
@@ -165,7 +165,7 @@ function ResumePage(props) {
                 </p>
 
                 <br />
-                <hr className="rounded"/>
+                <hr className="rounded" />
 
                 <p className="paragraph">
                     <h2 className="font-weight-bold">
