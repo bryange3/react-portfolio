@@ -32,10 +32,10 @@ import ScrollArrow from './components/ScrollArrow';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
-import LeafPage from './pages/Projects/Fun/LeafPage.js';
+import LeafPage from './pages/Projects/Work/LeafPage.js';
 import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
-import NourPage from './pages/Projects/Fun/NourPage.js';
-import DasPage from './pages/Projects/Work/DasPage.js';
+import NourPage from './pages/Projects/Work/NourPage.js';
+import DasPage from './pages/Projects/Fun/DasPage.js';
 import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
 import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
@@ -55,7 +55,7 @@ class App extends React.Component {
       },
       play: {
         title: '🤓 For Fun',
-        subTitle: 'Here are my hackathon, designathon, and personal projects.'
+        subTitle: 'Here are some of my smaller personal projects.'
       },
       about: {
         title: '🧑🏻‍💻 About Me'
@@ -81,6 +81,30 @@ class App extends React.Component {
         },
         {
           id: 1,
+          projectTitle: 'Duke Ideate Designathon',
+          description: 'Social platform connecting the elderly.',
+          roles: 'Product Designer',
+          imgSrc: nour,
+          cover: nourcover,
+          path: '/duke-ideate-designathon',
+          teamMembers: '4 team members',
+          timeline: '24 hours',
+          location: 'Remote'
+        },
+        {
+          id: 2,
+          projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
+          description: 'Educational web app for the future generation to learn about their carbon footprint.',
+          roles: 'UX/UI Designer, Frontend Developer',
+          imgSrc: leaf,
+          cover: leafproject,
+          path: '/uchicago-hackathon',
+          teamMembers: '4 team members',
+          timeline: '2 days',
+          location: 'Remote'
+        },
+        {
+          id: 3,
           projectTitle: 'Internet of Things Playground',
           description: 'Website where students can code Internet of Things devices and share them with the world.',
           roles: 'UI Designer',
@@ -90,28 +114,6 @@ class App extends React.Component {
           teamMembers: '4 designers',
           timeline: 'September 2020 - December 2020',
           location: 'Champaign, IL'
-        },
-        {
-          id: 2,
-          projectTitle: 'TaskCal',
-          description: 'Personal exploration of user interactions in a mobile time-management system.',
-          roles: 'UX/UI Designer',
-          imgSrc: taskcal,
-          cover: taskcalcover,
-          path: '/taskcal',
-          timeline: '2 weeks',
-        },
-        {
-          id: 3,
-          projectTitle: 'Daily Awareness Society',
-          description: 'Blog dedicated to spreading awareness on social issues.',
-          roles: 'UI Designer, Web Developer, Content Creator',
-          imgSrc: das,
-          cover: dasproject,
-          path: '/daily-awareness-society',
-          teamMembers: '4 team members',
-          timeline: 'September 2019 - Present',
-          location: 'Denton, TX'
         },
         {
           id: 4,
@@ -129,30 +131,16 @@ class App extends React.Component {
       playProjects: [
         {
           id: 0,
-          projectTitle: 'Duke Ideate Designathon',
-          description: 'Social platform connecting the elderly.',
-          roles: 'Product Designer',
-          imgSrc: nour,
-          cover: nourcover,
-          path: '/duke-ideate-designathon',
-          teamMembers: '4 team members',
-          timeline: '24 hours',
-          location: 'Remote'
+          projectTitle: 'TaskCal',
+          description: 'Personal exploration of user interactions in a mobile time-management system.',
+          roles: 'Interaction Designer',
+          imgSrc: taskcal,
+          cover: taskcalcover,
+          path: '/taskcal',
+          timeline: '2 weeks',
         },
         {
           id: 1,
-          projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
-          description: 'Educational web app for the future generation to learn about their carbon footprint.',
-          roles: 'UX/UI Designer, Frontend Developer',
-          imgSrc: leaf,
-          cover: leafproject,
-          path: '/uchicago-hackathon',
-          teamMembers: '4 team members',
-          timeline: '2 days',
-          location: 'Remote'
-        },
-        {
-          id: 2,
           projectTitle: 'University SafeWalks',
           description: 'Mobile app where students can coordinate walks to safely reach their destinations on campus.',
           roles: 'UX/UI Designer',
@@ -162,6 +150,18 @@ class App extends React.Component {
           teamMembers: '2 UX/UI designers',
           timeline: 'January 2021 - March 2021',
           location: 'Champaign, IL'
+        },
+        {
+          id: 2,
+          projectTitle: 'Daily Awareness Society',
+          description: 'Blog dedicated to spreading awareness on social issues.',
+          roles: 'Web Developer, UI Designer, Content Creator',
+          imgSrc: das,
+          cover: dasproject,
+          path: '/daily-awareness-society',
+          teamMembers: '4 team members',
+          timeline: 'September 2019 - Present',
+          location: 'Denton, TX'
         }
       ]
     }
@@ -193,14 +193,14 @@ class App extends React.Component {
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <TrillPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <IotPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <TaskCalPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <DasPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <LeafPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <IotPage info={this.state.workProjects[3]} />} />
           <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
 
-          <Route path={this.state.playProjects[0].path} render={() => <NourPage info={this.state.playProjects[0]} />} />
-          <Route path={this.state.playProjects[1].path} render={() => <LeafPage info={this.state.playProjects[1]} />} />
-          <Route path={this.state.playProjects[2].path} render={() => <SafeWalksPage info={this.state.playProjects[2]} />} />
+          <Route path={this.state.playProjects[0].path} render={() => <TaskCalPage info={this.state.playProjects[0]} />} />
+          <Route path={this.state.playProjects[1].path} render={() => <SafeWalksPage info={this.state.playProjects[1]} />} />
+          <Route path={this.state.playProjects[2].path} render={() => <DasPage info={this.state.playProjects[2]} />} />
 
           <ScrollArrow />
           <Footer />
