@@ -40,7 +40,6 @@ function ResumePage(props) {
                     </p>
                 </p>
 
-                <br />
                 <hr className="rounded" />
 
                 <p className="paragraph">
@@ -58,6 +57,14 @@ function ResumePage(props) {
 
                     <p className="paragraph">
                         <span className="my-blue font-weight-bold">
+                            Course Assistant<span className="my-gray">, UIUC</span>
+                        </span>
+                        <br />Jan. 2021 - Present
+                    <br />Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
+                    </p>
+
+                    <p className="paragraph">
+                        <span className="my-blue font-weight-bold">
                             UI Designer<span className="my-gray">, Design Innovation</span>
                         </span>
                         <br />Sept. 2020 - Dec. 2020
@@ -65,7 +72,6 @@ function ResumePage(props) {
                     </p>
                 </p>
 
-                <br />
                 <hr className="rounded" />
 
                 <p className="paragraph">
@@ -98,21 +104,12 @@ function ResumePage(props) {
                     </p>
                 </p>
 
-                <br />
                 <hr className="rounded" />
 
                 <p className="paragraph">
                     <h2 className="font-weight-bold">
                         Involvement
                     </h2>
-
-                    <p className="paragraph">
-                        <span className="my-blue font-weight-bold">
-                            Course Assistant<span className="my-gray">, UIUC</span>
-                        </span>
-                        <br />Jan. 2021 - Present
-                    <br />Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
-                    </p>
 
                     <p className="paragraph">
                         <span className="my-blue font-weight-bold">
@@ -131,7 +128,6 @@ function ResumePage(props) {
                     </p>
                 </p>
 
-                <br />
                 <hr className="rounded" />
 
                 <p className="paragraph">
@@ -164,7 +160,6 @@ function ResumePage(props) {
                     </p>
                 </p>
 
-                <br />
                 <hr className="rounded" />
 
                 <p className="paragraph">
