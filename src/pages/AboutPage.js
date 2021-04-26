@@ -5,6 +5,7 @@ import AOS from 'aos';
 import aboutpic from '../assets/aboutprofpic.jpg';
 
 import Hero from '../components/Hero';
+import Content from '../components/Content';
 
 import Container from 'react-bootstrap/Container';
 
@@ -17,7 +18,7 @@ function AboutPage(props) {
     return (
         <FadeIn>
             <Hero title={props.title} width={width - 2} />
-            <Container fluid={true}>
+            <Container fluid={true} class="full-width">
                 <div class="content">
                     <div class="left" data-aos="fade-right">
                         <img
@@ -63,6 +64,25 @@ function AboutPage(props) {
                         </p>
                     </div>
                 </div>
+                <Content width={width - 2}>
+                    <hr class="rounded" />
+                    <p className="about-subtitle">
+                        Shoutout to my mentors and design moms!
+                    </p>
+                    <p>
+                        I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you. 🥰
+                        <p className="paragraph">
+                            <ul>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/takarasatone/">Takara Satone</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://athenatang.com/">Athena Tang</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayushis3/">Ayushi Singh</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meichen-ge-9a980441/">Meichen Ge</a> (best sister!)</li>
+                            </ul>
+                        </p>
+                    </p>
+                </Content>
             </Container>
         </FadeIn>
     );

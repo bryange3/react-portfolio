@@ -577,3 +577,9 @@ mark {
   font-weight: bold;
   margin-top: 0 !important;
 }
+
+.shoutout {
+  background-color: #b5e2f5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
