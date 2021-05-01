@@ -78,6 +78,19 @@ function NourPage(props) {
 
                     <hr class="rounded" />
 
+                    <p className="paragraph">
+                        <p className="section">
+                            Assumption
+                        </p>
+
+                        <h3 className="subsection">
+                            In this project, we assume that our target audience has some understanding of how to use and navigate technology.
+                        </h3>
+                        Because of the pandemic and social distancing, we decided to create a mobile app to host our social platform. Since our target audience is not as familiar with technology and can find understanding new technologies difficult, we focused on designing the most comprehensible and accessible experience possible.
+                    </p>
+
+                    <hr class="rounded" />
+
                     <p className="section">
                         Key Features
                     </p>
@@ -149,7 +162,7 @@ function NourPage(props) {
 
                         <img src={stats} alt="Research Statistics" className="project-img-medium center" />
 
-                        Based on our research, we decided to <mark>tackle the lack of social interaction that many home care patients face</mark>. Ideating a solution for this problem was challenging and took lots of brainstorming. We had seen the rise of Clubhouse and have personally used and enjoyed using the platform to meet others, so we decided to make a version for elders that specifically focused on accessibility.
+                        Based on our research, we decided to <mark>tackle the lack of social interaction that many home care patients face</mark>. Ideating a solution for this problem was challenging and took lots of brainstorming. We saw the rise of Clubhouse, an audio chatroom social network, in connecting people virtually, so we decided to make a version for elders that specifically focused on accessibility.
                     </p>
 
                     <p className="paragraph">
@@ -215,11 +228,10 @@ function NourPage(props) {
                             Accessible design is challenging but necessary.
                         </h3>
 
-                        This was the first time that I was given a design prompt where I knew almost nothing about the target audience. Building an app for people who are naturally unfamiliar with technology proved difficult. However, through online research and Medium articles, I gained some knowledge on accessible design.
+                        This was the first time that I was given a design prompt where I knew almost nothing about the target audience. Building an app for people who are naturally unfamiliar with technology proved difficult. However, through online research and Medium articles, I gained some knowledge about accessible design.
 
                         <p className="paragraph">
-                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!
-                        </p>
+                            I certainly have a lot more to learn regarding designing for all and designing inclusively, but I'm glad that this designathon gave me an introduction to it. Thank you to all the mentors who provided me with their input during the ideation process and to my team for being amazing!                        </p>
                     </p>
 
                     <img src={team} alt="Team" className="project-img" />
