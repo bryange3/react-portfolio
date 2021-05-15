@@ -76,7 +76,7 @@ class App extends React.Component {
           imgSrc: trill,
           cover: trillcover,
           path: '/trillproject',
-          timeline: 'February 2021 - Present',
+          timeline: 'February 2021 - May 2021',
           location: 'Remote'
         },
         {
