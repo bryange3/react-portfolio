@@ -46,15 +46,21 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
+                        UX/UI Design Intern<span className="resume-company"> / Cargill</span>
+                    </h3>
+                    <p className="resume-date">May 2021 - Present</p>
+                    Summer 2021
+
+                    <h3 className="resume-point">
                         Product Design Intern<span className="resume-company"> / Trill Project</span>
                     </h3>
-                    <p className="resume-date">February 2021 - Present</p>
-                    Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.
+                    <p className="resume-date">February 2021 - May 2021</p>
+                    Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves. Lead designs for Mental Wealth Month campaign, as part of Trill’s partnership with Tumblr.
 
                     <h3 className="resume-point">
                         Course Assistant<span className="resume-company"> / UIUC</span>
                     </h3>
-                    <p className="resume-date">January 2021 - Present</p>
+                    <p className="resume-date">January 2021 - May 2021</p>
                     Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
                 </p>
 
