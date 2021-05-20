@@ -33,15 +33,15 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
-import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
+// import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
-import DasPage from './pages/Projects/Fun/DasPage.js';
+import DasPage from './pages/Projects/Work/DasPage.js';
 import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
 import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
-import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
+// import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
-import PlayPage from './pages/PlayPage';
+// import PlayPage from './pages/PlayPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -126,6 +126,18 @@ class App extends React.Component {
           teamMembers: '1 project manager, 5 software developers',
           timeline: 'September 2020 - December 2020',
           location: 'Champaign, IL'
+        },
+        {
+          id: 5,
+          projectTitle: 'Daily Awareness Society',
+          description: 'Blog dedicated to spreading awareness on social issues.',
+          roles: 'Web Developer, UI Designer, Content Creator',
+          imgSrc: das,
+          cover: dasproject,
+          path: '/daily-awareness-society',
+          teamMembers: '4 team members',
+          timeline: 'September 2019 - Present',
+          location: 'Denton, TX'
         }
       ],
       playProjects: [
@@ -150,18 +162,6 @@ class App extends React.Component {
           teamMembers: '2 UX/UI designers',
           timeline: 'January 2021 - March 2021',
           location: 'Champaign, IL'
-        },
-        {
-          id: 2,
-          projectTitle: 'Daily Awareness Society',
-          description: 'Blog dedicated to spreading awareness on social issues.',
-          roles: 'Web Developer, UI Designer, Content Creator',
-          imgSrc: das,
-          cover: dasproject,
-          path: '/daily-awareness-society',
-          teamMembers: '4 team members',
-          timeline: 'September 2019 - Present',
-          location: 'Denton, TX'
         }
       ]
     }
@@ -177,7 +177,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link default" to="/">Work</Link>
-                <Link className="nav-link default" to="/for-fun">For Fun</Link>
+                {/* <Link className="nav-link default" to="/for-fun">For Fun</Link> */}
                 <Link className="nav-link default" to="/photography">Photography</Link>
                 <Link className="nav-link default" to="/about">About</Link>
                 <Link className="nav-link default" to="/resume">Resume</Link>
@@ -187,7 +187,7 @@ class App extends React.Component {
           {/* <Navbar /> */}
 
           <Route path="/" exact render={() => <HomePage animated={this.state.home.animated} title={this.state.home.title} subTitle={this.state.home.subTitle} description={this.state.home.description} projects={this.state.workProjects} />} />
-          <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} />
+          {/* <Route path="/for-fun" exact render={() => <PlayPage title={this.state.play.title} subTitle={this.state.play.subTitle} projects={this.state.playProjects} />} /> */}
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
@@ -197,10 +197,7 @@ class App extends React.Component {
           <Route path={this.state.workProjects[2].path} render={() => <LeafPage info={this.state.workProjects[2]} />} />
           <Route path={this.state.workProjects[3].path} render={() => <IotPage info={this.state.workProjects[3]} />} />
           <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
-
-          <Route path={this.state.playProjects[0].path} render={() => <TaskCalPage info={this.state.playProjects[0]} />} />
-          <Route path={this.state.playProjects[1].path} render={() => <SafeWalksPage info={this.state.playProjects[1]} />} />
-          <Route path={this.state.playProjects[2].path} render={() => <DasPage info={this.state.playProjects[2]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
 
           <ScrollArrow />
           <Footer />
