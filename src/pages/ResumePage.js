@@ -26,16 +26,16 @@ function ResumePage(props) {
                     <h3 className="resume-point">
                         University of Illinois at Urbana-Champaign
                     </h3>
+                    <p className="resume-date">Expected May 2024</p>
                     B.S. Statistics and Computer Science
                     <br />Minors in Business and Informatics
-                    <br />Expected May 2024
 
                     <h3 className="resume-point">
                         Texas Academy of Math and Science
                     </h3>
+                    <p className="resume-date">May 2018 - August 2020</p>
                     Computer Science Track
                     <br />TAMS is an early college high school program offered at the University of North Texas.
-                    <br />May 2018 - August 2020
                 </p>
 
                 <hr className="rounded" />
@@ -52,16 +52,16 @@ function ResumePage(props) {
                     Summer 2021
 
                     <h3 className="resume-point">
-                        Product Design Intern<span className="resume-company"> / Trill Project</span>
+                        Design Intern<span className="resume-company"> / Trill Project</span>
                     </h3>
                     <p className="resume-date">February 2021 - May 2021</p>
-                    Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves. Lead designs for Mental Wealth Month campaign, as part of Trill’s partnership with Tumblr.
+                    Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves. Led designs for Mental Wealth Month campaign, as part of Trill’s partnership with Tumblr.
 
                     <h3 className="resume-point">
                         Course Assistant<span className="resume-company"> / UIUC</span>
                     </h3>
                     <p className="resume-date">January 2021 - May 2021</p>
-                    Course Assistant for STAT 107: Data Science Discovery. Leading Python lab discussion sections and holding office hours to answer students' statistics and programming questions.
+                    Course Assistant for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
                 </p>
 
                 <hr className="rounded" />
@@ -98,10 +98,10 @@ function ResumePage(props) {
                     Designed social platform to connect the elderly, focusing on accessibility.
 
                     <h3 className="resume-point">
-                        Winner of Francis & Rose Yuen East Asia Hackathon
+                        Winner of UChicago Francis & Rose Yuen East Asia Hackathon
                     </h3>
                     <p className="resume-date">December 2020</p>
-                    Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, and Python for children to learn about the effects of carbon emissions starting with a new generation.
+                    Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, Python, and Amazon Rekognition API for children to learn about the effects of carbon emissions starting with a new generation.
                 </p>
 
                 <hr className="rounded" />
@@ -113,13 +113,6 @@ function ResumePage(props) {
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
-                            Programming
-                        </span>
-                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js, R
-                    </p>
-
-                    <p className="paragraph">
-                        <span className="font-weight-bold">
                             Design
                         </span>
                         <br />Figma, Adobe XD, Adobe Lightroom
@@ -127,9 +120,9 @@ function ResumePage(props) {
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
-                            Languages
+                            Programming
                         </span>
-                        <br />English, Mandarin Chinese
+                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js, R
                     </p>
 
                     <p className="paragraph">
@@ -149,6 +142,7 @@ function ResumePage(props) {
                         <br />CS 196 Freshman Honors - Semester Project Course (Python, React.js)
                         <br />STAT 400 Statistics & Probability I (R)
                         <br />STAT 107 Data Science Discovery (Python)
+                        <br />BADM 320 Principles of Marketing
                     </p>
 
                     <p className="paragraph">
@@ -158,6 +152,13 @@ function ResumePage(props) {
                         <br />CSCE 2100 Computing Foundations I - Discrete Structures
                         <br />CSCE 1040 Computer Science II - Object-Oriented Programming (C++)
                         <br />CSCE 1030 Computer Science I (C++)
+                    </p>
+
+                    <p className="paragraph">
+                        <span className="font-weight-bold">
+                            Languages
+                        </span>
+                        <br />English, Mandarin Chinese
                     </p>
                 </p>
             </Content>

@@ -1,14 +1,9 @@
 import React from 'react';
-
 import AOS from 'aos';
-
 import aboutpic from '../assets/aboutprofpic.jpg';
-
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-
 import Container from 'react-bootstrap/Container';
-
 import FadeIn from 'react-fade-in';
 
 function AboutPage(props) {
@@ -41,15 +36,11 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I am a Product Design Intern at <a className="link-underline" target="_blank" rel="noreferrer" href="https://trillproject.com/">Trill Project</a> ideating, wireframing, and prototyping features for mobile and web apps. I am also involved in the user research committee and have worked on developing beta tester relations to gain a better understanding of our customers' wants.
-                        </p>
-
-                        <p>
-                            I am also currently a Course Assistant for <a className="link-underline" target="_blank" rel="noreferrer" href="https://stat107.hknguyen.org/">Data Science Discovery</a>, a course I enjoyed last semester. As a CA, I hold weekly office hours where I answer students’ statistical concepts, programming, and homework questions. I also lead discussion sections where students work on Python labs that help solidify their understanding of statistical methods through programming.
+                            I am an Operations Strategist on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://hack4impact.org/">National Hack4Impact</a> board working on improving the way Hack4Impact runs at its 14 chapters across the nation. Currently, I am revamping the syllabus to increase the level of organization, communication, and engagement within chapters. I am also developing workshops for our Hack4Impact Alumni Mentorship Program. These events include  career growth, social responsibility, and mental health.
                         </p>
 
                         <p className="about-subtitle">
-                            Outside of school, I enjoy...
+                            Outside of work, I enjoy...
                         </p>
 
                         <p>
@@ -60,7 +51,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I'm always down to chat! Feel free to email me at <a className="link-underline" href="mailto:bryanjg2@illinois.edu">bryanjg2@illinois.edu</a>.
+                            I'm always down to chat! Feel free to email me at <a className="link-underline" href="mailto:bryanjg2@illinois.edu">bryanjg2@illinois.edu</a> or connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
                         </p>
                     </div>
                 </div>

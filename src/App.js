@@ -33,15 +33,15 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import LeafPage from './pages/Projects/Work/LeafPage.js';
-// import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
+import SafeWalksPage from './pages/Projects/Fun/SafeWalksPage.js';
 import NourPage from './pages/Projects/Work/NourPage.js';
 import DasPage from './pages/Projects/Work/DasPage.js';
 import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
 import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
-// import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
+import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
-// import PlayPage from './pages/PlayPage';
+import PlayPage from './pages/PlayPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -70,17 +70,6 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Trill Project • Internship',
-          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
-          roles: 'Product Designer',
-          imgSrc: trill,
-          cover: trillcover,
-          path: '/trillproject',
-          timeline: 'February 2021 - May 2021',
-          location: 'Remote'
-        },
-        {
-          id: 1,
           projectTitle: 'Duke Ideate Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Designer',
@@ -92,7 +81,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 2,
+          id: 1,
           projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UX/UI Designer, Frontend Developer',
@@ -104,7 +93,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 3,
+          id: 2,
           projectTitle: 'Internet of Things Playground',
           description: 'Website where students can code Internet of Things devices and share them with the world.',
           roles: 'UI Designer',
@@ -116,19 +105,18 @@ class App extends React.Component {
           location: 'Champaign, IL'
         },
         {
-          id: 4,
-          projectTitle: 'Mining for Bias',
-          description: 'Program that gives users bias information on news articles.',
-          roles: 'Software Developer',
-          imgSrc: mfb,
-          cover: mfbproject,
-          path: '/mining-for-bias',
-          teamMembers: '1 project manager, 5 software developers',
-          timeline: 'September 2020 - December 2020',
-          location: 'Champaign, IL'
+          id: 3,
+          projectTitle: 'Trill Project',
+          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
+          roles: 'UI Designer, Graphic Designer',
+          imgSrc: trill,
+          cover: trillcover,
+          path: '/trillproject',
+          timeline: 'February 2021 - May 2021',
+          location: 'Remote'
         },
         {
-          id: 5,
+          id: 4,
           projectTitle: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'Web Developer, UI Designer, Content Creator',
@@ -138,6 +126,18 @@ class App extends React.Component {
           teamMembers: '4 team members',
           timeline: 'September 2019 - Present',
           location: 'Denton, TX'
+        },
+        {
+          id: 5,
+          projectTitle: 'Mining for Bias',
+          description: 'Program that gives users bias information on news articles.',
+          roles: 'Software Developer',
+          imgSrc: mfb,
+          cover: mfbproject,
+          path: '/mining-for-bias',
+          teamMembers: '1 project manager, 5 software developers',
+          timeline: 'September 2020 - December 2020',
+          location: 'Champaign, IL'
         }
       ],
       playProjects: [
@@ -192,12 +192,12 @@ class App extends React.Component {
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
-          <Route path={this.state.workProjects[0].path} render={() => <TrillPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <LeafPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <IotPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <MiningForBiasPage info={this.state.workProjects[4]} />} />
-          <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <LeafPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <IotPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <TrillPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <DasPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[5]} />} />
 
           <ScrollArrow />
           <Footer />
