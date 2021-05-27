@@ -124,7 +124,7 @@ class App extends React.Component {
           cover: dasproject,
           path: '/daily-awareness-society',
           teamMembers: '4 team members',
-          timeline: 'September 2019 - Present',
+          timeline: 'September 2019 - January 2021',
           location: 'Denton, TX'
         },
         {
