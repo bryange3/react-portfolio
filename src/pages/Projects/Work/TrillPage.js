@@ -1,7 +1,7 @@
 import React from 'react';
-
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
+import grouppic from '../../../assets/project/trill/group.png';
 
 function TrillPage(props) {
     window.scrollTo(0, 0);
@@ -31,6 +31,13 @@ function TrillPage(props) {
 
                     <p>
                         For more details, contact me at <a href="mailto:bryanjg2@illinois.edu" target="_blank" rel="noreferrer" className="default" alt="Email">bryanjg2@illinois.edu</a>!
+                    </p>
+
+                    <hr class="rounded" />
+
+                    <img src={grouppic} alt="Trill Group Photo" className="captionedImg center" />
+                    <p className="image-caption">
+                        Here's a group pic from our final meeting! Will definitely miss this team. :,)
                     </p>
                 </body>
             </Content>

@@ -16,7 +16,7 @@ import dasproject from './assets/project/dasproject.png';
 import mfb from './assets/miningforbias.png';
 import mfbproject from './assets/project/mfbproject.png';
 import trill from './assets/trill.png';
-import trillcover from './assets/project/trillcover.png';
+import trillcover from './assets/project/trill/trillcover.png';
 import safewalks from './assets/safewalks.png';
 import safewalkscover from './assets/project/safewalks/safewalkscover.png';
 

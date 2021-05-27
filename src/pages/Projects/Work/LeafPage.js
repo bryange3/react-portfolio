@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
-
 import leafzoom from '../../../assets/project/leafzoom.png';
 
 function LeafPage(props) {
