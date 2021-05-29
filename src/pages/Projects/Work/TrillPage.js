@@ -5,7 +5,7 @@ import grouppic from '../../../assets/project/trill/group.png';
 
 function TrillPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
@@ -29,6 +29,13 @@ function TrillPage(props) {
                         I lead the creation of designs used for Mental Wealth Month, a campaign done in collaboration with Tumblr. These designs were displayed on the top of Tumblr's feed and used to promote awareness for mental health and relevant apps.
                     </p>
 
+                    <p>
+                        Here is the website I designed in Webflow as part of this campaign:
+                    </p>
+
+                    <iframe className="project-img center" width="500" height="500" src="https://www.youtube-nocookie.com/embed/29cF85m_jjE?autoplay=1&mute=1&loop=1&playlist=29cF85m_jjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <br />
                     <p>
                         For more details, contact me at <a href="mailto:bryanjg2@illinois.edu" target="_blank" rel="noreferrer" className="default" alt="Email">bryanjg2@illinois.edu</a>!
                     </p>
