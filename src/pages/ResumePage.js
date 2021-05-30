@@ -16,7 +16,7 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 Download a PDF of my <a href="https://drive.google.com/file/d/1q-DN1mdAKj0zdZgWGs1KtQrXB2qPogue/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">professional resume</a> or <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">creative resume</a>.
+                    📄 Download a <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">PDF</a> of my resume.
                 </p>
                 <p className="paragraph">
                     <p className="section">
@@ -42,23 +42,23 @@ function ResumePage(props) {
 
                 <p className="paragraph">
                     <p className="section">
-                        Experience
+                        Work Experience
                     </p>
 
                     <h3 className="resume-point">
-                        UX/UI Design Intern<span className="resume-company"> / Cargill</span>
+                        Cargill<span className="resume-company"> — UX/UI Design Intern</span>
                     </h3>
                     <p className="resume-date">May 2021 - Present</p>
                     Summer 2021
 
                     <h3 className="resume-point">
-                        Design Intern<span className="resume-company"> / Trill Project</span>
+                        Trill Project<span className="resume-company"> — Design Intern</span>
                     </h3>
                     <p className="resume-date">February 2021 - May 2021</p>
                     Trill is a platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves. Led designs for Mental Wealth Month campaign, as part of Trill’s partnership with Tumblr.
 
                     <h3 className="resume-point">
-                        Course Assistant<span className="resume-company"> / UIUC</span>
+                        UIUC<span className="resume-company"> — Course Assistant</span>
                     </h3>
                     <p className="resume-date">January 2021 - May 2021</p>
                     Course Assistant for STAT 107: Data Science Discovery. Led Python lab discussion sections and held office hours to answer students' statistics and programming questions.
@@ -68,20 +68,32 @@ function ResumePage(props) {
 
                 <p className="paragraph">
                     <p className="section">
-                        Involvement
+                        Extracurriculars
                     </p>
 
                     <h3 className="resume-point">
-                        Operations Strategist<span className="resume-company"> / National Hack4Impact</span>
+                        National Hack4Impact<span className="resume-company"> — Operations Strategist</span>
                     </h3>
                     <p className="resume-date">April 2021 - Present</p>
                     Hack4Impact is an organization that builds nonprofit software for social good. Currently working on internal chapter growth and mentorship initiatives.
 
                     <h3 className="resume-point">
-                        Events Programmer<span className="resume-company"> / TechTogether Chicago</span>
+                        TechTogether Chicago<span className="resume-company"> — Events Programmer</span>
                     </h3>
                     <p className="resume-date">May 2021 - Present</p>
                     TechTogether is the nation's largest initiative to address the gender inequities in the hackathon community.
+
+                    <h3 className="resume-point">
+                        Design Innovation<span className="resume-company"> — UI Designer</span>
+                    </h3>
+                    <p className="resume-date">September 2020 - December 2020</p>
+                    Redesigned website for Professor Matthew Caesar that enables students to code and share Internet of Things Projects.
+
+                    <h3 className="resume-point">
+                        Sexuality and Gender Alliance<span className="resume-company"> — Executive</span>
+                    </h3>
+                    <p className="resume-date">September 2020 - December 2020</p>
+                    Passed legislation to add pronouns to nameplates inside the TAMS residence building to improve inclusivity within the student community.
                 </p>
 
                 <hr className="rounded" />
@@ -92,13 +104,13 @@ function ResumePage(props) {
                     </p>
 
                     <h3 className="resume-point">
-                        1st Place at HackDuke Ideate Designathon
+                        HackDuke <span className="resume-company"> — 1st Place at Ideate Designathon</span>
                     </h3>
                     <p className="resume-date">April 2021</p>
-                    Designed social platform to connect the elderly, focusing on accessibility.
+                    Designed a social platform to connect the elderly, focusing on accessibility.
 
                     <h3 className="resume-point">
-                        Winner of UChicago Francis & Rose Yuen East Asia Hackathon
+                        UChicago <span className="resume-company"> — Winner of Francis & Rose Yuen East Asia Hackathon</span>
                     </h3>
                     <p className="resume-date">December 2020</p>
                     Developed an educational and interactive web app in a team of 4 using HTML, CSS, JavaScript, Python, and Amazon Rekognition API for children to learn about the effects of carbon emissions starting with a new generation.
@@ -115,14 +127,14 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             Design
                         </span>
-                        <br />Figma, Adobe XD, Adobe Lightroom
+                        <br />Figma, Adobe XD
                     </p>
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
                             Programming
                         </span>
-                        <br />Java, C/C++, Python, HTML, CSS, JavaScript, React.js, R
+                        <br />Java, C/C++, Python, HTML/CSS, React.js, JavaScript, R
                     </p>
 
                     <p className="paragraph">
@@ -147,7 +159,7 @@ function ResumePage(props) {
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
-                            TAMS (UNT) Coursework
+                            TAMS (University of North Texas) Coursework
                         </span>
                         <br />CSCE 2100 Computing Foundations I - Discrete Structures
                         <br />CSCE 1040 Computer Science II - Object-Oriented Programming (C++)
@@ -158,7 +170,7 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             Languages
                         </span>
-                        <br />English, Mandarin Chinese
+                        <br />English (Native), Mandarin (Fluent)
                     </p>
                 </p>
             </Content>

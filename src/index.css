@@ -553,6 +553,7 @@ footer {
   margin-top: 30px;
   margin-bottom: 10px !important;
   font-weight: 600;
+  font-size: 22px !important;
 }
 
 .resume-company {
@@ -560,7 +561,7 @@ footer {
 }
 
 .resume-date {
-  font-weight: 700;
+  font-weight: 600;
   color: #666666;
   text-transform: uppercase;
   margin-bottom: 10px !important;

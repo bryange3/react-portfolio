@@ -1,10 +1,7 @@
 import React from 'react';
-
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-
 import FadeIn from 'react-fade-in';
-
 import Card from '../components/Card.js';
 
 class Grid extends React.Component {
