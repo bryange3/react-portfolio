@@ -1,11 +1,10 @@
 import React from 'react';
-
 import AOS from 'aos';
-
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-
 import FadeIn from 'react-fade-in';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function ResumePage(props) {
     AOS.init();
@@ -149,21 +148,37 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             UIUC Coursework
                         </span>
-                        <br />CS 225 Data Structures (C++)
-                        <br />CS 126 Software Design Studio (Java/C++)
-                        <br />CS 196 Freshman Honors - Semester Project Course (Python, React.js)
-                        <br />STAT 400 Statistics & Probability I (R)
-                        <br />STAT 107 Data Science Discovery (Python)
-                        <br />BADM 320 Principles of Marketing
+                        <Row>
+                            <Col sm>
+                                <ul>
+                                    <li>Data Structures (C++)</li>
+                                    <li>Software Design Studio (Java/C++)</li>
+                                    <li>Freshman Honors - Semester Project Course (Python, React.js)</li>
+                                </ul>
+                            </Col>
+                            <Col sm>
+                                <ul>
+                                    <li>Statistics & Probability I (R)</li>
+                                    <li>Data Science Discovery (Python)</li>
+                                </ul>
+                            </Col>
+                            <Col sm>
+                                <ul>
+                                    <li>Principles of Marketing</li>
+                                </ul>
+                            </Col>
+                        </Row>
                     </p>
 
                     <p className="paragraph">
                         <span className="font-weight-bold">
                             TAMS (University of North Texas) Coursework
                         </span>
-                        <br />CSCE 2100 Computing Foundations I - Discrete Structures
-                        <br />CSCE 1040 Computer Science II - Object-Oriented Programming (C++)
-                        <br />CSCE 1030 Computer Science I (C++)
+                        <ul>
+                            <li>Computing Foundations I - Discrete Structures</li>
+                            <li>Computer Science II - Object-Oriented Programming (C++)</li>
+                            <li>Computer Science I (C++)</li>
+                        </ul>
                     </p>
 
                     <p className="paragraph">

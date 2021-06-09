@@ -1,16 +1,11 @@
 import React from 'react';
-
 import Grid from '../components/Grid';
-
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import FadeIn from 'react-fade-in';
-
 import { shake } from 'react-animations';
-
 import styled, { keyframes } from 'styled-components';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations

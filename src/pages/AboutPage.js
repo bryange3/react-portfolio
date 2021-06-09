@@ -39,19 +39,23 @@ function AboutPage(props) {
                             I am an Operations Strategist on the <a className="link-underline" target="_blank" rel="noreferrer" href="https://hack4impact.org/">National Hack4Impact</a> board working on improving the way Hack4Impact runs at its 14 chapters across the nation. Currently, I am revamping the syllabus to increase the level of organization, communication, and engagement within chapters. I am also developing workshops for our Hack4Impact Alumni Mentorship Program. These events include  career growth, social responsibility, and mental health.
                         </p>
 
+                        <p>
+                            I am interning at <a className="link-underline" target="_blank" rel="noreferrer" href="https://cargill.com/">Cargill</a> as a UX/UI Designer this summer! More details to come.
+                        </p>
+
                         <p className="about-subtitle">
                             Outside of work, I enjoy...
                         </p>
 
                         <p>
                             🎞️ watching thrillers with friends
-                            <br />📸 going on photoshoots
-                            <br />👨‍🍳 baking blueberry crumble & cranberry brie tarts
+                            <br />💄 getting glam and going on photoshoots
+                            <br />👨‍🍳 baking blueberry crumble and cranberry brie tarts
                             <br />🐶 spending time with my sister and her corgi (Denzel Corgiton)
                         </p>
 
                         <p>
-                            I'm always down to chat! Feel free to email me at <a className="link-underline" href="mailto:bryanjg2@illinois.edu">bryanjg2@illinois.edu</a> or connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
+                            I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryanjg2@illinois.edu">bryanjg2@illinois.edu</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
                         </p>
                     </div>
                 </div>
