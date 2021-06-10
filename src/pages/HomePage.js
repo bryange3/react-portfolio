@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
 import { shake } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
+import homeimage from '../assets/HomeImage.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
 const myAnimation = keyframes`${shake}`;
@@ -22,18 +23,21 @@ function HomePage(props) {
             <Jumbotron className="bg-transparent jumbotron-fluid hero">
                 <Container fluid={true}>
                     <Row className="justify-content-center py-5">
-                        <Col md={width - 3} sm={12}>
-                            {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
-                            {props.title && <h1 className="display-5 font-weight-bolder">{props.title}</h1>}
+                        <div class="left">
+                            <img src={homeimage} className="home-image" alt="Figma Cursor" />
+                        </div>
+                        <div class="right">
+                            {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
+                            {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
                             {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
                             <div className="home-positions">
                                 <h3 className="font-weight-normal role">UX/UI Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
 
                                 <h3 className="font-weight-normal role">National Operations Strategist at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
-                                
+
                                 <h3 className="font-weight-normal role">Student at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
                             </div>
-                        </Col>
+                        </div>
                     </Row>
                 </Container>
             </Jumbotron>

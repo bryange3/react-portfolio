@@ -1,7 +1,4 @@
 @media only screen and (max-width: 800px) {
-  [class*="left"] {
-    display: none;
-  }
   h1 {
     font-size: 40px !important;
   }
@@ -357,8 +354,8 @@ blockquote {
 }
 
 .profile-image {
-  vertical-align: middle;
-  max-height: 27em;
+  display: block;
+  max-height: 25em;
   border-radius: 300px;
   width: auto;
   height: auto;
@@ -617,4 +614,16 @@ mark {
   background-color: #b5e2f5;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.home-image {
+  display: block;
+  max-width: 300px;
+  margin-left: 15%;
+  width: auto;
+  height: auto;
+}
+
+.home-title {
+  margin-top: 5%;
 }
