@@ -28,8 +28,8 @@ function HomePage(props) {
                 <Row className="justify-content-center py-5">
                     <Col md={width - 4} sm={12}>
                         <div class="home-images">
-                            <a href="https://www.bryange.com/resume" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                            <a href="https://www.bryange.com/resume" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                            <a href="https://www.bryange.com/about" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                            <a href="https://www.bryange.com/about" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
                         </div>
                         {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
                         {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
