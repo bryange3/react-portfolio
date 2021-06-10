@@ -58,14 +58,11 @@ class App extends React.Component {
         subTitle: 'Here are some of my smaller personal projects.'
       },
       about: {
-        title: '🧑🏻‍💻 About Me'
       },
       resume: {
-        title: '📎 Resume'
+        title: '📎 Check out my experiences.'
       },
-      photography: {
-        title: '📸 Photography',
-        subTitle: 'Check out some of my favorite moments I\'ve captured.'
+      photography: {        
       },
       workProjects: [
         {

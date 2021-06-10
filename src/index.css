@@ -5,6 +5,13 @@
   h2 {
     font-size: 25px !important;
   }
+  [class*="profile-image"] {
+    display: none !important;
+  }
+  [class*="home-image-cursor"] {
+    max-width: 80% !important;
+    left: 140px !important;
+  }
   [class*="role"] {
     font-size: 18px !important;
   }
@@ -30,6 +37,9 @@
   [class*="about-text"] {
     font-size: 18px !important;
     margin: 0px !important;
+  }
+  [class*="home-positions"] {
+    margin-bottom: 0% !important;
   }
   [class*="cover-image"] {
     margin-bottom: 5% !important;
@@ -338,7 +348,7 @@ blockquote {
 }
 
 .right {
-  margin-left: 7%;
+  margin-left: 5%;
   margin-right: 5%;
 }
 
@@ -534,7 +544,7 @@ footer {
 
 .home-positions {
   margin-top: 2em;
-  margin-bottom: 0%;
+  margin-bottom: 7%;
 }
 
 .role {
@@ -616,14 +626,30 @@ mark {
   padding-right: 10%;
 }
 
+.home-images {
+  position: relative;
+}
+
 .home-image {
   display: block;
-  max-width: 300px;
-  margin-left: 15%;
+  max-width: 260px;
   width: auto;
   height: auto;
 }
 
 .home-title {
-  margin-top: 5%;
+  margin-top: 6%;
+}
+
+.top-image {
+  z-index: 1;
+  position: absolute;
+}
+
+.home-image-cursor {
+  max-width: 225px;
+  width: auto;
+  height: auto;
+  left: 200px;
+  bottom: -20px;
 }

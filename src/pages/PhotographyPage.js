@@ -42,7 +42,7 @@ function PhotographyPage(props) {
     window.scrollTo(0, 0);
     return (
         <FadeIn>
-            <Hero title={props.title} subTitle={props.subTitle} width={width - 2} />
+            {/* <Hero title={props.title} subTitle={props.subTitle} width={width - 2} /> */}
             <Content width={"100%"}>
                 <Container fluid={true}>
                     <Row className="justify-content-center">

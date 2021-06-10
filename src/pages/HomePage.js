@@ -5,12 +5,17 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
-import { shake } from 'react-animations';
+import { fadeInRight } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
+
+import AOS from 'aos';
+
 import homeimage from '../assets/HomeImage.png';
+import bottomimage from '../assets/bottomimage.png';
+import topcursor from '../assets/topcursor.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
-const myAnimation = keyframes`${shake}`;
+const myAnimation = keyframes`${fadeInRight}`;
 const Animation = styled.div`
   animation: 1s ${myAnimation};
 `;
@@ -19,28 +24,29 @@ function HomePage(props) {
     const width = 9;
     window.scrollTo(0, 0);
     return (
-        <FadeIn delay={400} className="background">
-            <Jumbotron className="bg-transparent jumbotron-fluid hero">
-                <Container fluid={true}>
-                    <Row className="justify-content-center py-5">
-                        <div class="left">
-                            <img src={homeimage} className="home-image" alt="Figma Cursor" />
-                        </div>
-                        <div class="right">
-                            {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
-                            {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
-                            {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
-                            <div className="home-positions">
-                                <h3 className="font-weight-normal role">UX/UI Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
+        <FadeIn delay={300} className="background">
+            {/* <Jumbotron className="bg-transparent jumbotron-fluid hero"> */}
+            <Container fluid={true}>
+                <Row className="justify-content-center py-5">
+                    <div class="left home-images">
+                        <a href="https://www.bryange.com/resume" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                        <a href="https://www.bryange.com/resume" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                    </div>
+                    <div class="right">
+                        {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
+                        {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
+                        {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
+                        <div className="home-positions">
+                            <h3 className="font-weight-normal role">UX/UI Design Intern at <a className="link-underline" href="https://www.cargill.com/" target="_blank" rel="noreferrer">Cargill</a></h3>
 
-                                <h3 className="font-weight-normal role">National Operations Strategist at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
+                            <h3 className="font-weight-normal role">National Operations Strategist at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
 
-                                <h3 className="font-weight-normal role">Student at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
-                            </div>
+                            <h3 className="font-weight-normal role">Student at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
                         </div>
-                    </Row>
-                </Container>
-            </Jumbotron>
+                    </div>
+                </Row>
+            </Container>
+            {/* </Jumbotron> */}
 
             <Grid projects={props.projects} />
         </FadeIn >
