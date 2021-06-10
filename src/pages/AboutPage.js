@@ -28,7 +28,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I’m currently a freshman at the University of Illinois at Urbana-Champaign majoring in <a className="link-underline" target="_blank" rel="noreferrer" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science">Statistics and Computer Science</a> and minoring in Business and Informatics. I am heavily involved in the design community on campus, especially through <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.designinnovationillinois.com/">Design Innovation</a> and <a className="link-underline" target="_blank" rel="noreferrer" href="http://wcs.illinois.edu/">Women in Computer Science</a> student organizations.
+                            I’m currently a rising sophomore at the University of Illinois at Urbana-Champaign majoring in <a className="link-underline" target="_blank" rel="noreferrer" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science">Statistics and Computer Science</a> and minoring in Business and Informatics. I am heavily involved in the design community on campus, especially through <a className="link-underline" target="_blank" rel="noreferrer" href="https://www.designinnovationillinois.com/">Design Innovation</a> and <a className="link-underline" target="_blank" rel="noreferrer" href="http://wcs.illinois.edu/">Women in Computer Science</a> student organizations.
                         </p>
 
                         <p className="about-subtitle">

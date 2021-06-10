@@ -39,7 +39,7 @@ function HomePage(props) {
 
                             <h3 className="font-weight-normal role">National Operations Strategist at <a className="link-underline" href="https://hack4impact.org/" target="_blank" rel="noreferrer">Hack4Impact</a></h3>
 
-                            <h3 className="font-weight-normal role">Student at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
+                            <h3 className="font-weight-normal role">Rising Sophomore at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
                         </div>
                     </Col>
                 </Row>
