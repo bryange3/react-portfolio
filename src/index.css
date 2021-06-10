@@ -90,6 +90,7 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background-color: #fcfbf7 !important;
+  color: #33312a !important;
 }
 
 .background {
@@ -110,6 +111,10 @@ body {
 
 .line-space {
   margin-bottom: 10px;
+}
+
+.dark-brown {
+  color: #33312a !important;
 }
 
 li {
@@ -162,7 +167,7 @@ code {
 
 .project-card {
   margin: 25px;
-  color: #000;
+  color: #49463D;
   text-decoration: none;
 }
 
@@ -339,7 +344,7 @@ blockquote {
 }
 
 .resume-project-link:hover {
-  color: #000;
+  color: #49463D;
   transition: 0.3s ease-in;
 }
 
