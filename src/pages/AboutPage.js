@@ -40,7 +40,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I am interning at <a className="link-underline" target="_blank" rel="noreferrer" href="https://cargill.com/">Cargill</a> as a UX/UI Designer this summer! More details to come.
+                            I am interning at <a className="link-underline" target="_blank" rel="noreferrer" href="https://cargill.com/">Cargill</a> as a UX/UI Designer this summer! More details to come. :)
                         </p>
 
                         <p className="about-subtitle">
@@ -62,7 +62,7 @@ function AboutPage(props) {
                 <Content width={width - 2}>
                     <hr class="rounded" />
                     <p className="about-subtitle">
-                        Shoutout to my mentors and design moms!
+                        Shoutout to my friends, mentors, and design moms!
                     </p>
                     <p>
                         I've received a ton of support from my friends and members of the design community. Their guidance and mentorship has been incredibly impactful and I am beyond appreciative of them. Thank you. 🥰
@@ -72,6 +72,9 @@ function AboutPage(props) {
                                 <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.amandahe.com/">Amanda He</a></li>
                                 <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://athenatang.com/">Athena Tang</a></li>
                                 <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://riyajain.me/">Riya Jain</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://katesliang.com/">Kate Liang</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://conniexu.com/">Connie Xu</a></li>
+                                <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rachelyqian/">Rachel Qian</a></li>
                                 <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ayushis3/">Ayushi Singh</a></li>
                                 <li><a className="link-underline" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meichen-ge-9a980441/">Meichen Ge</a> (best sister!)</li>
                             </ul>

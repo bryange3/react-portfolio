@@ -18,11 +18,11 @@ function HomePage(props) {
     const width = 9;
     window.scrollTo(0, 0);
     return (
-        <FadeIn delay={400}>
+        <FadeIn delay={400} className="background">
             <Jumbotron className="bg-transparent jumbotron-fluid hero">
                 <Container fluid={true}>
                     <Row className="justify-content-center py-5">
-                        <Col md={width - 2} sm={12}>
+                        <Col md={width - 3} sm={12}>
                             {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>}
                             {props.title && <h1 className="display-5 font-weight-bolder">{props.title}</h1>}
                             {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}

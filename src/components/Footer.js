@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return(
-        <footer className="sticky-footer my-gray">
+        <footer className="sticky-footer my-gray background-med">
             <ul>
                 <li><a href="mailto:bryanjg2@illinois.edu" target="_blank" rel="noreferrer" className="default" alt="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                 <li><a href="https://linkedin.com/in/bryange" target="_blank" rel="noreferrer" className="default" alt="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>

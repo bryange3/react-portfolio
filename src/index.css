@@ -76,12 +76,29 @@ h1, h2, h3 {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, 'Helvetica', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  background-color: #fcfbf7 !important;
+}
+
+.background {
+  background-color: #fcfbf7;
+}
+
+.background-med {
+  background-color: #e8e6df !important;
+}
+
+.background-darker {
+  background-color: #E0DCD0 !important;
+}
+
+.background-darkest {
+  background-color: #49463d !important;
 }
 
 .line-space {
@@ -103,11 +120,11 @@ li {
 }
 
 code {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .default {
-  color: #666666 !important;
+  color: #49463d !important;
   transition: 0.3s ease-in;
   text-decoration: none !important;
 }
@@ -125,7 +142,7 @@ code {
 }
 
 .my-font {
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
+  font-family: 'Chivo', -apple-system, BlinkMacSystemFont, 'Helvetica', sans-serif;
 }
 
 .nav-link {
@@ -137,19 +154,19 @@ code {
 }
 
 .project-card {
-  margin: 20px;
+  margin: 25px;
   color: #000;
   text-decoration: none;
 }
 
 .project-card-image {
   margin-bottom: 20px;
-  /* width: 640px;
-  height: 360px; */
+  /* width: 608px;
+  height: 342px; */
   width: 608px;
   height: 342px;
   background: grey;
-  border-radius: 20px;
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
@@ -380,8 +397,8 @@ footer li a {
 
 footer {
   height: 30px;
-  padding-top: 30px;
-  padding-bottom: 125px;
+  padding-top: 60px;
+  padding-bottom: 140px;
   width: 100%;
   text-align: center;
   margin-top: 50px; /* space between content and footer */
@@ -591,7 +608,7 @@ mark {
 }
 
 .case-title {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 0 !important;
 }
