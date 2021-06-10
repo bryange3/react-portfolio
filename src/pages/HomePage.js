@@ -5,17 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FadeIn from 'react-fade-in';
-import { fadeInRight } from 'react-animations';
+import { merge, fadeInRight, fadeInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
-
-import AOS from 'aos';
 
 import homeimage from '../assets/HomeImage.png';
 import bottomimage from '../assets/bottomimage.png';
 import topcursor from '../assets/topcursor.png';
 
 // Animation code derived from: https://www.npmjs.com/package/react-animations
-const myAnimation = keyframes`${fadeInRight}`;
+const myAnimation = keyframes`${merge(fadeInDown, fadeInRight)}`;
 const Animation = styled.div`
   animation: 1s ${myAnimation};
 `;
@@ -28,11 +26,11 @@ function HomePage(props) {
             {/* <Jumbotron className="bg-transparent jumbotron-fluid hero"> */}
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <div class="left home-images">
-                        <a href="https://www.bryange.com/resume" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
-                        <a href="https://www.bryange.com/resume" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
-                    </div>
-                    <div class="right">
+                    <Col md={width - 4} sm={12}>
+                        <div class="home-images">
+                            <a href="https://www.bryange.com/resume" rel="noreferrer"><img src={bottomimage} className="home-image" alt="Home Profile Pic" /></a>
+                            <a href="https://www.bryange.com/resume" rel="noreferrer"><Animation><img src={topcursor} className="home-image-cursor top-image" alt="Figma Cursor" /></Animation></a>
+                        </div>
                         {/* {props.animated && <h2 className="display-4"><Animation>{props.animated}</Animation></h2>} */}
                         {props.title && <h2 className="display-5 font-weight-bolder home-title">{props.title}</h2>}
                         {/* {props.subTitle && <h2 className="display-5 font-weight-normal">{props.subTitle}</h2>} */}
@@ -43,7 +41,7 @@ function HomePage(props) {
 
                             <h3 className="font-weight-normal role">Student at UIUC studying <a className="link-underline" href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-statistics-computer-science" target="_blank" rel="noreferrer">CS + Statistics</a></h3>
                         </div>
-                    </div>
+                    </Col>
                 </Row>
             </Container>
             {/* </Jumbotron> */}

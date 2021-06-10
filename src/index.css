@@ -9,7 +9,7 @@
     display: none !important;
   }
   [class*="home-image-cursor"] {
-    max-width: 80% !important;
+    max-width: 15em !important;
     left: 140px !important;
   }
   [class*="role"] {
@@ -632,13 +632,13 @@ mark {
 
 .home-image {
   display: block;
-  max-width: 260px;
+  max-width: 180px;
   width: auto;
   height: auto;
 }
 
 .home-title {
-  margin-top: 6%;
+  margin-top: 3em;
 }
 
 .top-image {
@@ -647,9 +647,9 @@ mark {
 }
 
 .home-image-cursor {
-  max-width: 225px;
+  max-width: 275px;
   width: auto;
   height: auto;
-  left: 200px;
-  bottom: -20px;
+  left: 110px;
+  bottom: -60px;
 }
