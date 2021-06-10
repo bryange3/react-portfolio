@@ -10,7 +10,7 @@
   }
   [class*="home-image-cursor"] {
     max-width: 15em !important;
-    left: 140px !important;
+    left: 120px !important;
   }
   [class*="role"] {
     font-size: 18px !important;
