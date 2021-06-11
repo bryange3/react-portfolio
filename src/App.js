@@ -67,7 +67,7 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
-          projectTitle: 'Duke Ideate Designathon',
+          projectTitle: 'HackDuke Ideate Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Designer',
           imgSrc: nour,

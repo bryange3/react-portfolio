@@ -48,7 +48,7 @@ function ResumePage(props) {
                         Cargill<span className="resume-company"> — UX/UI Design Intern</span>
                     </h3>
                     <p className="resume-date">May 2021 - Present</p>
-                    Summer 2021
+                    Collaborating with software engineers to develop a culinary innovation dashboard for a leading quick service restaurant brand.
 
                     <h3 className="resume-point">
                         Trill Project<span className="resume-company"> — Design Intern</span>
@@ -151,6 +151,7 @@ function ResumePage(props) {
                         <Row>
                             <Col sm>
                                 <ul>
+                                    <li>Introduction to Computer Systems (Fall 2021)</li>
                                     <li>Data Structures (C++)</li>
                                     <li>Software Design Studio (Java/C++)</li>
                                     <li>Freshman Honors - Semester Project Course (Python, React.js)</li>
@@ -158,12 +159,15 @@ function ResumePage(props) {
                             </Col>
                             <Col sm>
                                 <ul>
-                                    <li>Statistics & Probability I (R)</li>
+                                    <li>Statistics Programming Methods (Fall 2021)</li>
+                                    <li>Statistics & Probability II (Fall 2021)</li>
+                                    <li>Statistics & Probability I</li>
                                     <li>Data Science Discovery (Python)</li>
                                 </ul>
                             </Col>
                             <Col sm>
                                 <ul>
+                                    <li>Design for Social Impact (Fall 2021)</li>
                                     <li>Principles of Marketing</li>
                                 </ul>
                             </Col>
