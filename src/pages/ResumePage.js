@@ -83,6 +83,12 @@ function ResumePage(props) {
                     TechTogether is the nation's largest initiative to address the gender inequities in the hackathon community.
 
                     <h3 className="resume-point">
+                        The Trevor Project<span className="resume-company"> — Design Sprint Participant & Volunteer</span>
+                    </h3>
+                    <p className="resume-date">May 2021 - Present</p>
+                    The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
+
+                    <h3 className="resume-point">
                         Design Innovation<span className="resume-company"> — UI Designer</span>
                     </h3>
                     <p className="resume-date">September 2020 - December 2020</p>
