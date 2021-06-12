@@ -50,8 +50,7 @@ class App extends React.Component {
       title: "Bryan Ge | Portfolio",
       home: {
         animated: '👋🏻',
-        title: 'Product designer by day and Minecraft gamer by night.',
-        description: 'Currently @ UIUC studying CS + Statistics.'
+        title: 'Product designer + developer by day, Minecraft gamer playing cake wars by night.',
       },
       play: {
         title: '🤓 For Fun',
