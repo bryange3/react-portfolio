@@ -102,7 +102,7 @@ class App extends React.Component {
         },
         {
           id: 3,
-          projectTitle: 'Trill Project',
+          projectTitle: 'Trill Project — Design Internship',
           description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
           roles: 'UI Designer, Graphic Designer',
           imgSrc: trill,
