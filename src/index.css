@@ -201,24 +201,44 @@ code {
   max-width: 576px;
   margin: 0px;
   margin-bottom: 5px;
+  color: #33312A;
 }
 
 .project-card-subtitle {
   max-width: 576px;
   font-size: 18px;
-  margin: 0px;
+  margin-top: 6px;
   margin-bottom: 2px;
-  color: #666;
+  color: #635f54;
 }
 
 .project-card-role {
-  margin-top: 7px;
+  margin-top: 6px;
   max-width: 576px;
   font-size: 14px;
   font-weight: bold;
   color: #437e99;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.project-card-type {
+  margin-top: 10px;
+  max-width: 576px;
+  font-size: 14px;
+  color: #33312a;
+  background-color: #e1eaee;
+  border-radius: 5px;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  float: left;
+
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 ul.social-media-list {

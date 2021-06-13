@@ -25,7 +25,7 @@ function Card(props) {
                     alt={props.item.imgSrc}
                 />
             </div>
-            <CardInfo projectTitle={props.item.projectTitle} subTitle={props.item.description} roles={props.item.roles} path={props.item.path} />
+            <CardInfo projectTitle={props.item.projectTitle} subTitle={props.item.description} roles={props.item.roles} path={props.item.path} type={props.item.type}/>
         </Link>
     );
 }
