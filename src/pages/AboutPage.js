@@ -24,7 +24,7 @@ function AboutPage(props) {
                     </div>
                     <div class="right">
                         <p className="about-subtitle">
-                            Hi there! I'm Bryan Ge.
+                            Hi there! I'm Bryan Ge and my pronouns are he/him.
                         </p>
 
                         <p>
