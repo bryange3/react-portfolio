@@ -5,13 +5,16 @@ import grouppic from '../../../assets/project/trill/group.png';
 
 function TrillPage(props) {
     window.scrollTo(0, 0);
-    const width = 7;
+    const width = 6;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
                     <p>
+                        <div className="project-card-type">{props.info.type}</div>
+                        <br />
+                        <br />
                         <b>Role</b>: {props.info.roles}
                         <br />
                         <b>Timeline</b>: {props.info.timeline}
@@ -37,7 +40,7 @@ function TrillPage(props) {
 
                     <br />
                     <p>
-                        For more details, contact me at <a href="mailto:bryanjg2@illinois.edu" target="_blank" rel="noreferrer" className="default" alt="Email">bryanjg2@illinois.edu</a>!
+                        For more details, contact me at <a href="mailto:bryange3@gmail.com" target="_blank" rel="noreferrer" className="default" alt="Email">bryange3@gmail.com</a>!
                     </p>
 
                     <hr class="rounded" />

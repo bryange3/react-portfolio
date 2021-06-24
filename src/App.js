@@ -7,6 +7,8 @@ import './App.css';
 
 // import Navbar from "./components/Navbar/Navbar.js"
 
+import cargill from './assets/cargill.png';
+import cargillcover from './assets/project/cargillcover.png';
 import leaf from './assets/leaf.png';
 import leafproject from './assets/project/leafproject.png';
 import iot from './assets/iot.png';
@@ -39,6 +41,7 @@ import DasPage from './pages/Projects/Work/DasPage.js';
 import MiningForBiasPage from './pages/Projects/Work/MiningForBiasPage.js';
 import IotPage from './pages/Projects/Work/IotPage.js';
 import TrillPage from './pages/Projects/Work/TrillPage.js';
+import CargillPage from './pages/Projects/Work/CargillPage.js';
 import TaskCalPage from './pages/Projects/Fun/TaskCalPage.js';
 import PhotographyPage from './pages/PhotographyPage';
 import PlayPage from './pages/PlayPage';
@@ -66,6 +69,31 @@ class App extends React.Component {
       workProjects: [
         {
           id: 0,
+          projectTitle: 'Cargill — UX/UI Design Internship',
+          description: 'Culinary innovation dashboard to hold a leading quick service restaurant brand\'s menu item idea portfolio.',
+          roles: 'UX/UI Design, User Research',
+          type: 'Summer 2021 Internship',
+          imgSrc: cargill,
+          cover: cargillcover,
+          path: '/cargill-internship',
+          teamMembers: '1 UX/UI Design Intern, 3 Software Engineering Interns, 2 Product Coaches',
+          timeline: 'May 2021 - Present',
+          location: 'Remote'
+        },
+        {
+          id: 1,
+          projectTitle: 'Trill Project — Design Internship',
+          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
+          roles: 'User Research, UI Design, Web Design',
+          type: 'Spring 2021 Internship',
+          imgSrc: trill,
+          cover: trillcover,
+          path: '/trillproject-internship',
+          timeline: 'February 2021 - May 2021',
+          location: 'Remote'
+        },
+        {
+          id: 2,
           projectTitle: 'HackDuke Ideate Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Design, User Research',
@@ -78,7 +106,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 1,
+          id: 3,
           projectTitle: 'UChicago Francis & Rose Yuen East Asia Hackathon',
           description: 'Educational web app for the future generation to learn about their carbon footprint.',
           roles: 'UX/UI Design, Frontend Development',
@@ -91,7 +119,7 @@ class App extends React.Component {
           location: 'Remote'
         },
         {
-          id: 2,
+          id: 4,
           projectTitle: 'Internet of Things Playground',
           description: 'Website where students can code Internet of Things devices and share them with the world.',
           roles: 'User Research, UI Design',
@@ -101,22 +129,10 @@ class App extends React.Component {
           path: '/iot-playground',
           teamMembers: '4 designers',
           timeline: 'September 2020 - December 2020',
-          location: 'Champaign, IL'
-        },
-        {
-          id: 3,
-          projectTitle: 'Trill Project — Design Internship',
-          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
-          roles: 'User Research, UI Design, Web Design',
-          type: 'Spring 2021 Internship',
-          imgSrc: trill,
-          cover: trillcover,
-          path: '/trillproject',
-          timeline: 'February 2021 - May 2021',
           location: 'Remote'
         },
         {
-          id: 4,
+          id: 5,
           projectTitle: 'Daily Awareness Society',
           description: 'Blog dedicated to spreading awareness on social issues.',
           roles: 'Web Development, UI Design, Content Creation',
@@ -129,7 +145,7 @@ class App extends React.Component {
           location: 'Denton, TX'
         },
         {
-          id: 5,
+          id: 6,
           projectTitle: 'Mining for Bias',
           description: 'Program that gives users bias information on news articles.',
           roles: 'Software Development',
@@ -139,7 +155,7 @@ class App extends React.Component {
           path: '/mining-for-bias',
           teamMembers: '1 project manager, 5 software developers',
           timeline: 'September 2020 - December 2020',
-          location: 'Champaign, IL'
+          location: 'Remote'
         }
       ],
       playProjects: [
@@ -196,12 +212,13 @@ class App extends React.Component {
           <Route path="/photography" exact render={() => <PhotographyPage title={this.state.photography.title} subTitle={this.state.photography.subTitle} />} />
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
-          <Route path={this.state.workProjects[0].path} render={() => <NourPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <LeafPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <IotPage info={this.state.workProjects[2]} />} />
-          <Route path={this.state.workProjects[3].path} render={() => <TrillPage info={this.state.workProjects[3]} />} />
-          <Route path={this.state.workProjects[4].path} render={() => <DasPage info={this.state.workProjects[4]} />} />
-          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[0].path} render={() => <CargillPage info={this.state.workProjects[0]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <TrillPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
+          <Route path={this.state.workProjects[4].path} render={() => <IotPage info={this.state.workProjects[4]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
+          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[6]} />} />
 
           <ScrollArrow />
           <Footer />

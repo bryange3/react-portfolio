@@ -12,6 +12,9 @@ function MiningForBiasPage(props) {
             <Content width={width}>
                 <body>
                     <p>
+                        <div className="project-card-type">{props.info.type}</div>
+                        <br />
+                        <br />
                         <b>Role</b>: {props.info.roles}
                         <br />
                         <b>Timeline</b>: {props.info.timeline}

@@ -27,6 +27,9 @@ function IotPage(props) {
                 <body>
                     <div class="med-text">
                         <p>
+                            <div className="project-card-type">{props.info.type}</div>
+                            <br />
+                            <br />
                             <b>Role</b>: {props.info.roles}
                             <br />
                             <b>Timeline</b>: {props.info.timeline}
@@ -52,7 +55,7 @@ function IotPage(props) {
                             <h3 className="subsection">
                                 The existing design is not informational, user-friendly, or practical and is lacking in common features found in competing platforms.
                             </h3>
-                             Our job is to improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page.
+                            Our job is to improve the existing design's landing page, project dashboard, and coding interface as well as create designs for the account and community page.
                         </p>
 
                         <p className="paragraph">
@@ -201,10 +204,10 @@ function IotPage(props) {
                         <p className="paragraph">
                             <p className="section">
                                 Synthesis
-                        </p>
+                            </p>
                             <h3 className="subsection">
                                 After gathering all our research, we identified the problems with the existing design through "How Might We" statements and insight statements.
-                        </h3>
+                            </h3>
                         </p>
 
                         <img src={hmwinsight} alt="How Might We & Insight Statements" className="project-img-medium center" />
@@ -213,8 +216,8 @@ function IotPage(props) {
                             <p className="section">
                                 Low-fidelity
                             </p>
-                        Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. I sketched the project dashboard in the top-left of the image below to include a cohesive header which contains the main controls and more functional project cards. We then came together and used colored circles to mark individual features we liked and wanted to include in our design.
-                    </p>
+                            Each of us made low fidelity mockups of the landing page, project dashboard, and coding interface. I sketched the project dashboard in the top-left of the image below to include a cohesive header which contains the main controls and more functional project cards. We then came together and used colored circles to mark individual features we liked and wanted to include in our design.
+                        </p>
                     </div>
 
                     <img src={ideation} alt="Ideation Lo-fi Mockups" className="project-img center" />
