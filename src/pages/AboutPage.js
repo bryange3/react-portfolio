@@ -55,7 +55,7 @@ function AboutPage(props) {
                         </p>
 
                         <p>
-                            I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryanjg2@illinois.edu">bryanjg2@illinois.edu</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
+                            I'm always down to chat! Email me at <a className="link-underline" href="mailto:bryange3@gmail.com">bryange3@gmail.com</a> and connect with me on <a className="link-underline" href="https://linkedin.com/in/bryange">LinkedIn</a>.
                         </p>
                     </div>
                 </div>
