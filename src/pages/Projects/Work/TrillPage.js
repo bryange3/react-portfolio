@@ -45,7 +45,7 @@ function TrillPage(props) {
 
                     <hr class="rounded" />
 
-                    <img src={grouppic} alt="Trill Group Photo" className="captionedImg center" />
+                    <img src={grouppic} alt="Trill Project Team" className="captionedImg center" />
                     <p className="image-caption">
                         Here's a group pic from our final meeting! Will definitely miss this team. :,)
                     </p>

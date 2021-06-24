@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Hero from '../components/Hero';
 import Content from '../components/Content';
 
 import Row from 'react-bootstrap/Row';
@@ -38,7 +37,6 @@ import sunset from '../assets/photography/Sunset.jpg';
 import washington from '../assets/photography/Washington.jpg';
 
 function PhotographyPage(props) {
-    const width = 9;
     window.scrollTo(0, 0);
     return (
         <FadeIn>

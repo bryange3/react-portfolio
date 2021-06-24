@@ -245,7 +245,7 @@ function NourPage(props) {
                         Check out our <a href="https://www.figma.com/file/o2siBMfCFww1ksk5Xz7ZE5/HackDuke-Ideate-2021-Nour?node-id=0%3A1" target="_blank" rel="noreferrer" className="link-underline">Figma document</a> and play around with the prototype below!
                     </p>
 
-                    <iframe stitle="IOT Playground Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo2siBMfCFww1ksk5Xz7ZE5%2FHackDuke-Ideate-2021-Nour%3Fnode-id%3D1%253A3%26viewport%3D258%252C261%252C0.10952381789684296%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+                    <iframe title="IOT Playground Prototype" className="full-width" style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }} width="800" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo2siBMfCFww1ksk5Xz7ZE5%2FHackDuke-Ideate-2021-Nour%3Fnode-id%3D1%253A3%26viewport%3D258%252C261%252C0.10952381789684296%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
                 </body>
             </Content>
         </div>

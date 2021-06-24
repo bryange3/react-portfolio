@@ -8,7 +8,7 @@ import FadeIn from 'react-fade-in';
 import { merge, fadeInRight, fadeInDown } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
-import homeimage from '../assets/HomeImage.png';
+// import homeimage from '../assets/HomeImage.png';
 import bottomimage from '../assets/bottomimage.png';
 import topcursor from '../assets/topcursor.png';
 

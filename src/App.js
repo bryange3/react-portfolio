@@ -101,7 +101,7 @@ class App extends React.Component {
           imgSrc: nour,
           cover: nourcover,
           path: '/duke-ideate-designathon',
-          teamMembers: '4 team members',
+          teamMembers: '3 Product Designers, 1 Product Marketers',
           timeline: '24 hours',
           location: 'Remote'
         },
@@ -114,7 +114,7 @@ class App extends React.Component {
           imgSrc: leaf,
           cover: leafproject,
           path: '/uchicago-hackathon',
-          teamMembers: '4 team members',
+          teamMembers: '1 UX/UI Designer, 1 Graphic Designer, 1 Backend Developer, 1 Financial Analyst',
           timeline: '2 days',
           location: 'Remote'
         },
@@ -127,7 +127,7 @@ class App extends React.Component {
           imgSrc: iot,
           cover: iotproject,
           path: '/iot-playground',
-          teamMembers: '4 designers',
+          teamMembers: '4 UI Designers',
           timeline: 'September 2020 - December 2020',
           location: 'Remote'
         },
@@ -153,7 +153,7 @@ class App extends React.Component {
           imgSrc: mfb,
           cover: mfbproject,
           path: '/mining-for-bias',
-          teamMembers: '1 project manager, 5 software developers',
+          teamMembers: '1 Project Manager, 5 Software Developers',
           timeline: 'September 2020 - December 2020',
           location: 'Remote'
         }
@@ -218,7 +218,7 @@ class App extends React.Component {
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
           <Route path={this.state.workProjects[4].path} render={() => <IotPage info={this.state.workProjects[4]} />} />
           <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
-          <Route path={this.state.workProjects[5].path} render={() => <MiningForBiasPage info={this.state.workProjects[6]} />} />
+          <Route path={this.state.workProjects[6].path} render={() => <MiningForBiasPage info={this.state.workProjects[6]} />} />
 
           <ScrollArrow />
           <Footer />
