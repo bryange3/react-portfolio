@@ -101,7 +101,7 @@ class App extends React.Component {
           imgSrc: nour,
           cover: nourcover,
           path: '/duke-ideate-designathon',
-          teamMembers: '3 Product Designers, 1 Product Marketers',
+          teamMembers: '3 Designers, 1 Product Marketer',
           timeline: '24 hours',
           location: 'Remote'
         },
