@@ -15,7 +15,7 @@ function ResumePage(props) {
             <Hero title={props.title} width={width} />
             <Content width={width}>
                 <p className="paragraph impact-statement">
-                    📄 Download a <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">PDF</a> of my resume.
+                    📄 I'm currently seeking 2022 spring + summer internships! Connect with me through <a className="link-underline" href="mailto:bryange3@gmail.com">email</a> and download a PDF of my <a href="https://drive.google.com/file/d/1e-ACTyMqLo_neKqfUbgBYhQwGw_DjD7e/view?usp=sharing" target="_blank" rel="noreferrer" className="link-underline">resume</a>.
                 </p>
                 <p className="paragraph">
                     <p className="section">
@@ -51,6 +51,12 @@ function ResumePage(props) {
                     Collaborating with software engineers to develop a culinary innovation dashboard for a leading quick service restaurant brand.
 
                     <h3 className="resume-point">
+                        Develop For Good<span className="resume-company"> — Product Designer</span>
+                    </h3>
+                    <p className="resume-date">July 2021 - Present</p>
+                    Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
+
+                    <h3 className="resume-point">
                         Trill Project<span className="resume-company"> — Design Intern</span>
                     </h3>
                     <p className="resume-date">February 2021 - May 2021</p>
@@ -77,16 +83,16 @@ function ResumePage(props) {
                     Hack4Impact is an organization that builds nonprofit software for social good. Currently working on internal chapter growth and mentorship initiatives.
 
                     <h3 className="resume-point">
-                        TechTogether Chicago<span className="resume-company"> — Events Programmer</span>
-                    </h3>
-                    <p className="resume-date">May 2021 - Present</p>
-                    TechTogether is the nation's largest initiative to address the gender inequities in the hackathon community.
-
-                    <h3 className="resume-point">
                         The Trevor Project<span className="resume-company"> — Design Sprint Participant & Volunteer</span>
                     </h3>
                     <p className="resume-date">May 2021 - Present</p>
                     The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
+
+                    <h3 className="resume-point">
+                        TechTogether Chicago<span className="resume-company"> — Events Programmer</span>
+                    </h3>
+                    <p className="resume-date">May 2021 - Present</p>
+                    TechTogether is the nation's largest initiative to address the gender inequities in the hackathon community.
 
                     <h3 className="resume-point">
                         Design Innovation<span className="resume-company"> — UI Designer</span>
