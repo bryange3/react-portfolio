@@ -64,7 +64,7 @@ class App extends React.Component {
       resume: {
         title: '📎 Check out my experiences.'
       },
-      photography: {        
+      photography: {
       },
       workProjects: [
         {
@@ -82,18 +82,6 @@ class App extends React.Component {
         },
         {
           id: 1,
-          projectTitle: 'Trill Project — Design Internship',
-          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
-          roles: 'User Research, UI Design, Web Design',
-          type: 'Spring 2021 Internship',
-          imgSrc: trill,
-          cover: trillcover,
-          path: '/trillproject-internship',
-          timeline: 'February 2021 - May 2021',
-          location: 'Remote'
-        },
-        {
-          id: 2,
           projectTitle: 'HackDuke Ideate Designathon',
           description: 'Social platform connecting the elderly.',
           roles: 'Product Design, User Research',
@@ -103,6 +91,18 @@ class App extends React.Component {
           path: '/duke-ideate-designathon',
           teamMembers: '3 Designers, 1 Product Marketer',
           timeline: '24 hours',
+          location: 'Remote'
+        },
+        {
+          id: 2,
+          projectTitle: 'Trill Project — Design Internship',
+          description: 'Social media platform that aims to be a safe and inclusive space, enabling people to freely and anonymously express themselves.',
+          roles: 'User Research, UI Design, Web Design',
+          type: 'Spring 2021 Internship',
+          imgSrc: trill,
+          cover: trillcover,
+          path: '/trillproject-internship',
+          timeline: 'February 2021 - May 2021',
           location: 'Remote'
         },
         {
@@ -213,8 +213,8 @@ class App extends React.Component {
           <Route path="/resume" exact render={() => <ResumePage title={this.state.resume.title} />} />
 
           <Route path={this.state.workProjects[0].path} render={() => <CargillPage info={this.state.workProjects[0]} />} />
-          <Route path={this.state.workProjects[1].path} render={() => <TrillPage info={this.state.workProjects[1]} />} />
-          <Route path={this.state.workProjects[2].path} render={() => <NourPage info={this.state.workProjects[2]} />} />
+          <Route path={this.state.workProjects[1].path} render={() => <NourPage info={this.state.workProjects[1]} />} />
+          <Route path={this.state.workProjects[2].path} render={() => <TrillPage info={this.state.workProjects[2]} />} />
           <Route path={this.state.workProjects[3].path} render={() => <LeafPage info={this.state.workProjects[3]} />} />
           <Route path={this.state.workProjects[4].path} render={() => <IotPage info={this.state.workProjects[4]} />} />
           <Route path={this.state.workProjects[5].path} render={() => <DasPage info={this.state.workProjects[5]} />} />
