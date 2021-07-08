@@ -145,7 +145,7 @@ function ResumePage(props) {
                         <span className="font-weight-bold">
                             Programming
                         </span>
-                        <br />Java, C/C++, Python, HTML/CSS, React.js, JavaScript, R
+                        <br />Java, C/C++, Python, HTML/CSS, React.js, JavaScript
                     </p>
 
                     <p className="paragraph">
