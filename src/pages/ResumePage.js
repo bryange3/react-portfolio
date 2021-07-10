@@ -57,6 +57,12 @@ function ResumePage(props) {
                     Redesigning Connect Tutor’s website to serve as a central hub for volunteer tutors, students, school districts, and donors.
 
                     <h3 className="resume-point">
+                        Design Buddies<span className="resume-company"> — Product Splash Participant</span>
+                    </h3>
+                    <p className="resume-date">July 2021 - Present</p>
+                    Product Splash is a 5-week immersive program for product designers and product managers to conceptualize and pitch a new product idea.
+                    
+                    <h3 className="resume-point">
                         Trill Project<span className="resume-company"> — Design Intern</span>
                     </h3>
                     <p className="resume-date">February 2021 - May 2021</p>
@@ -87,12 +93,6 @@ function ResumePage(props) {
                     </h3>
                     <p className="resume-date">May 2021 - Present</p>
                     The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ youth.
-
-                    <h3 className="resume-point">
-                        TechTogether Chicago<span className="resume-company"> — Events Programmer</span>
-                    </h3>
-                    <p className="resume-date">May 2021 - Present</p>
-                    TechTogether is the nation's largest initiative to address the gender inequities in the hackathon community.
 
                     <h3 className="resume-point">
                         Design Innovation<span className="resume-company"> — UI Designer</span>
