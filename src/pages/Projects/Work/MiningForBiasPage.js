@@ -3,29 +3,42 @@ import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function MiningForBiasPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Team Members</b>: {props.info.teamMembers}
-                        <br />
-                        <b>Tech Stack</b>: Python, HTML, CSS, JavaScript
-                        <br />
-                        <br />
-                        This is our semester-long project "Mining for Bias", which we created in CS 196 Freshman Honors at UIUC.
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />Software Development
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            {props.info.timeline}
+                        </Col>
+                        <Col sm>
+                            <b>Team Members</b>
+                            <br />1 Project Manager
+                            <br />5 Software Developers
+                        </Col>
+                        <Col sm>
+                            <b>Tech Stack</b>
+                            <br />Python
+                            <br />HTML/CSS
+                            <br />JavaScript
+                        </Col>
+                    </Row>
+
+                    <br />
+                    This is our semester-long class project "Mining for Bias", which we created in CS 196 Freshman Honors at UIUC.
 
                     <hr class="rounded" />
 

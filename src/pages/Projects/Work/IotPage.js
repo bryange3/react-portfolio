@@ -17,6 +17,9 @@ import ideation from '../../../assets/project/iot/ideation.png';
 import community from '../../../assets/project/iot/community.png';
 import hmwinsight from '../../../assets/project/iot/hmwinsight.png';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function IotPage(props) {
     window.scrollTo(0, 0);
     const width = 10;
@@ -26,21 +29,38 @@ function IotPage(props) {
             <Content width={width}>
                 <body>
                     <div class="med-text">
-                        <p>
-                            <div className="project-card-type">{props.info.type}</div>
-                            <br />
-                            <br />
-                            <b>Role</b>: {props.info.roles}
-                            <br />
-                            <b>Timeline</b>: {props.info.timeline}
-                            <br />
-                            <b>Team Members</b>: {props.info.teamMembers}
-                            <br />
-                            <b>Design Tools</b>: Figma
-                            <br />
-                            <br />
-                            This project was conducted at Design Innovation Illinois for Professor Matthew Caesar's website.
-                        </p>
+                        <Row>
+                            <Col sm>
+                                <b>Role</b>
+                                <br />UI Design
+                                <br />User Research
+                            </Col>
+                            <Col sm>
+                                <b>Timeline</b>
+                                <br />
+                                {props.info.timeline}
+                            </Col>
+                            <Col sm>
+                                <b>Team Members</b>
+                                <br />
+                                1 Design Lead
+                                <br />
+                                3 UI Designers
+                            </Col>
+                            <Col sm>
+                                <b>Client</b>
+                                <br />
+                                Professor Matthew Caesar (UIUC Computer Science Professor)
+                            </Col>
+                            <Col sm>
+                                <b>Design Tools</b>
+                                <br />
+                                Figma
+                            </Col>
+                        </Row>
+                        
+                        <br />
+                        This project was conducted at Design Innovation Illinois for Professor Matthew Caesar's website.
 
                         <hr class="rounded" />
 

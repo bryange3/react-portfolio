@@ -5,26 +5,42 @@ import ProjectTitle from '../../../components/ProjectTitle.js';
 
 import dasscreenshot from '../../../assets/project/dasscreenshot.png';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function DasPage(props) {
     window.scrollTo(0, 0);
     const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
+            {/* <Row>
+                <div className="project-card-type center">{props.info.type}</div>
+            </Row> */}
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Team Members</b>: {props.info.teamMembers}
-                        <br />
-                        <b>Tech Stack</b>: HTML, CSS, JavaScript
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />Web Development
+                            <br />UI Design
+                            <br />Content Creation
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            {props.info.timeline}
+                        </Col>
+                        <Col sm>
+                            <b>Team Members</b>
+                            <br />4 Developers + Content Creators
+                        </Col>
+                        <Col sm>
+                            <b>Tech Stack</b>
+                            <br />HTML/CSS
+                            <br />JavaScript
+                        </Col>
+                    </Row>
 
                     <hr class="rounded" />
 

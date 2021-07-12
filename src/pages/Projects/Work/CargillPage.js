@@ -2,26 +2,52 @@ import React from 'react';
 import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 
+import timeline from '../../../assets/project/cargill/Timeline.png';
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function CargillPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 8;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Team Members</b>: {props.info.teamMembers}
-                        <br />
-                        <b>Design Tools</b>: Figma, FigJam
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />UX Design
+                            <br />UI Design
+                            <br />User Research
+                            <br />User Testing
+                            <br />Client Presentation
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            11 weeks
+                        </Col>
+                        <Col sm>
+                            <b>Team Members</b>
+                            <br />
+                            1 UX/UI Design Intern
+                            <br />3 Software Engineering Interns
+                            <br />1 Product Coach
+                            <br />1 Technical Coach
+                        </Col>
+                        <Col sm>
+                            <b>Client</b>
+                            <br />
+                            Cargill's McDonald's Business Unit
+                        </Col>
+                        <Col sm>
+                            <b>Design Tools</b>
+                            <br />Figma
+                            <br />FigJam
+                        </Col>
+                    </Row>
 
                     <hr class="rounded" />
 
@@ -35,7 +61,13 @@ function CargillPage(props) {
                         </p>
                     </p>
 
+                    <p className="paragraph">
+                        <p className="section">
+                            Process
+                        </p>
 
+                        <img src={timeline} alt="Timeline" className="project-img" />
+                    </p>
 
                     <p className="paragraph">
                         <p className="section">

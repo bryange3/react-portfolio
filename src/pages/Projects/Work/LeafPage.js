@@ -3,31 +3,59 @@ import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 import leafzoom from '../../../assets/project/leafzoom.png';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function LeafPage(props) {
     window.scrollTo(0, 0);
-    const width = 6;
+    const width = 7;
     return (
         <div>
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Team Members</b>: {props.info.teamMembers}
-                        <br />
-                        <b>Design Tools</b>: Figma, Adobe Illustrator, Adobe After Effects, Procreate
-                        <br />
-                        <b>Tech Stack</b>: Python, HTML, CSS, JavaScript
-                        <br />
-                        <br />
-                        This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />UX Design
+                            <br />UI Design
+                            <br />User Research
+                            <br />User Testing
+                            <br />Frontend Development
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            2 days
+                        </Col>
+                        <Col sm>
+                            <b>Team Members</b>
+                            <br />2 Product Designers + Frontend Developers
+                            <br />1 Backend Developer
+                            <br />1 Financial Analyst
+                        </Col>
+                        <Col sm>
+                            <Row>
+                                <Col>
+                                    <b>Design Tools</b>
+                                    <br />Figma
+                                    <br />Procreate
+                                </Col>
+                            </Row>
+                            <br />
+                            <Row>
+                                <Col>
+                                    <b>Tech Stack</b>
+                                    <br />Python
+                                    <br />HTML/CSS
+                                    <br />JavaScript
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+
+                    <br />
+                    This is our winning submission for UChicago's Francis & Rose Yuen East Asia 2020 Hackathon!
 
                     <hr class="rounded" />
 

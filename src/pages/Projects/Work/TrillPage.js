@@ -3,6 +3,9 @@ import Content from '../../../components/Content.js';
 import ProjectTitle from '../../../components/ProjectTitle.js';
 import grouppic from '../../../assets/project/trill/group.png';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function TrillPage(props) {
     window.scrollTo(0, 0);
     const width = 6;
@@ -11,16 +14,25 @@ function TrillPage(props) {
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Design Tools</b>: Figma, Procreate
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />UI Design
+                            <br />Web Design
+                            <br />User Research
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            {props.info.timeline}
+                        </Col>
+                        <Col sm>
+                            <b>Design Tools</b>
+                            <br />Figma
+                            <br />Webflow
+                            <br />Procreate
+                        </Col>
+                    </Row>
 
                     <hr class="rounded" />
 

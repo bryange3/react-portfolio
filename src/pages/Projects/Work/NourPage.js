@@ -13,6 +13,8 @@ import stats from '../../../assets/project/nour/stats.png';
 import team from '../../../assets/project/nour/team.png';
 import searchmethods from '../../../assets/project/nour/SearchMethods.png';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function NourPage(props) {
     window.scrollTo(0, 0);
@@ -22,29 +24,42 @@ function NourPage(props) {
             <ProjectTitle info={props.info} width={width} />
             <Content width={width}>
                 <body>
-                    <p>
-                        <div className="project-card-type">{props.info.type}</div>
-                        <br />
-                        <br />
-                        <b>Role</b>: {props.info.roles}
-                        <br />
-                        <b>Timeline</b>: {props.info.timeline}
-                        <br />
-                        <b>Team Members</b>: {props.info.teamMembers}
-                        <br />
-                        <b>Design Tools</b>: Figma
-                        <br />
-                        <br />
-                        Our project received the following prizes for the 2021 HackDuke Ideate Designathon:
-                        <ul>
-                            <li>
-                                1st Place for Huawei Innovation Awards
-                            </li>
-                            <li>
-                                1st Place for Caring House Challenge
-                            </li>
-                        </ul>
-                    </p>
+                    <Row>
+                        <Col sm>
+                            <b>Role</b>
+                            <br />User Research
+                            <br />UX Design
+                            <br />UI Design
+                            <br />Usability Testing
+                        </Col>
+                        <Col sm>
+                            <b>Timeline</b>
+                            <br />
+                            24 hours
+                        </Col>
+                        <Col sm>
+                            <b>Team Members</b>
+                            <br />
+                            3 Product Designers
+                            <br />1 Product Marketer
+                        </Col>
+                        <Col sm>
+                            <b>Design Tools</b>
+                            <br />
+                            Figma
+                        </Col>
+                    </Row>
+
+                    <br />
+                    Our project received the following prizes for the 2021 HackDuke Ideate Designathon:
+                    <ul>
+                        <li>
+                            1st Place for Huawei Innovation Awards
+                        </li>
+                        <li>
+                            1st Place for Caring House Challenge
+                        </li>
+                    </ul>
 
                     <hr class="rounded" />
 
